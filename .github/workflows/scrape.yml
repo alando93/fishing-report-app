@@ -23,7 +23,7 @@ jobs:
         pip install -r requirements.txt
         
     - name: Run scraper
-      run: python scripts/scraper.py
+      run: python automated_scraping/scripts/scraper.py
       
     - name: Commit and push changes
       run: |
