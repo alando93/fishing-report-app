@@ -1,0 +1,42 @@
+/* Custom styles for the fishing dashboard */
+
+.dashboard-card {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-container {
+    position: relative;
+    flex: 1;
+    width: 100%;
+    min-height: 300px;
+}
+
+.notification {
+    border-radius: 6px;
+}
+
+.species-tag {
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+/* Custom colors for fish species */
+.yellowtail-color { background-color: #FFBB28; }
+.tuna-color { background-color: #0088FE; }
+.rockfish-color { background-color: #FF8042; }
+.dorado-color { background-color: #00C49F; }
+.bass-color { background-color: #8884d8; }
+.halibut-color { background-color: #82ca9d; }
+
+/* Make the dashboard more mobile-friendly */
+@media screen and (max-width: 768px) {
+    .dashboard-card {
+        height: 300px;
+    }
+    
+    .chart-container {
+        min-height: 250px;
+    }
+}

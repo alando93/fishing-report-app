@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoCal Fishing Dashboard</title>
+    <!-- Chart.js for visualizations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <!-- Bulma CSS for easy styling -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <nav class="navbar is-primary" role="navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="./">
+                <i class="fas fa-fish mr-2"></i>
+                <span class="has-text-weight-bold">SoCal Fishing Dashboard</span>
+            </a>
+        </div>
+    </nav>
+
+    <section class="section">
+        <div class="container">
+            <div class="notification is-info is-light">
+                <p><i class="fas fa-info-circle mr-2"></i> Data is automatically updated every 12 hours from multiple SoCal fishing report sources.</p>
+            </div>
+            
+            <div class="columns mt-4">
+                <div class="column is-8">
+                    <h2 class="title is-4">
+                        <i class="fas fa-chart-line mr-2"></i>Recent Fishing Activity
+                    </h2>
+                    <div class="box dashboard-card">
+                        <div class="chart-container">
+                            <canvas id="activityChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column is-4">
+                    <h2 class="title is-4">
+                        <i class="fas fa-map-marker-alt mr-2"></i>Hot Spots
+                    </h2>
+                    <div class="box dashboard-card">
+                        <div class="chart-container">
+                            <canvas id="hotSpotsChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="columns">
+                <div class="column is-6">
+                    <h2 class="title is-4">
+                        <i class="fas fa-fish mr-2"></i>Top Species
+                    </h2>
+                    <div class="box dashboard-card">
+                        <div class="chart-container">
+                            <canvas id="speciesChart"></canvas>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="column is-6">
+                    <h2 class="title is-4">
+                        <i class="fas fa-newspaper mr-2"></i>Latest Reports
+                    </h2>
+                    <div class="box" style="height: 400px; overflow-y: auto;">
+                        <table class="table is-fullwidth is-striped">
+                            <thead>
+                                <tr>
+                                    <th>Date</th>
+                                    <th>Location</th>
+                                    <th>Species</th>
+                                    <th>Source</th>
+                                </tr>
+                            </thead>
+                            <tbody id="reportsTableBody">
+                                <!-- Reports will be loaded here -->
+                                <tr>
+                                    <td colspan="4" class="has-text-centered">Loading reports...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            
+            <footer class="mt-6 has-text-centered has-text-grey">
+                <p>
+                    <span id="lastUpdated">Last updated: Loading...</span>
+                </p>
+                <p class="mt-2">
+                    <a href="https://github.com/yourusername/socal-fishing-dashboard" target="_blank">
+                        <i class="fab fa-github mr-1"></i>View on GitHub
+                    </a>
+                </p>
+            </footer>
+        </div>
+    </section>
+
+    <!-- JavaScript for the dashboard -->
+    <script src="static/js/dashboard.js"></script>
+</body>
+</html>
