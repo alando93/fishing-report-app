@@ -94,6 +94,59 @@ def scrape_dana_wharf():
     
     return reports
 
+def scrape_san_diego_fish_reports():
+    """Scrape fish count from San Diego Fish Reports dock totals page"""
+    reports = []
+    try:
+        url = "https://sandiegofishreports.com/dock_totals/boats.php"
+        headers = {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+        }
+        response = requests.get(url, headers=headers)
+        soup = BeautifulSoup(response.content, "html.parser")
+
+        # Locate the table with fish count data
+        table = soup.find("table", {"class": "boat-totals-table"})
+        if not table:
+            print("Could not find the fish count table.")
+            return reports
+
+        rows = table.find_all("tr")[1:]  # skip the header row
+
+        for row in rows:
+            cells = row.find_all("td")
+            if len(cells) < 5:
+                continue  # Skip rows that don't contain expected data
+
+            boat_name = cells[0].get_text(strip=True)
+            trip_details = cells[1].get_text(strip=True)
+            angler_count = cells[2].get_text(strip=True)
+            report_date = datetime.now().strftime("%Y-%m-%d")  # Default to today's date
+
+            species_data = cells[3:]  # All remaining cells contain fish species data
+            for cell in species_data:
+                text = cell.get_text(strip=True)
+                if text:
+                    try:
+                        count, species = text.split(' ', 1)
+                        reports.append({
+                            "location": "San Diego",
+                            "boat": boat_name,
+                            "trip": trip_details,
+                            "anglers": angler_count,
+                            "species": species.strip(),
+                            "count": count.strip(),
+                            "date": report_date,
+                            "source": "San Diego Fish Reports"
+                        })
+                    except ValueError:
+                        continue
+
+    except Exception as e:
+        print(f"Error scraping San Diego Fish Reports: {e}")
+
+    return reports
+
 def scrape_fishing_reports():
     """Combine all scraping functions and return all reports"""
     all_reports = []
@@ -102,6 +155,8 @@ def scrape_fishing_reports():
     all_reports.extend(scrape_h2o_sportz())
     time.sleep(random.uniform(1, 3))  # Be nice to servers
     all_reports.extend(scrape_dana_wharf())
+    time.sleep(random.uniform(1, 3))  # Be nice to servers
+    all_reports.extend(scrape_san_diego_fish_reports())
     
     # Add more scraping functions as needed
     

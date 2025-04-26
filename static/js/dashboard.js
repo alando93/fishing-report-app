@@ -62,34 +62,40 @@ async function fetchFishingData() {
 function renderReportsTable(reports) {
     const tableBody = document.getElementById('reportsTableBody');
     tableBody.innerHTML = '';
-    
+
     // Sort reports by date (newest first)
     const sortedReports = [...reports].sort((a, b) => {
         return new Date(b.date) - new Date(a.date);
     });
-    
+
     // Show the 20 most recent reports
     const recentReports = sortedReports.slice(0, 20);
-    
+
     if (recentReports.length === 0) {
-        tableBody.innerHTML = '<tr><td colspan="4" class="has-text-centered">No reports available</td></tr>';
+        tableBody.innerHTML = '<tr><td colspan="7" class="has-text-centered">No reports available</td></tr>';
         return;
     }
-    
+
     recentReports.forEach(report => {
         const row = document.createElement('tr');
-        
+
         // Format the date
         const date = new Date(report.date);
         const formattedDate = date.toLocaleDateString();
-        
+
         row.innerHTML = `
             <td>${formattedDate}</td>
             <td>${report.location || 'Unknown'}</td>
-            <td>${formatSpecies(report.species)}</td>
+            <td>${report.landing || 'Unknown'}</td>
+            <td>${report.boat || 'Unknown'}</td>
+            <td>${report.trip || 'Unknown'}</td>
+            <td>${report.anglers || 'Unknown'}</td>
+            <td>${report.species || 'Unknown'}</td>
+            <td>${report.count || 0}</td>
+            <td>${report.released ? 'Yes' : 'No'}</td>
             <td>${report.source || 'Unknown'}</td>
         `;
-        
+
         tableBody.appendChild(row);
     });
 }
@@ -237,47 +243,35 @@ function renderHotSpotsChart(reports) {
 }
 
 function renderSpeciesChart(reports) {
-    // Count reports by species
     const speciesCounts = {};
-    
+
     reports.forEach(report => {
         if (!report.species) return;
-        
-        // Handle comma-separated species
-        const speciesList = report.species.includes(',') 
-            ? report.species.split(',').map(s => s.trim())
-            : [report.species.trim()];
-        
-        speciesList.forEach(species => {
-            if (!speciesCounts[species]) {
-                speciesCounts[species] = 0;
-            }
-            speciesCounts[species]++;
-        });
+
+        const speciesKey = report.released ? `${report.species} (Released)` : report.species;
+
+        if (!speciesCounts[speciesKey]) {
+            speciesCounts[speciesKey] = 0;
+        }
+        speciesCounts[speciesKey] += report.count;
     });
-    
-    // Sort species by count (descending)
-    const sortedSpecies = Object.keys(speciesCounts).sort((a, b) => {
-        return speciesCounts[b] - speciesCounts[a];
-    });
-    
-    // Take top 6 species
+
+    const sortedSpecies = Object.keys(speciesCounts).sort((a, b) => speciesCounts[b] - speciesCounts[a]);
     const topSpecies = sortedSpecies.slice(0, 6);
     const topCounts = topSpecies.map(species => speciesCounts[species]);
-    
-    // Create/update chart
+
     const ctx = document.getElementById('speciesChart').getContext('2d');
-    
+
     if (speciesChart) {
         speciesChart.destroy();
     }
-    
+
     speciesChart = new Chart(ctx, {
         type: 'bar',
         data: {
             labels: topSpecies,
             datasets: [{
-                label: 'Number of Reports',
+                label: 'Number of Fish',
                 data: topCounts,
                 backgroundColor: COLORS.slice(0, topSpecies.length)
             }]
@@ -295,7 +289,7 @@ function renderSpeciesChart(reports) {
                     beginAtZero: true,
                     title: {
                         display: true,
-                        text: 'Number of Reports'
+                        text: 'Number of Fish'
                     }
                 }
             }

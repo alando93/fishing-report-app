@@ -30,6 +30,22 @@
 .bass-color { background-color: #8884d8; }
 .halibut-color { background-color: #82ca9d; }
 
+/* Table styles */
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.released-yes {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.released-no {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
 /* Make the dashboard more mobile-friendly */
 @media screen and (max-width: 768px) {
     .dashboard-card {
