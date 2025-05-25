@@ -68,8 +68,8 @@ function renderReportsTable(reports) {
         return new Date(b.date) - new Date(a.date);
     });
 
-    // Show the 20 most recent reports
-    const recentReports = sortedReports.slice(0, 20);
+    // Show the 50 most recent reports
+    const recentReports = sortedReports.slice(0, 50);
 
     if (recentReports.length === 0) {
         tableBody.innerHTML = '<tr><td colspan="7" class="has-text-centered">No reports available</td></tr>';
@@ -81,7 +81,7 @@ function renderReportsTable(reports) {
 
         // Format the date
         const date = new Date(report.date);
-        const formattedDate = date.toLocaleDateString();
+        //const formattedDate = date.toLocaleDateString();
 
         row.innerHTML = `
             <td>${formattedDate}</td>
