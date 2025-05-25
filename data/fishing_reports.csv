@@ -1,0 +1,1391 @@
+location,landing,boat,trip,anglers,species,count,released,date,source
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,41 Anglers,Sand Bass,1,False,2025-04-01,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,41 Anglers,Sculpin,7,False,2025-04-01,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,41 Anglers,Rockfish,101,False,2025-04-01,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,41 Anglers,Red Rockfish,50,False,2025-04-01,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,45 Anglers,Halibut,7,False,2025-04-02,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,45 Anglers,Halibut,5,True,2025-04-02,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,16 Anglers,Rockfish,71,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Sculpin,7,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Rockfish,55,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,32 Anglers,Sand Bass,3,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,32 Anglers,Sculpin,17,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,32 Anglers,Whitefish,10,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,32 Anglers,Rockfish,70,False,2025-04-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,9 Anglers,Whitefish,10,False,2025-04-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,9 Anglers,Rockfish,70,False,2025-04-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,9 Anglers,Sanddab,20,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,12 Anglers,Barred Sand Bass,3,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,12 Anglers,Sculpin,1,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,12 Anglers,Whitefish,51,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,12 Anglers,Rockfish,35,False,2025-04-03,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,35 Anglers,Rockfish,87,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,35 Anglers,Vermilion Rockfish,47,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Patriot (SD),1/2 Day AM,10 Anglers,Rockfish,63,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,23 Anglers,Rockfish,165,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,30 Anglers,Sand Bass,5,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,30 Anglers,Sculpin,13,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,30 Anglers,Lingcod,2,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,30 Anglers,Rockfish,25,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,30 Anglers,Red Rockfish,70,False,2025-04-04,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Sculpin,15,False,2025-04-04,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Whitefish,5,False,2025-04-04,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Rockfish,130,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,24 Anglers,Rockfish,131,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,27 Anglers,Rockfish,125,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Sculpin,2,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Whitefish,40,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Rockfish,45,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Vermilion Rockfish,10,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Outer Limits,Full Day,20 Anglers,Lingcod,1,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Outer Limits,Full Day,20 Anglers,Rockfish,53,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,1.5 Day,13 Anglers,Lingcod,65,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,1.5 Day,13 Anglers,Rockfish,25,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,1.5 Day,13 Anglers,Vermilion Rockfish,40,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,21 Anglers,Sculpin,11,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,21 Anglers,Sheephead,1,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,21 Anglers,Lingcod,1,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,21 Anglers,Whitefish,105,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,21 Anglers,Rockfish,6,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,18 Anglers,Sculpin,11,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,18 Anglers,Calico Bass,1,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,18 Anglers,Rockfish,98,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,18 Anglers,Vermilion Rockfish,12,False,2025-04-04,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,33 Anglers,Sculpin,11,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,33 Anglers,Sheephead,1,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,33 Anglers,Lingcod,2,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,33 Anglers,Whitefish,21,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,33 Anglers,Rockfish,26,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,33 Anglers,Vermilion Rockfish,52,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,55 Anglers,Rockfish,47,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,55 Anglers,Vermilion Rockfish,31,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,10 Anglers,Bocaccio,14,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,10 Anglers,Sheephead,1,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,10 Anglers,Lingcod,2,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,10 Anglers,Rockfish,76,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,10 Anglers,Red Rockfish,27,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,47 Anglers,Rockfish,187,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,47 Anglers,Sand Bass,1,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,47 Anglers,Sculpin,23,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,47 Anglers,Rockfish,27,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,47 Anglers,Red Rockfish,61,False,2025-04-05,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,38 Anglers,Sculpin,55,False,2025-04-05,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,38 Anglers,Whitefish,2,False,2025-04-05,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,38 Anglers,Rockfish,112,False,2025-04-05,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,38 Anglers,Sanddab,40,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,25 Anglers,Sculpin,3,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,25 Anglers,Sheephead,2,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,25 Anglers,Lingcod,1,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,25 Anglers,Whitefish,19,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,25 Anglers,Rockfish,120,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Barred Sand Bass,3,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Sculpin,7,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Whitefish,14,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Rockfish,11,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Red Rockfish,14,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,51 Anglers,Rockfish,126,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Sculpin,4,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Sheephead,1,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Whitefish,23,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Rockfish,18,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Vermilion Rockfish,4,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,Overnight,15 Anglers,Lingcod,75,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,Overnight,15 Anglers,Rockfish,50,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,21 Anglers,Sculpin,9,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,21 Anglers,Whitefish,120,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,21 Anglers,Rockfish,24,False,2025-04-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,57 Anglers,Rockfish,137,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,57 Anglers,Vermilion Rockfish,28,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day Twilight,56 Anglers,Sculpin,8,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day Twilight,56 Anglers,Sheephead,4,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day Twilight,56 Anglers,Whitefish,3,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day Twilight,56 Anglers,Rockfish,118,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day Twilight,56 Anglers,Vermilion Rockfish,43,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,14 Anglers,Bocaccio,12,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,14 Anglers,Whitefish,30,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,14 Anglers,Rockfish,39,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,14 Anglers,Red Rockfish,25,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,54 Anglers,Rockfish,62,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,54 Anglers,Sanddab,48,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Sculpin,3,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Sheephead,1,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Whitefish,8,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Rockfish,60,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,19 Anglers,Bocaccio,9,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,19 Anglers,Sculpin,23,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,19 Anglers,Copper Rockfish,10,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,19 Anglers,Whitefish,2,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,19 Anglers,Rockfish,38,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,19 Anglers,Sanddab,24,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,21 Anglers,Sculpin,5,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,21 Anglers,Whitefish,2,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,21 Anglers,Rockfish,210,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,27 Anglers,Sculpin,35,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,27 Anglers,Whitefish,5,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,27 Anglers,Rockfish,90,False,2025-04-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,27 Anglers,Sanddab,30,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,30 Anglers,Sculpin,2,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,30 Anglers,Rockfish,30,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,30 Anglers,Vermilion Rockfish,50,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,36 Anglers,Sculpin,1,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,36 Anglers,Sheephead,1,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,36 Anglers,Whitefish,5,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,36 Anglers,Rockfish,52,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,36 Anglers,Vermilion Rockfish,20,False,2025-04-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,23 Anglers,Rockfish,12,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,22 Anglers,Sculpin,25,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,22 Anglers,Sheephead,6,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,22 Anglers,Rockfish,39,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,22 Anglers,Vermilion Rockfish,31,False,2025-04-07,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Sculpin,15,False,2025-04-07,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Whitefish,1,False,2025-04-07,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Rockfish,60,False,2025-04-07,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Sanddab,20,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,17 Anglers,Rockfish,16,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,11 Anglers,Sculpin,2,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,11 Anglers,Whitefish,1,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,11 Anglers,Rockfish,51,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,1.5 Day,18 Anglers,Rockfish,90,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,1.5 Day,18 Anglers,Vermilion Rockfish,36,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,24 Anglers,Bluefin Tuna,30,False,2025-04-07,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,14 Anglers,Rockfish,7,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,12 Anglers,Sculpin,7,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,12 Anglers,Sheephead,5,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,12 Anglers,Rockfish,49,False,2025-04-08,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Sculpin,60,False,2025-04-08,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Whitefish,10,False,2025-04-08,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Rockfish,65,False,2025-04-08,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Sanddab,25,False,2025-04-08,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Sculpin,30,True,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,9 Anglers,Barred Sand Bass,9,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,9 Anglers,Whitefish,9,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,9 Anglers,Rockfish,13,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,9 Anglers,Red Rockfish,18,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,20 Anglers,Sculpin,4,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,20 Anglers,Whitefish,1,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,20 Anglers,Rockfish,50,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,20 Anglers,Vermilion Rockfish,12,False,2025-04-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,3/4 Day,44 Anglers,Halibut,5,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,3/4 Day,44 Anglers,Halibut,15,True,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Limitless Sportfishing Fish Counts,Limitless,Overnight,4 Anglers,California Halibut,1,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Limitless Sportfishing Fish Counts,Limitless,Overnight,4 Anglers,Ocean Whitefish,14,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Limitless Sportfishing Fish Counts,Limitless,Overnight,4 Anglers,Vermillion Rockfish,20,False,2025-04-09,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,22 Anglers,Sculpin,37,False,2025-04-09,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,22 Anglers,Rockfish,138,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,26 Anglers,Rockfish,159,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,16 Anglers,Whitefish,2,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,16 Anglers,Rockfish,29,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,16 Anglers,Vermilion Rockfish,32,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day PM,9 Anglers,Sculpin,1,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day PM,9 Anglers,Whitefish,1,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day PM,9 Anglers,Rockfish,10,False,2025-04-09,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,16 Anglers,Rockfish,88,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,16 Anglers,Vermilion Rockfish,20,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,17 Anglers,Sculpin,6,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,17 Anglers,Rockfish,48,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Sand Bass,8,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Sculpin,31,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Rockfish,11,False,2025-04-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Sculpin,143,False,2025-04-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Rockfish,89,False,2025-04-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Sanddab,40,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,24 Anglers,Calico Bass,1,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,24 Anglers,Whitefish,1,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,24 Anglers,Rockfish,60,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,24 Anglers,Vermilion Rockfish,12,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,13 Anglers,Sand Bass,2,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,13 Anglers,Whitefish,7,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,13 Anglers,Rockfish,9,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,13 Anglers,Vermilion Rockfish,6,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,15 Anglers,Sculpin,6,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,15 Anglers,Lingcod,1,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,15 Anglers,Whitefish,16,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,15 Anglers,Rockfish,28,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,15 Anglers,Vermilion Rockfish,7,False,2025-04-10,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,11 Anglers,Sculpin,11,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,11 Anglers,Sheephead,22,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,11 Anglers,Rockfish,66,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,52 Anglers,Sculpin,1,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,52 Anglers,Rockfish,55,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Sand Bass,5,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Sculpin,28,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Rockfish,38,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,3/4 Day,28 Anglers,Sculpin,1,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,3/4 Day,28 Anglers,Whitefish,72,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,3/4 Day,28 Anglers,Rockfish,107,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,3/4 Day,28 Anglers,Sanddab,30,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,0 Anglers,Sculpin,70,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,0 Anglers,Whitefish,3,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,0 Anglers,Rockfish,85,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,0 Anglers,Sanddab,25,False,2025-04-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,0 Anglers,Sculpin,30,True,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,11 Anglers,Barred Sand Bass,4,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,11 Anglers,Whitefish,20,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,11 Anglers,Rockfish,20,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,11 Anglers,Red Rockfish,22,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,18 Anglers,Sculpin,6,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,18 Anglers,Rockfish,25,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,18 Anglers,Vermilion Rockfish,7,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,12 Anglers,Sculpin,2,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,12 Anglers,Whitefish,2,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,12 Anglers,Rockfish,48,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,12 Anglers,Vermilion Rockfish,11,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,10 Anglers,Whitefish,2,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,10 Anglers,Rockfish,50,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,10 Anglers,Vermilion Rockfish,35,False,2025-04-11,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Sculpin,7,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Sheephead,8,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Rockfish,16,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,53 Anglers,Sand Bass,3,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,53 Anglers,Sculpin,28,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,53 Anglers,Sheephead,7,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,53 Anglers,Calico Bass,1,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,53 Anglers,Rockfish,74,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,23 Anglers,Sculpin,2,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,23 Anglers,Sheephead,1,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,23 Anglers,Lingcod,1,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,23 Anglers,Whitefish,102,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,23 Anglers,Rockfish,113,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,23 Anglers,Red Rockfish,11,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,29 Anglers,Sand Bass,22,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,29 Anglers,Sculpin,52,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,29 Anglers,Calico Bass,2,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,29 Anglers,Rockfish,71,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Sculpin,21,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Copper Rockfish,1,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Rockfish,35,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Sanddab,59,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Red Rockfish,11,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,6 Anglers,Sculpin,2,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,6 Anglers,Rockfish,60,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,6 Anglers,Sanddab,20,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Sand Bass,1,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Sculpin,101,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Whitefish,13,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Rockfish,82,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Sanddab,20,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Sculpin,50,True,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,14 Anglers,Barred Sand Bass,6,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,14 Anglers,Whitefish,4,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,14 Anglers,Rockfish,10,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,14 Anglers,Red Rockfish,28,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,53 Anglers,Sand Bass,1,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,53 Anglers,Sculpin,5,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,53 Anglers,Whitefish,7,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,53 Anglers,Rockfish,46,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,53 Anglers,Vermilion Rockfish,18,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,20 Anglers,Sculpin,3,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,20 Anglers,Whitefish,19,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,20 Anglers,Rockfish,26,False,2025-04-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,20 Anglers,Vermilion Rockfish,3,False,2025-04-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,18 Anglers,Sculpin,7,False,2025-04-13,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,18 Anglers,Whitefish,1,False,2025-04-13,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,18 Anglers,Rockfish,23,False,2025-04-13,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,18 Anglers,Sanddab,20,False,2025-04-13,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Sculpin,25,False,2025-04-13,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Whitefish,1,False,2025-04-13,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Rockfish,83,False,2025-04-13,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,28 Anglers,Sanddab,60,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,El Gato Dos,3/4 Day,6 Anglers,Rockfish,45,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,39 Anglers,Sheephead,2,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,39 Anglers,Whitefish,5,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,39 Anglers,Rockfish,30,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,39 Anglers,Vermilion Rockfish,25,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,45 Anglers,Sculpin,4,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,45 Anglers,Whitefish,7,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,45 Anglers,Rockfish,70,False,2025-04-13,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,18 Anglers,Sculpin,9,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,18 Anglers,Rockfish,54,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Excaliur,Overnight,8 Anglers,Whitefish,10,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Excaliur,Overnight,8 Anglers,Rockfish,70,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Sand Bass,13,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Sculpin,20,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Rockfish,60,False,2025-04-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,6 Anglers,Whitefish,1,False,2025-04-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,6 Anglers,Rockfish,41,False,2025-04-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,6 Anglers,Sanddab,7,False,2025-04-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,12 Anglers,Sculpin,35,False,2025-04-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,12 Anglers,Whitefish,3,False,2025-04-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,12 Anglers,Rockfish,50,False,2025-04-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,12 Anglers,Sanddab,15,False,2025-04-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,12 Anglers,Sculpin,20,True,2025-04-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,13 Anglers,Sculpin,3,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,13 Anglers,Whitefish,4,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,13 Anglers,Rockfish,33,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,13 Anglers,Vermilion Rockfish,26,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,10 Anglers,Yellowtail,7,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,10 Anglers,Bonito,50,False,2025-04-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,19 Anglers,Sand Bass,25,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,19 Anglers,Sculpin,15,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,19 Anglers,Rockfish,24,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,13 Anglers,Sand Bass,1,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,13 Anglers,Sculpin,17,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,13 Anglers,Copper Rockfish,2,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,13 Anglers,Whitefish,1,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,13 Anglers,Rockfish,5,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,13 Anglers,Sanddab,31,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,13 Anglers,Red Rockfish,9,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,3/4 Day,16 Anglers,Sculpin,12,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,3/4 Day,16 Anglers,Rockfish,160,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,3/4 Day,16 Anglers,Sanddab,40,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,5 Anglers,Sculpin,2,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,5 Anglers,Sheephead,2,False,2025-04-15,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,5 Anglers,Whitefish,7,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,32 Anglers,Sculpin,34,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,32 Anglers,Sheephead,1,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,32 Anglers,Whitefish,2,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,32 Anglers,Rockfish,85,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,32 Anglers,Vermilion Rockfish,64,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,12 Anglers,Sculpin,4,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,12 Anglers,Rockfish,15,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,12 Anglers,Vermilion Rockfish,11,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,24 Anglers,Bluefin Tuna,2,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,24 Anglers,Yellowtail,205,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,14 Anglers,Bonito,70,False,2025-04-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,30 Anglers,Halibut,3,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,30 Anglers,Bonito,20,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,30 Anglers,Halibut,16,True,2025-04-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Patriot (SD),1/2 Day AM,11 Anglers,Rockfish,45,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Patriot (SD),1/2 Day AM,11 Anglers,Red Rockfish,17,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,21 Anglers,Sand Bass,35,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,21 Anglers,Sculpin,23,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,21 Anglers,Calico Bass,1,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,21 Anglers,Rockfish,7,False,2025-04-16,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,11 Anglers,Sculpin,15,False,2025-04-16,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,11 Anglers,Whitefish,8,False,2025-04-16,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,11 Anglers,Rockfish,75,False,2025-04-16,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,11 Anglers,Sanddab,30,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,15 Anglers,Sculpin,13,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,15 Anglers,Sheephead,1,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,15 Anglers,Rockfish,42,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,15 Anglers,Sanddab,70,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,15 Anglers,Vermilion Rockfish,30,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,18 Anglers,Sculpin,1,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,18 Anglers,Whitefish,2,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,18 Anglers,Rockfish,26,False,2025-04-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,19 Anglers,Sand Bass,1,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,19 Anglers,Sculpin,3,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,19 Anglers,Sheephead,2,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,19 Anglers,Whitefish,6,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,19 Anglers,Rockfish,40,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Sand Bass,9,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Sculpin,32,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Rockfish,68,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,32 Anglers,Sand Bass,16,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,32 Anglers,Sculpin,46,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,32 Anglers,Whitefish,1,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,32 Anglers,Rockfish,14,False,2025-04-17,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,9 Anglers,Sculpin,45,False,2025-04-17,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,9 Anglers,Whitefish,10,False,2025-04-17,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,9 Anglers,Rockfish,50,False,2025-04-17,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,9 Anglers,Sanddab,12,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,16 Anglers,Sculpin,1,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,16 Anglers,Rockfish,16,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,16 Anglers,Bonito,80,False,2025-04-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,30 Anglers,Sculpin,19,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,30 Anglers,Sheephead,3,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,30 Anglers,Whitefish,13,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,30 Anglers,Rockfish,93,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,23 Anglers,Sculpin,7,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,23 Anglers,Sheephead,1,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,23 Anglers,Calico Bass,1,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,23 Anglers,Whitefish,4,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,23 Anglers,Rockfish,83,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,32 Anglers,Sand Bass,4,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,32 Anglers,Sculpin,10,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,32 Anglers,Rockfish,40,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,11 Anglers,Sand Bass,7,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,11 Anglers,Sculpin,7,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,11 Anglers,Calico Bass,1,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,11 Anglers,Rockfish,36,False,2025-04-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,Overnight,14 Anglers,Halibut,1,False,2025-04-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,Overnight,14 Anglers,Whitefish,10,False,2025-04-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,Overnight,14 Anglers,Rockfish,140,False,2025-04-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Sculpin,90,False,2025-04-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Whitefish,5,False,2025-04-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Rockfish,50,False,2025-04-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Sanddab,20,False,2025-04-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Sculpin,40,True,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,24 Anglers,Sculpin,2,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,24 Anglers,Whitefish,7,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,24 Anglers,Rockfish,16,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,24 Anglers,Red Rockfish,48,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,37 Anglers,Sculpin,8,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,37 Anglers,Lingcod,1,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,37 Anglers,Whitefish,2,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,37 Anglers,Rockfish,67,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,37 Anglers,Vermilion Rockfish,28,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,30 Anglers,Sculpin,6,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,30 Anglers,Lingcod,1,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,30 Anglers,Rockfish,31,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,35 Anglers,Bonito,111,False,2025-04-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,36 Anglers,Cabezon,1,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,36 Anglers,Sculpin,11,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,36 Anglers,Sheephead,1,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,36 Anglers,Rockfish,24,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,Full Day,17 Anglers,Yellowtail,1,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,Full Day,17 Anglers,Bonito,85,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,17 Anglers,Sand Bass,1,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,17 Anglers,Sculpin,11,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,17 Anglers,Lingcod,4,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,17 Anglers,Whitefish,75,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Full Day,17 Anglers,Rockfish,70,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,52 Anglers,Rockfish,57,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,40 Anglers,Sculpin,7,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,40 Anglers,Rockfish,25,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,40 Anglers,Red Rockfish,80,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,31 Anglers,Sculpin,12,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,31 Anglers,Whitefish,2,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,31 Anglers,Rockfish,30,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,31 Anglers,Sanddab,60,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,31 Anglers,Red Rockfish,42,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,7 Anglers,Sculpin,12,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Blue Horizon,1/2 Day AM,7 Anglers,Rockfish,35,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,13 Anglers,Sculpin,20,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,13 Anglers,Whitefish,8,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,13 Anglers,Rockfish,75,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,25 Anglers,Sculpin,90,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,25 Anglers,Whitefish,10,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,25 Anglers,Rockfish,65,False,2025-04-19,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,25 Anglers,Sanddab,25,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,35 Anglers,Sculpin,1,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,35 Anglers,Sheephead,1,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,35 Anglers,Whitefish,2,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,35 Anglers,Rockfish,45,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,48 Anglers,Sculpin,19,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,48 Anglers,Whitefish,5,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,48 Anglers,Rockfish,78,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,48 Anglers,Vermilion Rockfish,56,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,19 Anglers,Sculpin,2,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,19 Anglers,Rockfish,24,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,19 Anglers,Vermilion Rockfish,13,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,33 Anglers,Bonito,150,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day AM,19 Anglers,Sculpin,2,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day AM,19 Anglers,Rockfish,26,False,2025-04-19,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,48 Anglers,Sculpin,17,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,48 Anglers,Sheephead,1,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,48 Anglers,Rockfish,100,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,48 Anglers,Vermilion Rockfish,45,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,36 Anglers,Sculpin,14,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,36 Anglers,Rockfish,61,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pacific Queen,3 Day,17 Anglers,Bluefin Tuna (up to 150 pounds),102,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Tomahawk,2 Day,14 Anglers,Bluefin Tuna (up to 200 pounds),7,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Tomahawk,2 Day,14 Anglers,Yellowtail,28,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,41 Anglers,Rockfish,46,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,41 Anglers,Red Rockfish,60,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Sand Bass,4,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Sculpin,15,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Rockfish,80,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Barred Sand Bass,2,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Sculpin,3,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Whitefish,3,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Rockfish,27,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Red Rockfish,24,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,1.5 Day,13 Anglers,Bluefin Tuna,10,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,1.5 Day,13 Anglers,Yellowtail,6,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,24 Anglers,Bluefin Tuna,106,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,14 Anglers,Bluefin Tuna (up to 210 pounds),6,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,14 Anglers,Yellowtail,9,False,2025-04-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,15 Anglers,Sculpin,7,False,2025-04-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,15 Anglers,Sheephead,2,False,2025-04-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,15 Anglers,Rockfish,39,False,2025-04-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,8 Anglers,Sculpin,5,False,2025-04-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,8 Anglers,Sheephead,1,False,2025-04-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,8 Anglers,Rockfish,33,False,2025-04-21,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,12 Anglers,Rockfish,120,False,2025-04-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,19 Anglers,Rockfish,141,False,2025-04-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,28 Anglers,Bonito,84,False,2025-04-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,32 Anglers,Rockfish,281,False,2025-04-22,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,35 Anglers,Rockfish,65,False,2025-04-22,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,1/2 Day AM,18 Anglers,Sand Bass,1,False,2025-04-22,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,1/2 Day AM,18 Anglers,Sculpin,24,False,2025-04-22,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,1/2 Day AM,18 Anglers,Whitefish,1,False,2025-04-22,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,1/2 Day AM,18 Anglers,Rockfish,75,False,2025-04-22,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,1/2 Day AM,18 Anglers,Sand Bass,1,True,2025-04-22,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,20 Anglers,Rockfish,200,False,2025-04-22,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,39 Anglers,Rockfish,195,False,2025-04-22,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,40 Anglers,Halibut,1,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,40 Anglers,Halibut,16,True,2025-04-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,28 Anglers,Sand Bass,7,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,28 Anglers,Sculpin,41,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,28 Anglers,Rockfish,76,False,2025-04-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,1/2 Day AM,11 Anglers,Sculpin,7,False,2025-04-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,1/2 Day AM,11 Anglers,Whitefish,2,False,2025-04-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,1/2 Day AM,11 Anglers,Rockfish,75,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,33 Anglers,Rockfish,289,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,12 Anglers,Bluefin Tuna,48,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,12 Anglers,Yellowtail,5,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,12 Anglers,Bonito,8,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,14 Anglers,Yellowtail,6,False,2025-04-23,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,35 Anglers,Rockfish,44,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,20 Anglers,Rockfish,146,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,20 Anglers,Vermilion Rockfish,43,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,11 Anglers,Sand Bass,2,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,11 Anglers,Sculpin,2,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,11 Anglers,Lingcod,1,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,11 Anglers,Rockfish,27,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,11 Anglers,Red Rockfish,22,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,49 Anglers,Sand Bass,10,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,49 Anglers,Sculpin,9,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,49 Anglers,Rockfish,72,False,2025-04-24,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,10 Anglers,Sculpin,1,False,2025-04-24,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,10 Anglers,Rockfish,17,False,2025-04-24,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,10 Anglers,Sanddab,19,False,2025-04-24,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,10 Anglers,Red Rockfish,6,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,17 Anglers,Rockfish,170,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,11 Anglers,Rockfish,56,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,2 Day,24 Anglers,Bluefin Tuna,48,False,2025-04-24,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Sculpin,1,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Sheephead,2,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Calico Bass,21,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Rockfish,26,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Calico Bass,30,True,2025-04-25,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,23 Anglers,Sculpin,2,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,23 Anglers,Rockfish,41,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,23 Anglers,Red Rockfish,46,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Sand Bass,9,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Cabezon,1,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Sculpin,12,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Rockfish,50,False,2025-04-25,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,13 Anglers,Sand Bass,1,False,2025-04-25,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,13 Anglers,Sculpin,1,False,2025-04-25,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,13 Anglers,Lingcod,1,False,2025-04-25,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,13 Anglers,Rockfish,130,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,22 Anglers,Rockfish,63,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,34 Anglers,Rockfish,156,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,6 Anglers,Sculpin,2,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,6 Anglers,Rockfish,28,False,2025-04-25,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,46 Anglers,Rockfish,211,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Calico Bass,19,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Rockfish,22,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Calico Bass,50,True,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Fortune,Overnight,10 Anglers,Bluefin Tuna,7,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pacific Queen,2 Day,29 Anglers,Bluefin Tuna (up to 170 pounds),40,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pacific Queen,2 Day,29 Anglers,Yellowtail,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Overnight,15 Anglers,Bocaccio,64,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Overnight,15 Anglers,Lingcod,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Overnight,15 Anglers,Rockfish,55,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Overnight,15 Anglers,Red Rockfish,30,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,26 Anglers,Sculpin,14,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,26 Anglers,Sheephead,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,26 Anglers,Calico Bass,8,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,26 Anglers,Lingcod,6,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,26 Anglers,Whitefish,82,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,26 Anglers,Rockfish,89,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,26 Anglers,Red Rockfish,22,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Patriot (SD),2 Day,10 Anglers,Bluefin Tuna,40,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,45 Anglers,Sculpin,15,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,45 Anglers,Sheephead,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,45 Anglers,Whitefish,7,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,45 Anglers,Rockfish,40,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,45 Anglers,Red Rockfish,31,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,18 Anglers,Sand Bass,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,18 Anglers,Whitefish,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,18 Anglers,Rockfish,12,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,18 Anglers,Red Rockfish,30,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,18 Anglers,Sand Bass,1,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,18 Anglers,Bocaccio,5,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,18 Anglers,Sculpin,2,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,18 Anglers,Lingcod,1,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,18 Anglers,Rockfish,25,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,18 Anglers,Red Rockfish,36,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,1/2 Day AM,12 Anglers,Whitefish,1,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,1/2 Day AM,12 Anglers,Rockfish,30,False,2025-04-26,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,1/2 Day AM,12 Anglers,Sanddab,20,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,36 Anglers,Sculpin,4,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,36 Anglers,Sheephead,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,36 Anglers,Calico Bass,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,36 Anglers,Lingcod,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,36 Anglers,Whitefish,12,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,36 Anglers,Rockfish,34,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,36 Anglers,Red Rockfish,4,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,49 Anglers,Sculpin,2,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,49 Anglers,Whitefish,4,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,49 Anglers,Rockfish,83,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,49 Anglers,Vermilion Rockfish,16,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,50 Anglers,Halibut,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,50 Anglers,Sculpin,8,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,50 Anglers,Sheephead,5,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,50 Anglers,Calico Bass,14,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,50 Anglers,Rockfish,40,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,50 Anglers,Vermilion Rockfish,34,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Voyager,2 Day,8 Anglers,Bluefin Tuna,32,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Voyager,2 Day,8 Anglers,Yellowtail,1,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Voyager,2 Day,8 Anglers,Bonito,2,False,2025-04-26,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,48 Anglers,Rockfish,250,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,48 Anglers,Vermilion Rockfish,52,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,56 Anglers,Barracuda,2,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,56 Anglers,Sculpin,2,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,56 Anglers,Sheephead,5,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,56 Anglers,Calico Bass,17,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,56 Anglers,Whitefish,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,56 Anglers,Rockfish,39,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,56 Anglers,Barracuda,100,True,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,56 Anglers,Calico Bass,50,True,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pacific Dawn,2.5 Day,12 Anglers,Bluefin Tuna (up to 170 pounds),48,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pegasus,1.5 Day,10 Anglers,Bluefin Tuna,20,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pegasus,1.5 Day,10 Anglers,Yellowtail,36,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Tomahawk,1.5 Day,13 Anglers,Bluefin Tuna,16,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Tomahawk,1.5 Day,13 Anglers,Yellowtail,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Overnight,11 Anglers,Rockfish,88,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,Overnight,11 Anglers,Red Rockfish,22,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Legend,2 Day,25 Anglers,Bluefin Tuna,100,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Patriot (SD),2 Day,10 Anglers,Bluefin Tuna,40,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,47 Anglers,Sculpin,12,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,47 Anglers,Lingcod,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,47 Anglers,Rockfish,49,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,47 Anglers,Red Rockfish,42,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,26 Anglers,Barracuda,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,26 Anglers,Sculpin,4,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,26 Anglers,Calico Bass,9,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,26 Anglers,Lingcod,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,26 Anglers,Rockfish,28,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Bocaccio,39,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Sculpin,11,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Calico Bass,1,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Whitefish,14,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Rockfish,64,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Sanddab,4,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Red Rockfish,18,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Sand Bass,1,True,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Halibut,1,True,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,15 Anglers,Calico Bass,4,True,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,15 Anglers,Sculpin,2,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,15 Anglers,Calico Bass,1,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,15 Anglers,Whitefish,1,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,15 Anglers,Rockfish,150,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,15 Anglers,Calico Bass,1,True,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day Twilight,31 Anglers,Sculpin,20,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day Twilight,31 Anglers,Whitefish,10,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day Twilight,31 Anglers,Rockfish,120,False,2025-04-27,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day Twilight,31 Anglers,Sanddab,30,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,New Lo-An,2 Day,25 Anglers,Bluefin Tuna,65,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,22 Anglers,Cabezon,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,22 Anglers,Sculpin,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,22 Anglers,Calico Bass,2,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,22 Anglers,Rockfish,31,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,22 Anglers,Red Rockfish,44,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,22 Anglers,Calico Bass,15,True,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Highliner,2.5 Day,22 Anglers,Bluefin Tuna,27,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Highliner,2.5 Day,22 Anglers,Yellowtail,19,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,42 Anglers,Whitefish,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,42 Anglers,Rockfish,91,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,42 Anglers,Vermilion Rockfish,8,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,31 Anglers,Sculpin,2,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,31 Anglers,Sheephead,26,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,31 Anglers,Calico Bass,9,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,31 Anglers,Whitefish,2,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,31 Anglers,Rockfish,9,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,31 Anglers,Vermilion Rockfish,7,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,31 Anglers,Calico Bass,30,True,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,3 Day,12 Anglers,Bluefin Tuna,72,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,3 Day,12 Anglers,Halibut,1,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,3 Day,12 Anglers,Yellowtail,5,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,3 Day,12 Anglers,Lingcod,70,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,3 Day,12 Anglers,Bonito,2,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,24 Anglers,Bluefin Tuna,144,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,24 Anglers,Yellowtail,42,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,24 Anglers,Vermilion Rockfish,25,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,19 Anglers,Bluefin Tuna,19,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,19 Anglers,Rockfish,50,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,19 Anglers,Vermilion Rockfish,38,False,2025-04-27,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,17 Anglers,Rockfish,105,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,17 Anglers,Vermilion Rockfish,35,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,8 Anglers,Sheephead,8,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,8 Anglers,Calico Bass,21,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,8 Anglers,Barracuda,40,True,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,8 Anglers,Calico Bass,50,True,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pacific Queen,2 Day,29 Anglers,Bluefin Tuna (up to 120 pounds),67,False,2025-04-28,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Sculpin,10,False,2025-04-28,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Whitefish,5,False,2025-04-28,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Rockfish,60,False,2025-04-28,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Sanddab,25,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,3/4 Day Islands,17 Anglers,Yellowtail,8,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,3/4 Day Islands,17 Anglers,Lingcod,1,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,3/4 Day Islands,17 Anglers,Rockfish,45,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,3/4 Day Islands,17 Anglers,Red Rockfish,60,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,12 Anglers,Rockfish,120,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,22 Anglers,Yellowtail,11,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,22 Anglers,Bonito,20,False,2025-04-28,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,22 Anglers,Sculpin,4,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,22 Anglers,Calico Bass,6,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,22 Anglers,Rockfish,45,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,12 Anglers,Rockfish,120,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,13 Anglers,Rockfish,115,False,2025-04-29,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Sculpin,2,False,2025-04-29,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Blue Perch,1,False,2025-04-29,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Whitefish,23,False,2025-04-29,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Rockfish,4,False,2025-04-29,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,36 Anglers,Calico Bass,7,True,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Barred Sand Bass,1,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Bocaccio,1,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Sculpin,2,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Rockfish,10,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,12 Anglers,Red Rockfish,24,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,18 Anglers,Rockfish,180,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,2 Day,24 Anglers,Bluefin Tuna (up to 206 pounds),25,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,2 Day,24 Anglers,Yellowtail,18,False,2025-04-29,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,22 Anglers,Halibut,2,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,22 Anglers,Bonito,5,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,22 Anglers,Halibut,11,True,2025-04-30,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,13 Anglers,Calico Bass,36,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,13 Anglers,Rockfish,2,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,13 Anglers,Calico Bass,60,True,2025-04-30,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,5 Anglers,Sand Bass,2,False,2025-04-30,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,5 Anglers,Sheephead,4,False,2025-04-30,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,5 Anglers,Triggerfish,4,False,2025-04-30,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,5 Anglers,Calico Bass,11,False,2025-04-30,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,7 Anglers,Whitefish,2,False,2025-04-30,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,7 Anglers,Rockfish,38,False,2025-04-30,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,7 Anglers,Sanddab,15,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,26 Anglers,Rockfish,227,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,21 Anglers,Halibut,1,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,21 Anglers,Sculpin,2,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,21 Anglers,Sheephead,8,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,21 Anglers,Calico Bass,16,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,21 Anglers,Whitefish,3,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,21 Anglers,Rockfish,19,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,21 Anglers,Vermilion Rockfish,22,False,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,21 Anglers,Calico Bass,50,True,2025-04-30,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,22 Anglers,Rockfish,220,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,35 Anglers,Sand Bass,1,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,35 Anglers,Sculpin,5,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,35 Anglers,Calico Bass,8,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,35 Anglers,Rockfish,39,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,35 Anglers,Calico Bass,70,True,2025-05-01,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,13 Anglers,Sculpin,10,False,2025-05-01,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,13 Anglers,Whitefish,5,False,2025-05-01,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,13 Anglers,Rockfish,40,False,2025-05-01,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,13 Anglers,Sanddab,20,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,16 Anglers,Rockfish,160,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Sand Bass,2,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Sculpin,2,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Sheephead,4,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Calico Bass,30,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Rockfish,4,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Barracuda,30,True,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Calico Bass,50,True,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,24 Anglers,Sand Bass,1,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,24 Anglers,Halibut,3,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,24 Anglers,Yellowtail,14,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,24 Anglers,Calico Bass,1,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,24 Anglers,Lingcod,3,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,24 Anglers,Rockfish,40,False,2025-05-01,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,46 Anglers,Rockfish,338,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,29 Anglers,Sheephead,9,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,29 Anglers,Calico Bass,2,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,29 Anglers,Rockfish,21,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,29 Anglers,Barracuda,65,True,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,29 Anglers,Calico Bass,50,True,2025-05-02,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,21 Anglers,Rockfish,195,False,2025-05-02,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,1/2 Day AM,3 Anglers,Rockfish,30,False,2025-05-02,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Sculpin,12,False,2025-05-02,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Whitefish,2,False,2025-05-02,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Rockfish,80,False,2025-05-02,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,23 Anglers,Sanddab,30,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,New Lo-An,2 Day,25 Anglers,Bluefin Tuna,39,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,New Lo-An,2 Day,25 Anglers,Yellowtail,8,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,21 Anglers,Rockfish,210,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,18 Anglers,Sand Bass,2,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,18 Anglers,Sculpin,3,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,18 Anglers,Sheephead,1,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,18 Anglers,Calico Bass,12,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,18 Anglers,Rockfish,15,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,18 Anglers,Sand Bass,5,True,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,18 Anglers,Calico Bass,50,True,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Sheephead,3,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Calico Bass,22,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Rockfish,11,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Calico Bass,50,True,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,2 Day,23 Anglers,Bluefin Tuna,78,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,2 Day,23 Anglers,Vermilion Rockfish,92,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,29 Anglers,Sand Bass,1,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,29 Anglers,Yellowtail,3,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,29 Anglers,Lingcod,1,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,29 Anglers,Whitefish,145,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,29 Anglers,Rockfish,5,False,2025-05-02,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,51 Anglers,Rockfish,283,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,41 Anglers,Cabezon,1,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,41 Anglers,Sculpin,5,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,41 Anglers,Calico Bass,6,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,41 Anglers,Rockfish,89,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,41 Anglers,Calico Bass,50,True,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,19 Anglers,Sculpin,13,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,19 Anglers,Sheephead,9,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,19 Anglers,Lingcod,2,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,19 Anglers,Whitefish,95,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,19 Anglers,Rockfish,68,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,Full Day,19 Anglers,Red Rockfish,2,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,41 Anglers,Rockfish,192,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,30 Anglers,Sculpin,4,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,30 Anglers,Calico Bass,10,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,30 Anglers,Rockfish,39,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,13 Anglers,Sculpin,5,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,13 Anglers,Calico Bass,1,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,13 Anglers,Rockfish,130,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Chuasco II,3/4 Day,13 Anglers,Calico Bass,15,True,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,12 Anglers,Sand Bass,1,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,12 Anglers,Halibut,1,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,12 Anglers,Sculpin,1,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,12 Anglers,Sheephead,2,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,12 Anglers,Whitefish,10,False,2025-05-03,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,1/2 Day AM,12 Anglers,Calico Bass,24,True,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,22 Anglers,Halibut,2,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,22 Anglers,Rockfish,24,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,10 Anglers,Sheephead,1,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,10 Anglers,Calico Bass,16,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,10 Anglers,Rockfish,8,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,10 Anglers,Calico Bass,75,True,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,49 Anglers,Rockfish,245,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,5 Anglers,Sheephead,3,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,5 Anglers,Calico Bass,5,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,5 Anglers,Rockfish,5,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,5 Anglers,Barracuda,30,True,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,5 Anglers,Calico Bass,20,True,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,20 Anglers,Bluefin Tuna,5,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,20 Anglers,Yellowtail,2,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,20 Anglers,Bonito,1,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,34 Anglers,Halibut,1,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,34 Anglers,Sheephead,2,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,34 Anglers,Yellowtail,4,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,34 Anglers,Calico Bass,2,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,34 Anglers,Lingcod,3,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,34 Anglers,Whitefish,170,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,34 Anglers,Rockfish,52,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,34 Anglers,Vermilion Rockfish,11,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,27 Anglers,Calico Bass,4,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,27 Anglers,Rockfish,191,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,27 Anglers,Calico Bass,54,True,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,30 Anglers,Bluefin Tuna,11,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,30 Anglers,Yellowtail,31,False,2025-05-03,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Legend,2 Day,25 Anglers,Bluefin Tuna,6,False,2025-05-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Legend,2 Day,25 Anglers,Yellowtail,19,False,2025-05-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,36 Anglers,Sand Bass,1,False,2025-05-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,36 Anglers,Sculpin,6,False,2025-05-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,36 Anglers,Lingcod,1,False,2025-05-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,36 Anglers,Rockfish,25,False,2025-05-04,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,36 Anglers,Red Rockfish,29,False,2025-05-04,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,2 Day,24 Anglers,Bluefin Tuna,9,False,2025-05-04,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,15 Anglers,Rockfish,135,False,2025-05-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Sand Bass,2,False,2025-05-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Sculpin,22,False,2025-05-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Sheephead,18,False,2025-05-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Calico Bass,22,False,2025-05-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Rockfish,13,False,2025-05-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,21 Anglers,Calico Bass,80,True,2025-05-05,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,16 Anglers,Rockfish,75,False,2025-05-05,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,17 Anglers,Sheephead,5,False,2025-05-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,17 Anglers,Calico Bass,8,False,2025-05-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,17 Anglers,Lingcod,1,False,2025-05-06,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,17 Anglers,Rockfish,40,False,2025-05-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,8 Anglers,Rockfish,65,False,2025-05-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,18 Anglers,Barracuda,1,False,2025-05-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,18 Anglers,Sheephead,3,False,2025-05-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,18 Anglers,Calico Bass,40,False,2025-05-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,18 Anglers,Rockfish,5,False,2025-05-06,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,18 Anglers,Calico Bass,75,True,2025-05-06,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,15 Anglers,Sculpin,10,False,2025-05-07,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,15 Anglers,Whitefish,5,False,2025-05-07,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,15 Anglers,Rockfish,120,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,23 Anglers,Sculpin,2,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,23 Anglers,Sheephead,2,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,23 Anglers,Calico Bass,9,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,23 Anglers,Rockfish,11,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,17 Anglers,Halibut,1,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,17 Anglers,Sculpin,46,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,17 Anglers,Sheephead,1,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,17 Anglers,Yellowtail,2,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,17 Anglers,Whitefish,70,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,17 Anglers,Rockfish,14,False,2025-05-07,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,19 Anglers,Rockfish,190,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Sculpin,8,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Sheephead,13,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Calico Bass,9,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Lingcod,1,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Rockfish,47,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Calico Bass,60,True,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,3/4 Day,36 Anglers,Sculpin,8,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,3/4 Day,36 Anglers,Lingcod,3,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,3/4 Day,36 Anglers,Whitefish,75,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,3/4 Day,36 Anglers,Rockfish,64,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,3/4 Day,36 Anglers,Vermilion Rockfish,36,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,11 Anglers,Bonito (up to 10 pounds),9,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,11 Anglers,Rockfish,38,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,27 Anglers,Rockfish,270,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Sand Bass,1,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Calico Bass,17,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Rockfish,3,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Barracuda,30,True,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,17 Anglers,Calico Bass,75,True,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,18 Anglers,Bluefin Tuna,18,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,18 Anglers,Yellowtail,3,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2.5 Day,18 Anglers,Bonito,60,False,2025-05-08,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,15 Anglers,Bonito (up to 10 pounds),44,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,15 Anglers,Rockfish,87,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,11 Anglers,Bonito (up to 10 pounds),55,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,17 Anglers,Bonito,15,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,17 Anglers,Rockfish,130,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,24 Anglers,Bonito,14,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,24 Anglers,Rockfish,73,False,2025-05-09,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day Local,12 Anglers,Rockfish,120,False,2025-05-09,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,27 Anglers,Rockfish,90,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,29 Anglers,Bonito,50,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,29 Anglers,Rockfish,145,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,19 Anglers,Sheephead,4,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,19 Anglers,Bonito,96,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,19 Anglers,Rockfish,6,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,26 Anglers,Sculpin,7,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,26 Anglers,Sheephead,2,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,26 Anglers,Yellowtail,1,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,26 Anglers,Whitefish,112,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,26 Anglers,Bonito,2,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,26 Anglers,Rockfish,16,False,2025-05-09,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,37 Anglers,Bonito,5,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,51 Anglers,Sculpin,8,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,51 Anglers,Sheephead,6,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,51 Anglers,Rockfish,174,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Grande,Full Day,24 Anglers,Lingcod,4,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Grande,Full Day,24 Anglers,Whitefish,86,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Grande,Full Day,24 Anglers,Bonito,2,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Grande,Full Day,24 Anglers,Rockfish,74,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,2 Day,11 Anglers,Yellowtail,3,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,2 Day,11 Anglers,Rockfish,110,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,2 Day,11 Anglers,Red Rockfish,44,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,56 Anglers,Bonito,3,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,56 Anglers,Rockfish,80,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,36 Anglers,Sand Bass,2,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,36 Anglers,Sculpin,11,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,36 Anglers,Rockfish,150,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,3/4 Day,9 Anglers,Copper Rockfish,4,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,3/4 Day,9 Anglers,Whitefish,1,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,3/4 Day,9 Anglers,Rockfish,20,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,3/4 Day,9 Anglers,Sanddab,30,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,3/4 Day,9 Anglers,Spanish Jack,2,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Sea Star,3/4 Day,9 Anglers,Vermilion Rockfish,18,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,32 Anglers,Sculpin,15,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,32 Anglers,Whitefish,5,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,32 Anglers,Rockfish,100,False,2025-05-10,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,32 Anglers,Sanddab,30,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,30 Anglers,Rockfish,87,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,20 Anglers,Barred Sand Bass,1,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,20 Anglers,Sheephead,1,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,20 Anglers,Lingcod,2,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,20 Anglers,Whitefish,82,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,20 Anglers,Rockfish,48,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,23 Anglers,Sand Bass,1,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,23 Anglers,Sculpin,12,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,23 Anglers,Calico Bass,7,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,23 Anglers,Rockfish,20,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,23 Anglers,Calico Bass,40,True,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,50 Anglers,Bonito,33,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,44 Anglers,Bonito,165,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,35 Anglers,Sand Bass,4,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,35 Anglers,Sculpin,10,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,35 Anglers,Whitefish,175,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,35 Anglers,Bonito,2,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,35 Anglers,Rockfish,2,False,2025-05-10,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,51 Anglers,Bonito,39,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,51 Anglers,Rockfish,35,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,26 Anglers,Sculpin,11,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,26 Anglers,Lingcod,1,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,26 Anglers,Rockfish,144,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Excaliur,2 Day,12 Anglers,Bluefin Tuna (up to 130 pounds),3,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,1.5 Day,11 Anglers,Yellowtail,3,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,1.5 Day,11 Anglers,Rockfish,110,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,1.5 Day,11 Anglers,Red Rockfish,44,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,28 Anglers,Rockfish,92,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Producer,1.5 Day,14 Anglers,Bluefin Tuna,1,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Producer,1.5 Day,14 Anglers,Yellowtail,2,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Producer,1.5 Day,14 Anglers,Bonito,11,False,2025-05-11,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,24 Anglers,Halibut,1,False,2025-05-11,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,24 Anglers,Calico Bass,5,False,2025-05-11,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,24 Anglers,Treefish,1,False,2025-05-11,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,24 Anglers,Halibut,4,True,2025-05-11,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,1/2 Day AM,24 Anglers,Calico Bass,31,True,2025-05-11,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,15 Anglers,Rockfish,85,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,30 Anglers,Rockfish,151,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Highliner,1.5 Day,16 Anglers,Bluefin Tuna,7,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Highliner,1.5 Day,16 Anglers,Bonito,30,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Highliner,1.5 Day,16 Anglers,Rockfish,80,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,29 Anglers,Bonito,35,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,44 Anglers,Sand Bass,3,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,44 Anglers,Sculpin,1,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,44 Anglers,Calico Bass,2,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,44 Anglers,Rockfish,7,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,44 Anglers,Sand Bass,5,True,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,44 Anglers,Calico Bass,30,True,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,53 Anglers,Whitefish,1,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,53 Anglers,Rockfish,10,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,53 Anglers,Vermilion Rockfish,6,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,22 Anglers,Sculpin,32,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,22 Anglers,Whitefish,110,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,22 Anglers,Rockfish,53,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,30 Anglers,Bluefin Tuna (up to 60 pounds),6,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,30 Anglers,Yellowtail,1,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Voyager,1.5 Day,15 Anglers,Rockfish,120,False,2025-05-11,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,15 Anglers,Sculpin,1,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,15 Anglers,Rockfish,130,False,2025-05-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,9 Anglers,Calico Bass,10,False,2025-05-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,9 Anglers,Rockfish,90,False,2025-05-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,9 Anglers,Calico Bass,80,True,2025-05-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Sculpin,15,False,2025-05-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Rockfish,60,False,2025-05-12,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Sanddab,20,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Lingcod,2,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Whitefish,72,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Rockfish,45,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,7 Anglers,Rockfish,51,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,7 Anglers,Red Rockfish,6,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,19 Anglers,Rockfish,27,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,16 Anglers,Barracuda,1,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,16 Anglers,Calico Bass,39,False,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,16 Anglers,Calico Bass,50,True,2025-05-12,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Sculpin,3,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Sheephead,6,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Rockfish,108,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Vermilion Rockfish,36,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,16 Anglers,Sheephead,1,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,16 Anglers,Whitefish,7,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,16 Anglers,Rockfish,28,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,16 Anglers,Vermilion Rockfish,32,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,27 Anglers,Sculpin,1,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,27 Anglers,Sheephead,1,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,27 Anglers,Calico Bass,15,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,27 Anglers,Rockfish,2,False,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,27 Anglers,Calico Bass,50,True,2025-05-13,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,28 Anglers,Rockfish,185,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,32 Anglers,Sculpin,3,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,32 Anglers,Sheephead,4,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,32 Anglers,Rockfish,50,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,32 Anglers,Vermilion Rockfish,64,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,13 Anglers,Sculpin,1,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,13 Anglers,Calico Bass,3,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,13 Anglers,Rockfish,65,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,13 Anglers,Red Rockfish,26,False,2025-05-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,12 Anglers,Rockfish,95,False,2025-05-14,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,12 Anglers,Sanddab,25,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,El Gato Dos,1/2 Day AM,3 Anglers,Rockfish,15,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,9 Anglers,Rockfish,38,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,29 Anglers,Sculpin,2,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,29 Anglers,Calico Bass,12,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,29 Anglers,Rockfish,1,False,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,29 Anglers,Calico Bass,50,True,2025-05-14,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,29 Anglers,Rockfish,276,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Sculpin,1,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Sheephead,5,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Lingcod,3,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Rockfish,59,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,18 Anglers,Vermilion Rockfish,36,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,3/4 Day,14 Anglers,Bonito,70,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,3/4 Day,14 Anglers,Rockfish,43,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,3/4 Day,14 Anglers,Vermilion Rockfish,27,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,19 Anglers,Rockfish,142,False,2025-05-15,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,10 Anglers,Rockfish,80,False,2025-05-15,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,10 Anglers,Sanddab,25,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,22 Anglers,Rockfish,160,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,23 Anglers,Sheephead,1,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,23 Anglers,Yellowtail,1,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,23 Anglers,Calico Bass,34,False,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,23 Anglers,Calico Bass,75,True,2025-05-15,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,24 Anglers,Bonito (up to 10 pounds),41,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Sheephead,3,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Lingcod,2,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Rockfish,71,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,15 Anglers,Vermilion Rockfish,30,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,Full Day,24 Anglers,Lingcod,1,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,Full Day,24 Anglers,Bonito (up to 10 pounds),99,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,Full Day,24 Anglers,Rockfish,127,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,Full Day,24 Anglers,Vermilion Rockfish,42,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Nautilus,1/2 Day AM,6 Anglers,Rockfish,27,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,25 Anglers,Bonito,34,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,25 Anglers,Rockfish,107,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Bonito,1,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,16 Anglers,Rockfish,54,False,2025-05-16,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,28 Anglers,Sand Bass,2,False,2025-05-16,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,28 Anglers,Calico Bass,29,False,2025-05-16,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,28 Anglers,Sand Bass,4,True,2025-05-16,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,28 Anglers,Barracuda,2,True,2025-05-16,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,28 Anglers,Halibut,5,True,2025-05-16,San Diego Fish Reports
+"Oceanside, CA",Helgrens Sportfishing Fish Counts,Electra,3/4 Day,28 Anglers,Calico Bass,125,True,2025-05-16,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,11 Anglers,Whitefish,2,False,2025-05-16,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,11 Anglers,Rockfish,85,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,New Lo-An,2 Day,25 Anglers,Bluefin Tuna,35,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,New Lo-An,2 Day,25 Anglers,Yellowtail,1,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,New Lo-An,2 Day,25 Anglers,Bonito,1,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,19 Anglers,Bonito,60,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,19 Anglers,Rockfish,15,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,11 Anglers,Sand Bass,1,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,11 Anglers,Calico Bass,16,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,11 Anglers,Rockfish,12,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,11 Anglers,Calico Bass,40,True,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Barracuda,1,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Sheephead,2,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Calico Bass,22,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Rockfish,4,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,24 Anglers,Calico Bass,75,True,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,16 Anglers,Yellowtail,4,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,16 Anglers,Bonito,80,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,16 Anglers,Spanish Jack,1,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,11 Anglers,Bluefin Tuna (up to 180 pounds),25,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,11 Anglers,Yellowtail,15,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,11 Anglers,Bonito,8,False,2025-05-16,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,56 Anglers,Bonito,4,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,45 Anglers,Sculpin,6,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,45 Anglers,Sheephead,2,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,45 Anglers,Lingcod,1,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,45 Anglers,Rockfish,54,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,45 Anglers,Vermilion Rockfish,85,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Nautilus,1/2 Day PM,4 Anglers,Rockfish,21,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Nautilus,1/2 Day PM,4 Anglers,Red Rockfish,8,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,49 Anglers,Bonito,13,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,49 Anglers,Rockfish,92,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,54 Anglers,Sculpin,5,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,54 Anglers,Sheephead,1,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,54 Anglers,Calico Bass,1,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,54 Anglers,Rockfish,81,False,2025-05-17,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,1/2 Day AM,11 Anglers,Whitefish,1,False,2025-05-17,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,1/2 Day AM,11 Anglers,Rockfish,80,False,2025-05-17,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Rockfish,80,False,2025-05-17,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,18 Anglers,Sanddab,20,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,15 Anglers,Bonito,4,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,15 Anglers,Rockfish,40,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Barred Sand Bass,1,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Sculpin,35,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Sheephead,1,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Lingcod,1,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Whitefish,61,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Bonito,70,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,21 Anglers,Rockfish,12,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,Full Day,17 Anglers,Yellowtail,4,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,Full Day,17 Anglers,Bonito,31,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Highliner,Overnight,19 Anglers,Bluefin Tuna,5,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Highliner,Overnight,19 Anglers,Bonito,20,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,16 Anglers,Bonito,45,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Sculpin,10,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Sheephead,4,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Calico Bass,5,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Whitefish,1,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Rockfish,140,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,16 Anglers,Bonito,80,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day AM,28 Anglers,Bonito,36,False,2025-05-17,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,27 Anglers,Sculpin,3,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,27 Anglers,Sheephead,2,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,27 Anglers,Lingcod,1,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,27 Anglers,Rockfish,77,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,44 Anglers,Sculpin,6,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,44 Anglers,Sheephead,2,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,44 Anglers,Lingcod,1,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,44 Anglers,Rockfish,85,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Lierty,Full Day,11 Anglers,Bonito,49,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pegasus,2 Day,16 Anglers,Bluefin Tuna,10,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pegasus,2 Day,16 Anglers,Yellowtail,4,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pegasus,2 Day,16 Anglers,Rockfish,57,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pegasus,2 Day,16 Anglers,Vermilion Rockfish,38,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Horizon,1.5 Day,23 Anglers,Bonito,52,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Legend,2.5 Day,23 Anglers,Bluefin Tuna,30,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Little G,2.5 Day,6 Anglers,Bluefin Tuna,19,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,49 Anglers,Bonito,15,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,49 Anglers,Rockfish,123,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Sculpin,3,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Calico Bass,25,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Lingcod,1,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Rockfish,15,False,2025-05-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,25 Anglers,Sculpin,16,False,2025-05-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,25 Anglers,Whitefish,3,False,2025-05-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,25 Anglers,Rockfish,85,False,2025-05-18,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,25 Anglers,Sanddab,30,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,34 Anglers,Sculpin,2,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,34 Anglers,Lingcod,2,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,34 Anglers,Whitefish,31,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,34 Anglers,Rockfish,35,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,34 Anglers,Red Rockfish,64,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,12 Anglers,Sand Bass,2,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,12 Anglers,Sculpin,11,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,12 Anglers,Calico Bass,2,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,12 Anglers,Rockfish,70,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,33 Anglers,Bonito,9,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,33 Anglers,Rockfish,20,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,37 Anglers,Sculpin,5,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,37 Anglers,Rockfish,50,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2 Day,20 Anglers,Bluefin Tuna (up to 100 pounds),24,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2 Day,20 Anglers,Bonito,75,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,24 Anglers,Bluefin Tuna,56,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day PM,26 Anglers,Sculpin,3,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day PM,26 Anglers,Sheephead,1,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day PM,26 Anglers,Calico Bass,1,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day PM,26 Anglers,Whitefish,47,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,1/2 Day PM,26 Anglers,Rockfish,21,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,27 Anglers,Bluefin Tuna,2,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,27 Anglers,Bonito,10,False,2025-05-18,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,14 Anglers,Sheephead,3,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,14 Anglers,Calico Bass,13,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,14 Anglers,Rockfish,27,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,14 Anglers,Calico Bass,55,True,2025-05-19,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,15 Anglers,Yellowtail,12,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,15 Anglers,Bonito,7,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,15 Anglers,Rockfish,120,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,8 Anglers,Rockfish,80,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,13 Anglers,Rockfish,75,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,16 Anglers,Calico Bass,5,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,16 Anglers,Rockfish,11,False,2025-05-19,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,12 Anglers,Sculpin,2,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,12 Anglers,Calico Bass,1,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,12 Anglers,Rockfish,49,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,11 Anglers,Rockfish,96,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Pacific Queen,2 Day,24 Anglers,Bluefin Tuna (up to 180 pounds),35,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Sculpin,2,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Calico Bass,5,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Rockfish,41,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Calico Bass,25,True,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,11 Anglers,Rockfish,110,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2 Day,13 Anglers,Bluefin Tuna (up to 150 pounds),25,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,2 Day,13 Anglers,Yellowtail,1,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,2 Day,24 Anglers,Bluefin Tuna (up to 150 pounds),28,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,13 Anglers,Yellowtail,1,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,13 Anglers,Calico Bass,14,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,13 Anglers,Rockfish,41,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,13 Anglers,Vermilion Rockfish,26,False,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,13 Anglers,Calico Bass,50,True,2025-05-20,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,18 Anglers,Rockfish,56,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Sand Bass,1,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Sculpin,1,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Sheephead,2,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Calico Bass,1,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Lingcod,3,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,14 Anglers,Rockfish,40,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,17 Anglers,Sculpin,1,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,17 Anglers,Rockfish,167,False,2025-05-21,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,16 Anglers,Halibut,2,False,2025-05-21,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,16 Anglers,Sheephead,1,False,2025-05-21,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,16 Anglers,Calico Bass,8,False,2025-05-21,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,16 Anglers,Rockfish,32,False,2025-05-21,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,16 Anglers,Halibut,4,True,2025-05-21,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,16 Anglers,Calico Bass,40,True,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,15 Anglers,Yellowtail,2,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,15 Anglers,Rockfish,5,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,20 Anglers,Rockfish,175,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Calico Bass,37,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Rockfish,6,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,22 Anglers,Calico Bass,55,True,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,19 Anglers,Bluefin Tuna,7,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,19 Anglers,Yellowtail,30,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,19 Anglers,Bonito,4,False,2025-05-21,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,Full Day,30 Anglers,Yellowtail,2,False,2025-05-22,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,Full Day,30 Anglers,Bonito (up to 8 pounds),165,False,2025-05-22,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,Full Day,30 Anglers,Rockfish,25,False,2025-05-22,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,22 Anglers,Rockfish,153,False,2025-05-22,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,8 Anglers,Calico Bass,1,False,2025-05-22,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,8 Anglers,Whitefish,35,False,2025-05-22,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,8 Anglers,Calico Bass,40,True,2025-05-22,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,46 Anglers,Rockfish,390,False,2025-05-22,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,37 Anglers,Sheephead,1,False,2025-05-22,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,37 Anglers,Yellowtail,1,False,2025-05-22,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,37 Anglers,Calico Bass,68,False,2025-05-22,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,37 Anglers,Calico Bass,250,True,2025-05-22,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Nautilus,Full Day,3 Anglers,Barracuda,12,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Nautilus,Full Day,3 Anglers,Calico Bass,7,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Nautilus,Full Day,3 Anglers,Rockfish,30,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Nautilus,Full Day,3 Anglers,Calico Bass,79,True,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,39 Anglers,Rockfish,312,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Sculpin,1,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Sheephead,3,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Calico Bass,85,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Rockfish,9,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,17 Anglers,Calico Bass,120,True,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day Twilight,25 Anglers,Sand Bass,6,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day Twilight,25 Anglers,Sculpin,12,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day Twilight,25 Anglers,Calico Bass,1,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day Twilight,25 Anglers,Whitefish,4,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day Twilight,25 Anglers,Rockfish,26,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day Twilight,25 Anglers,Red Rockfish,50,False,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,14 Anglers,Sheephead,3,False,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,14 Anglers,Calico Bass,15,False,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,14 Anglers,Rockfish,95,False,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,14 Anglers,Calico Bass,100,True,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Barracuda,4,False,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Sheephead,1,False,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Calico Bass,11,False,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Rockfish,50,False,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Barracuda,4,True,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,Calico Bass,35,True,2025-05-23,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,19 Anglers,White Seabass,5,True,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,15 Anglers,Whitefish,60,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Mission Belle,Full Day,15 Anglers,Bonito,9,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,New Lo-An,2 Day,26 Anglers,Bluefin Tuna,18,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,22 Anglers,Rockfish,155,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,27 Anglers,Barracuda,1,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,27 Anglers,Sheephead,1,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,27 Anglers,Calico Bass,26,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,27 Anglers,Rockfish,15,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,27 Anglers,Barracuda,40,True,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,27 Anglers,Calico Bass,100,True,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,43 Anglers,Sand Bass,1,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,43 Anglers,Sheephead,2,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,43 Anglers,Calico Bass,76,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,43 Anglers,Rockfish,2,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,43 Anglers,Calico Bass,100,True,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Pacific Voyager,3 Day,15 Anglers,Bluefin Tuna (up to 170 pounds),56,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Polaris Supreme,3 Day,23 Anglers,Bluefin Tuna,40,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,16 Anglers,Yellowtail,8,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,16 Anglers,Bonito,73,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,8 Anglers,Calico Bass,12,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,8 Anglers,Whitefish,4,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Sea Watch,Full Day,8 Anglers,Bonito,15,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,22 Anglers,Bluefin Tuna,17,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,22 Anglers,Yellowtail,19,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,Triute,1.5 Day,22 Anglers,Bonito,50,False,2025-05-23,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,55 Anglers,Lingcod,4,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day AM,55 Anglers,Rockfish,155,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,37 Anglers,Sand Bass,4,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,37 Anglers,Calico Bass,58,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,37 Anglers,Rockfish,7,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Fisherman's Landing Fish Counts,Dolphin,1/2 Day PM,37 Anglers,Calico Bass,50,True,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Grande,Full Day,31 Anglers,Bonito,8,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,3/4 Day,16 Anglers,Calico Bass,33,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,3/4 Day,16 Anglers,Lingcod,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,3/4 Day,16 Anglers,Rockfish,73,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,3/4 Day,16 Anglers,Red Rockfish,6,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Malihini,3/4 Day,16 Anglers,Calico Bass,70,True,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day AM,48 Anglers,Rockfish,259,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Sheephead,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Calico Bass,41,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Rockfish,11,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",H&M Landing Fish Counts,Premier,1/2 Day PM,25 Anglers,Calico Bass,130,True,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,8 Anglers,Sand Bass,1,False,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,8 Anglers,Calico Bass,19,False,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,8 Anglers,Rockfish,80,False,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Pronto,3/4 Day,8 Anglers,Calico Bass,40,True,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Halibut,1,False,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Calico Bass,7,False,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Rockfish,55,False,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Halibut,1,True,2025-05-24,San Diego Fish Reports
+"Oceanside, CA",Oceanside Sea Center Fish Counts,Southern Cal,1/2 Day AM,24 Anglers,Calico Bass,35,True,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,38 Anglers,Barred Sand Bass,3,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,38 Anglers,Halibut,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,38 Anglers,Sculpin,2,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,38 Anglers,Calico Bass,34,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,38 Anglers,Whitefish,4,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day AM,38 Anglers,Rockfish,13,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day PM,8 Anglers,Calico Bass,18,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day PM,8 Anglers,Rockfish,5,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day PM,8 Anglers,White Seabass,4,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Daily Doule,1/2 Day PM,8 Anglers,Calico Bass,40,True,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Barred Sand Bass,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Cabezon,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Sculpin,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Calico Bass,15,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Whitefish,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Point Loma Sportfishing Fish Counts,Point Loma,1/2 Day AM,23 Anglers,Rockfish,17,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day AM,52 Anglers,Rockfish,185,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,33 Anglers,Sand Bass,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,33 Anglers,Sculpin,5,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,33 Anglers,Calico Bass,45,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,33 Anglers,Rockfish,37,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day Twilight,33 Anglers,Calico Bass,100,True,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Sculpin,5,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Calico Bass,45,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Bonito,1,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Rockfish,9,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,New Seaforth,1/2 Day PM,47 Anglers,Calico Bass,150,True,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,35 Anglers,Yellowtail,7,False,2025-05-24,San Diego Fish Reports
+"San Diego, CA",Seaforth Sportfishing Fish Counts,San Diego,Full Day,35 Anglers,Bonito,17,False,2025-05-24,San Diego Fish Reports
