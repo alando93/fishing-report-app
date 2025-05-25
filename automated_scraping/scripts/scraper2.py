@@ -122,11 +122,20 @@ def load_existing_data():
         return {"reports": [], "last_updated": "", "sources": []}
 
 def save_data(new_reports):
-    """Save the combined data to fishing_reports.json."""
+    """Save the combined data to fishing_reports.json, overwriting reports for dates in new_reports."""
     existing_data = load_existing_data()
-    combined_reports = existing_data.get("reports", []) + new_reports
+    existing_reports = existing_data.get("reports", [])
 
-    # Remove duplicates
+    # Get all dates present in new_reports
+    new_dates = set(r["date"] for r in new_reports)
+
+    # Keep only reports NOT in the new date range
+    filtered_existing = [r for r in existing_reports if r["date"] not in new_dates]
+
+    # Combine and deduplicate
+    combined_reports = filtered_existing + new_reports
+
+    # Remove duplicates (by date, location, boat, species, count)
     unique_reports = []
     seen = set()
     for report in combined_reports:
