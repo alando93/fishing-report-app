@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 import re
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Ensure the data directory exists
 os.makedirs("data", exist_ok=True)
@@ -114,8 +114,8 @@ def save_data(new_reports):
             seen.add(key)
             unique_reports.append(report)
 
-    # Keep only the last 100 reports
-    unique_reports = sorted(unique_reports, key=lambda x: x["date"], reverse=True)[:100]
+    # Keep only the last 10000 reports
+    unique_reports = sorted(unique_reports, key=lambda x: x["date"], reverse=True)[:10000]
 
     # Prepare the final data structure
     data = {
@@ -184,14 +184,30 @@ def main(html_content=None, date=None):
 
 # Example usage with the provided HTML or a specific date
 if __name__ == "__main__":
-    # Uncomment to use with the provided HTML string
-    # with open('fishing_report.html', 'r', encoding='utf-8') as f:
-    #     html_content = f.read()
-    #     main(html_content)
-    
-    # Or use the default behavior to fetch from the website
-    # Specify a date in the format YYYY-MM-DD if needed
-    main(date="2025-04-24")
-    main(date="2025-04-25")
-    main(date="2025-04-26")
-    
+    import argparse
+
+    parser = argparse.ArgumentParser(description="Scrape San Diego Fish Reports for a date range or today.")
+    parser.add_argument("--start_date", type=str, help="Start date in YYYY-MM-DD format")
+    parser.add_argument("--end_date", type=str, help="End date in YYYY-MM-DD format")
+    args = parser.parse_args()
+
+    if args.start_date and args.end_date:
+        start_date = datetime.strptime(args.start_date, "%Y-%m-%d")
+        end_date = datetime.strptime(args.end_date, "%Y-%m-%d")
+        current_date = start_date
+
+        while current_date <= end_date:
+            date_str = current_date.strftime("%Y-%m-%d")
+            main(date=date_str)
+            current_date += timedelta(days=1)
+    else:
+        # Run for today's date
+        today_str = datetime.now().strftime("%Y-%m-%d")
+        main(date=today_str)
+
+
+#Usage:
+#To run for a custom range:
+#python automated_scraping/scripts/scraper2.py --start_date 2025-04-01 --end_date 2025-05-24
+#To run for today:
+#python automated_scraping/scripts/scraper2.py
