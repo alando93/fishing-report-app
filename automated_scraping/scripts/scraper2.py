@@ -46,17 +46,38 @@ def parse_fish_counts(html_content, report_date=None):
             boat_info = columns[0].text.strip().split('\n')
             boat_name = boat_info[0].strip().replace('b', '').strip()
             
-            # Extract trip details
-            trip_info = columns[1].text.strip().split('\n')
-            anglers_match = re.search(r'(\d+) Anglers', trip_info[0])
-            num_anglers = anglers_match.group(1) if anglers_match else "0"
+            ## Extract trip details
+            #print('columns[1]: ',columns[1])
+            #print('columns[1] type: ',type(columns[1]))
+            #trip_info = columns[1].text.strip().split('\n')
             
-            trip_type = ""
-            for line in trip_info:
-                if "Day" in line:
-                    trip_type = line.strip()
-                    break
+            #trip_type_match = re.search(r'<a[^>]*>([^<]+)</a>', columns[1].text)
+            #trip_type = trip_type_match.group(1) if trip_type_match else None
+            #anglers_match = re.search(r'(\d+) Anglers', trip_info[0])
+            #num_anglers = anglers_match.group(1) if anglers_match else "0"
+            #print('Trip type: ',trip_type)
+            #print('Num anglers: ',num_anglers)
+            #trip_type = ""
+            #for line in trip_info:
+            #    if "Day" in line:
+            #        trip_type = line.strip()
+            #        break
+
+            """
+            Extract anglers count and trip type from BeautifulSoup Tag object
+            """
+            # Get all text content and split by <br/> or line breaks
+            text_parts = columns[1].get_text(separator='|', strip=True).split('|')
             
+            # First part should be the anglers
+            num_anglers = text_parts[0] if text_parts else None
+            
+            # Find the <a> tag and get its text for trip type
+            a_tag = columns[1].find('a')
+            trip_type = a_tag.get_text(strip=True) if a_tag else None
+            
+            print('Trip type: ',trip_type)
+            print('Num anglers: ',num_anglers)
             # Extract fish counts
             catch_info = columns[2].text.strip()
             
@@ -189,7 +210,32 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Scrape San Diego Fish Reports for a date range or today.")
     parser.add_argument("--start_date", type=str, help="Start date in YYYY-MM-DD format")
     parser.add_argument("--end_date", type=str, help="End date in YYYY-MM-DD format")
+    parser.add_argument("--dry_run", action="store_true", help="If set, do not save any data to fishing_reports.json")
     args = parser.parse_args()
+
+    def main_with_dry_run(html_content=None, date=None, dry_run=False):
+        if html_content is None:
+            if date is None:
+                date = datetime.now().strftime("%Y-%m-%d")
+            url = f"https://www.sandiegofishreports.com/dock_totals/boats.php?date={date}"
+            headers = {
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+            }
+            try:
+                response = requests.get(url, headers=headers)
+                response.raise_for_status()
+                html_content = response.content
+            except requests.RequestException as e:
+                print(f"Error fetching data from {url}: {e}")
+                return
+
+        print(f"Parsing fish counts for date: {date}...")
+        new_reports = parse_fish_counts(html_content, report_date=date)
+        print(f"Parsed {len(new_reports)} new reports.")
+        if not dry_run:
+            save_data(new_reports)
+        else:
+            print("Dry run enabled: not saving any data.")
 
     if args.start_date and args.end_date:
         start_date = datetime.strptime(args.start_date, "%Y-%m-%d")
@@ -198,16 +244,17 @@ if __name__ == "__main__":
 
         while current_date <= end_date:
             date_str = current_date.strftime("%Y-%m-%d")
-            main(date=date_str)
+            main_with_dry_run(date=date_str, dry_run=args.dry_run)
             current_date += timedelta(days=1)
     else:
         # Run for today's date
         today_str = datetime.now().strftime("%Y-%m-%d")
-        main(date=today_str)
-
+        main_with_dry_run(date=today_str, dry_run=args.dry_run)
 
 #Usage:
 #To run for a custom range:
 #python automated_scraping/scripts/scraper2.py --start_date 2025-04-01 --end_date 2025-05-24
 #To run for today:
 #python automated_scraping/scripts/scraper2.py
+#To do a dry run (no saving):
+#python automated_scraping/scripts/scraper2.py --dry_run
