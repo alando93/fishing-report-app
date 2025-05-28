@@ -2,6 +2,150 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "9 Anglers",
+      "species": "Barracuda",
+      "count": 2,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "9 Anglers",
+      "species": "Sheephead",
+      "count": 1,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "9 Anglers",
+      "species": "Calico Bass",
+      "count": 45,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "9 Anglers",
+      "species": "Bonito",
+      "count": 1,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "9 Anglers",
+      "species": "Rockfish",
+      "count": 1,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "9 Anglers",
+      "species": "Calico Bass",
+      "count": 50,
+      "released": true,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "41 Anglers",
+      "species": "Halibut",
+      "count": 1,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "41 Anglers",
+      "species": "Yellowtail",
+      "count": 1,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "41 Anglers",
+      "species": "Calico Bass",
+      "count": 56,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "41 Anglers",
+      "species": "Rockfish",
+      "count": 11,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "41 Anglers",
+      "species": "Calico Bass",
+      "count": 200,
+      "released": true,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Polaris Supreme",
+      "trip": "2 Day",
+      "anglers": "24 Anglers",
+      "species": "Bluefin Tuna (up to 160 pounds)",
+      "count": 70,
+      "released": false,
+      "date": "2025-05-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day AM",
@@ -18301,7 +18445,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-05-27 12:40:24",
+  "last_updated": "2025-05-28 01:38:30",
   "sources": [
     "San Diego Fish Reports"
   ]
