@@ -87,6 +87,18 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Nautilus",
+      "trip": "Full Day",
+      "anglers": "5 Anglers",
+      "species": "Rockfish",
+      "count": 28,
+      "released": false,
+      "date": "2025-05-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Patriot (SD)",
       "trip": "3/4 Day",
       "anglers": "10 Anglers",
@@ -212,6 +224,54 @@
       "anglers": "28 Anglers",
       "species": "Sanddab",
       "count": 30,
+      "released": false,
+      "date": "2025-05-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Mission Belle",
+      "trip": "Full Day",
+      "anglers": "6 Anglers",
+      "species": "Barracuda",
+      "count": 1,
+      "released": false,
+      "date": "2025-05-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Mission Belle",
+      "trip": "Full Day",
+      "anglers": "6 Anglers",
+      "species": "Yellowtail",
+      "count": 11,
+      "released": false,
+      "date": "2025-05-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Mission Belle",
+      "trip": "Full Day",
+      "anglers": "6 Anglers",
+      "species": "Calico Bass",
+      "count": 1,
+      "released": false,
+      "date": "2025-05-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Mission Belle",
+      "trip": "Full Day",
+      "anglers": "6 Anglers",
+      "species": "Rockfish",
+      "count": 2,
       "released": false,
       "date": "2025-05-30",
       "source": "San Diego Fish Reports"
@@ -19093,7 +19153,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-05-30 01:27:49",
+  "last_updated": "2025-05-30 12:38:42",
   "sources": [
     "San Diego Fish Reports"
   ]
