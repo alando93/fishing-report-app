@@ -279,6 +279,102 @@
     {
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Calico Bass",
+      "count": 28,
+      "released": false,
+      "date": "2025-06-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Whitefish",
+      "count": 1,
+      "released": false,
+      "date": "2025-06-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Rockfish",
+      "count": 1,
+      "released": false,
+      "date": "2025-06-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Calico Bass",
+      "count": 150,
+      "released": true,
+      "date": "2025-06-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "2 Day",
+      "anglers": "18 Anglers",
+      "species": "Bluefin Tuna (up to 190 pounds)",
+      "count": 35,
+      "released": false,
+      "date": "2025-06-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "2 Day",
+      "anglers": "18 Anglers",
+      "species": "Bonito",
+      "count": 2,
+      "released": false,
+      "date": "2025-06-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "2 Day",
+      "anglers": "18 Anglers",
+      "species": "Rockfish",
+      "count": 50,
+      "released": false,
+      "date": "2025-06-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "2 Day",
+      "anglers": "18 Anglers",
+      "species": "Vermilion Rockfish",
+      "count": 72,
+      "released": false,
+      "date": "2025-06-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "San Diego",
       "trip": "Full Day",
       "anglers": "9 Anglers",
@@ -21589,7 +21685,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-03 01:39:45",
+  "last_updated": "2025-06-03 12:40:32",
   "sources": [
     "San Diego Fish Reports"
   ]
