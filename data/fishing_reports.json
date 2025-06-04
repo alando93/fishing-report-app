@@ -88,7 +88,7 @@
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Excaliur",
-      "trip": "2.5 Day",
+      "trip": "2 Day",
       "anglers": "25 Anglers",
       "species": "Bluefin Tuna",
       "count": 33,
@@ -100,7 +100,7 @@
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Excaliur",
-      "trip": "2.5 Day",
+      "trip": "2 Day",
       "anglers": "25 Anglers",
       "species": "Bonito",
       "count": 3,
@@ -112,7 +112,7 @@
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Legend",
-      "trip": "2.5 Day",
+      "trip": "2 Day",
       "anglers": "25 Anglers",
       "species": "Bluefin Tuna",
       "count": 62,
@@ -22081,7 +22081,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-04 01:40:02",
+  "last_updated": "2025-06-04 12:40:36",
   "sources": [
     "San Diego Fish Reports"
   ]
