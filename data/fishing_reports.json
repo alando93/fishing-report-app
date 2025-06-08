@@ -566,6 +566,42 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "1/2 Day PM",
+      "anglers": "11 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 1,
+      "released": false,
+      "date": "2025-06-08",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "1/2 Day PM",
+      "anglers": "11 Anglers",
+      "species": "Calico Bass",
+      "count": 36,
+      "released": false,
+      "date": "2025-06-08",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "1/2 Day PM",
+      "anglers": "11 Anglers",
+      "species": "Calico Bass",
+      "count": 60,
+      "released": true,
+      "date": "2025-06-08",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
       "trip": "1/2 Day Twilight",
@@ -24697,7 +24733,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-08 01:46:53",
+  "last_updated": "2025-06-08 12:35:53",
   "sources": [
     "San Diego Fish Reports"
   ]
