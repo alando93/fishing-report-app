@@ -457,6 +457,54 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "54 Anglers",
+      "species": "Sheephead",
+      "count": 1,
+      "released": false,
+      "date": "2025-06-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "54 Anglers",
+      "species": "Calico Bass",
+      "count": 58,
+      "released": false,
+      "date": "2025-06-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "54 Anglers",
+      "species": "Rockfish",
+      "count": 20,
+      "released": false,
+      "date": "2025-06-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "54 Anglers",
+      "species": "Calico Bass",
+      "count": 100,
+      "released": true,
+      "date": "2025-06-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Blue Horizon",
@@ -30109,7 +30157,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-15 01:48:46",
+  "last_updated": "2025-06-15 12:36:18",
   "sources": [
     "San Diego Fish Reports"
   ]
