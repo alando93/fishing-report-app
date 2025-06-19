@@ -410,6 +410,18 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "1/2 Day PM",
+      "anglers": "12 Anglers",
+      "species": "Calico Bass",
+      "count": 60,
+      "released": false,
+      "date": "2025-06-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "El Gato Dos",
       "trip": "1/2 Day AM",
@@ -33313,7 +33325,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-19 01:41:04",
+  "last_updated": "2025-06-19 12:40:16",
   "sources": [
     "San Diego Fish Reports"
   ]
