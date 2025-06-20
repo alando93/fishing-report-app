@@ -147,6 +147,42 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Grande",
+      "trip": "Full Day",
+      "anglers": "19 Anglers",
+      "species": "Yellowtail",
+      "count": 3,
+      "released": false,
+      "date": "2025-06-20",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Grande",
+      "trip": "Full Day",
+      "anglers": "19 Anglers",
+      "species": "Whitefish",
+      "count": 37,
+      "released": false,
+      "date": "2025-06-20",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Grande",
+      "trip": "Full Day",
+      "anglers": "19 Anglers",
+      "species": "Rockfish",
+      "count": 30,
+      "released": false,
+      "date": "2025-06-20",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Malihini",
       "trip": "3/4 Day",
       "anglers": "20 Anglers",
@@ -34225,7 +34261,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-20 01:40:09",
+  "last_updated": "2025-06-20 12:40:03",
   "sources": [
     "San Diego Fish Reports"
   ]
