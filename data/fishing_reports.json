@@ -279,6 +279,66 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "52 Anglers",
+      "species": "Sand Bass",
+      "count": 1,
+      "released": false,
+      "date": "2025-06-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "52 Anglers",
+      "species": "Sculpin",
+      "count": 1,
+      "released": false,
+      "date": "2025-06-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "52 Anglers",
+      "species": "Calico Bass",
+      "count": 71,
+      "released": false,
+      "date": "2025-06-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "52 Anglers",
+      "species": "Rockfish",
+      "count": 11,
+      "released": false,
+      "date": "2025-06-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "52 Anglers",
+      "species": "Calico Bass",
+      "count": 130,
+      "released": true,
+      "date": "2025-06-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Producer",
       "trip": "Overnight",
       "anglers": "29 Anglers",
@@ -35353,7 +35413,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-21 01:38:11",
+  "last_updated": "2025-06-21 12:36:12",
   "sources": [
     "San Diego Fish Reports"
   ]
