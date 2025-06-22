@@ -763,7 +763,7 @@
       "trip": "Full Day",
       "anglers": "20 Anglers",
       "species": "Sand Bass",
-      "count": 14,
+      "count": 13,
       "released": false,
       "date": "2025-06-22",
       "source": "San Diego Fish Reports"
@@ -787,7 +787,7 @@
       "trip": "Full Day",
       "anglers": "20 Anglers",
       "species": "Calico Bass",
-      "count": 86,
+      "count": 87,
       "released": false,
       "date": "2025-06-22",
       "source": "San Diego Fish Reports"
@@ -36217,7 +36217,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-22 01:48:10",
+  "last_updated": "2025-06-22 12:36:12",
   "sources": [
     "San Diego Fish Reports"
   ]
