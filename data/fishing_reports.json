@@ -722,6 +722,66 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "25 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 5,
+      "released": false,
+      "date": "2025-06-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "25 Anglers",
+      "species": "Calico Bass",
+      "count": 73,
+      "released": false,
+      "date": "2025-06-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "25 Anglers",
+      "species": "Rockfish",
+      "count": 4,
+      "released": false,
+      "date": "2025-06-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "25 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 4,
+      "released": true,
+      "date": "2025-06-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "25 Anglers",
+      "species": "Calico Bass",
+      "count": 186,
+      "released": true,
+      "date": "2025-06-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Aztec",
       "trip": "1.5 Day",
@@ -37381,7 +37441,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-23 01:46:38",
+  "last_updated": "2025-06-23 12:41:35",
   "sources": [
     "San Diego Fish Reports"
   ]
