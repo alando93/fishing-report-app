@@ -398,6 +398,42 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 35,
+      "released": false,
+      "date": "2025-06-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Calico Bass",
+      "count": 10,
+      "released": false,
+      "date": "2025-06-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Rockfish",
+      "count": 10,
+      "released": false,
+      "date": "2025-06-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Aztec",
       "trip": "1.5 Day",
@@ -621,6 +657,54 @@
       "species": "Sand Bass",
       "count": 40,
       "released": true,
+      "date": "2025-06-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "2 Day",
+      "anglers": "16 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 31,
+      "released": false,
+      "date": "2025-06-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "2 Day",
+      "anglers": "16 Anglers",
+      "species": "Yellowtail",
+      "count": 10,
+      "released": false,
+      "date": "2025-06-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "2 Day",
+      "anglers": "16 Anglers",
+      "species": "Calico Bass",
+      "count": 40,
+      "released": false,
+      "date": "2025-06-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "2 Day",
+      "anglers": "16 Anglers",
+      "species": "White Seabass",
+      "count": 7,
+      "released": false,
       "date": "2025-06-24",
       "source": "San Diego Fish Reports"
     },
@@ -38221,7 +38305,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-24 01:41:11",
+  "last_updated": "2025-06-24 12:40:49",
   "sources": [
     "San Diego Fish Reports"
   ]
