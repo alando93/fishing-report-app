@@ -301,6 +301,78 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Vendetta 2",
+      "trip": "Full Day",
+      "anglers": "21 Anglers",
+      "species": "Barracuda",
+      "count": 2,
+      "released": false,
+      "date": "2025-06-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Vendetta 2",
+      "trip": "Full Day",
+      "anglers": "21 Anglers",
+      "species": "Sculpin",
+      "count": 20,
+      "released": false,
+      "date": "2025-06-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Vendetta 2",
+      "trip": "Full Day",
+      "anglers": "21 Anglers",
+      "species": "Yellowtail",
+      "count": 2,
+      "released": false,
+      "date": "2025-06-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Vendetta 2",
+      "trip": "Full Day",
+      "anglers": "21 Anglers",
+      "species": "Calico Bass",
+      "count": 25,
+      "released": false,
+      "date": "2025-06-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Vendetta 2",
+      "trip": "Full Day",
+      "anglers": "21 Anglers",
+      "species": "Lingcod",
+      "count": 1,
+      "released": false,
+      "date": "2025-06-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Vendetta 2",
+      "trip": "Full Day",
+      "anglers": "21 Anglers",
+      "species": "Whitefish",
+      "count": 30,
+      "released": false,
+      "date": "2025-06-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Blue Horizon",
@@ -39109,7 +39181,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-25 01:41:37",
+  "last_updated": "2025-06-25 12:41:22",
   "sources": [
     "San Diego Fish Reports"
   ]
