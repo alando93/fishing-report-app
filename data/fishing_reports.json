@@ -241,6 +241,18 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "15 Anglers",
+      "species": "Sand Bass",
+      "count": 125,
+      "released": true,
+      "date": "2025-06-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Southern Cal",
@@ -320,6 +332,18 @@
       "anglers": "31 Anglers",
       "species": "Rockfish",
       "count": 7,
+      "released": false,
+      "date": "2025-06-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 45,
       "released": false,
       "date": "2025-06-26",
       "source": "San Diego Fish Reports"
@@ -39973,7 +39997,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-26 01:40:23",
+  "last_updated": "2025-06-26 12:40:44",
   "sources": [
     "San Diego Fish Reports"
   ]
