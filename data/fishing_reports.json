@@ -170,6 +170,42 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "2 Day",
+      "anglers": "8 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 13,
+      "released": false,
+      "date": "2025-06-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "3 Day",
+      "anglers": "20 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 67,
+      "released": false,
+      "date": "2025-06-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "3 Day",
+      "anglers": "20 Anglers",
+      "species": "Yellowtail",
+      "count": 2,
+      "released": false,
+      "date": "2025-06-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Legend",
       "trip": "2 Day",
@@ -40909,7 +40945,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-27 01:41:46",
+  "last_updated": "2025-06-27 12:39:39",
   "sources": [
     "San Diego Fish Reports"
   ]
