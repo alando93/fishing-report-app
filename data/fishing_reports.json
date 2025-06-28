@@ -855,6 +855,30 @@
     {
       "location": "San Diego, CA",
       "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Sheephead",
+      "count": 2,
+      "released": false,
+      "date": "2025-06-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Calico Bass",
+      "count": 45,
+      "released": false,
+      "date": "2025-06-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "New Lo-An",
       "trip": "3 Day",
       "anglers": "18 Anglers",
@@ -42133,7 +42157,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-06-28 01:37:46",
+  "last_updated": "2025-06-28 12:36:24",
   "sources": [
     "San Diego Fish Reports"
   ]
