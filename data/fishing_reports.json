@@ -413,7 +413,7 @@
       "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "Daily Doule",
       "trip": "1/2 Day AM",
-      "anglers": "12 Anglers",
+      "anglers": "17 Anglers",
       "species": "Barred Sand Bass",
       "count": 2,
       "released": false,
@@ -425,7 +425,7 @@
       "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "Daily Doule",
       "trip": "1/2 Day AM",
-      "anglers": "12 Anglers",
+      "anglers": "17 Anglers",
       "species": "Whitefish",
       "count": 1,
       "released": false,
@@ -437,7 +437,7 @@
       "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "Daily Doule",
       "trip": "1/2 Day AM",
-      "anglers": "12 Anglers",
+      "anglers": "17 Anglers",
       "species": "Rockfish",
       "count": 5,
       "released": false,
@@ -449,7 +449,7 @@
       "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "Daily Doule",
       "trip": "1/2 Day AM",
-      "anglers": "12 Anglers",
+      "anglers": "17 Anglers",
       "species": "Red Rockfish",
       "count": 32,
       "released": false,
@@ -44761,7 +44761,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-01 01:51:22",
+  "last_updated": "2025-07-01 12:40:48",
   "sources": [
     "San Diego Fish Reports"
   ]
