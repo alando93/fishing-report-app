@@ -277,6 +277,90 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "No Patience Sportfishing & Seafood Fish Counts",
+      "boat": "No Patience",
+      "trip": "1/2 Day AM",
+      "anglers": "4 Anglers",
+      "species": "Sand Bass",
+      "count": 8,
+      "released": false,
+      "date": "2025-07-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "No Patience Sportfishing & Seafood Fish Counts",
+      "boat": "No Patience",
+      "trip": "1/2 Day AM",
+      "anglers": "4 Anglers",
+      "species": "Copper Rockfish",
+      "count": 4,
+      "released": false,
+      "date": "2025-07-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "No Patience Sportfishing & Seafood Fish Counts",
+      "boat": "No Patience",
+      "trip": "1/2 Day AM",
+      "anglers": "4 Anglers",
+      "species": "Ocean Whitefish",
+      "count": 4,
+      "released": false,
+      "date": "2025-07-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "No Patience Sportfishing & Seafood Fish Counts",
+      "boat": "No Patience",
+      "trip": "1/2 Day AM",
+      "anglers": "4 Anglers",
+      "species": "Rockfish",
+      "count": 20,
+      "released": false,
+      "date": "2025-07-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "No Patience Sportfishing & Seafood Fish Counts",
+      "boat": "No Patience",
+      "trip": "1/2 Day AM",
+      "anglers": "4 Anglers",
+      "species": "Vermillion Rockfish",
+      "count": 8,
+      "released": false,
+      "date": "2025-07-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "No Patience Sportfishing & Seafood Fish Counts",
+      "boat": "No Patience",
+      "trip": "1/2 Day AM",
+      "anglers": "4 Anglers",
+      "species": "Rockfish",
+      "count": 25,
+      "released": true,
+      "date": "2025-07-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "No Patience Sportfishing & Seafood Fish Counts",
+      "boat": "No Patience",
+      "trip": "1/2 Day AM",
+      "anglers": "4 Anglers",
+      "species": "Vermillion Rockfish",
+      "count": 9,
+      "released": true,
+      "date": "2025-07-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Southern Cal",
@@ -46849,7 +46933,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-04 01:40:48",
+  "last_updated": "2025-07-04 12:39:43",
   "sources": [
     "San Diego Fish Reports"
   ]
