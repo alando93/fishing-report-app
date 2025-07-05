@@ -63,6 +63,78 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Fortune",
+      "trip": "1.5 Day",
+      "anglers": "11 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 22,
+      "released": false,
+      "date": "2025-07-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Fortune",
+      "trip": "1.5 Day",
+      "anglers": "11 Anglers",
+      "species": "Yellowtail",
+      "count": 17,
+      "released": false,
+      "date": "2025-07-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3 Day",
+      "anglers": "24 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 111,
+      "released": false,
+      "date": "2025-07-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "2 Day",
+      "anglers": "12 Anglers",
+      "species": "Bluefin Tuna (up to 100 pounds)",
+      "count": 48,
+      "released": false,
+      "date": "2025-07-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "1.5 Day",
+      "anglers": "31 Anglers",
+      "species": "Bluefin Tuna (up to 100 pounds)",
+      "count": 62,
+      "released": false,
+      "date": "2025-07-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pegasus",
+      "trip": "1.5 Day",
+      "anglers": "19 Anglers",
+      "species": "Bluefin Tuna (up to 100 pounds)",
+      "count": 38,
+      "released": false,
+      "date": "2025-07-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Tomahawk",
       "trip": "2 Day",
       "anglers": "27 Anglers",
@@ -47533,7 +47605,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-05 01:37:29",
+  "last_updated": "2025-07-05 12:36:24",
   "sources": [
     "San Diego Fish Reports"
   ]
