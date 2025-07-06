@@ -231,6 +231,30 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Nautilus",
+      "trip": "1/2 Day AM",
+      "anglers": "5 Anglers",
+      "species": "Whitefish",
+      "count": 14,
+      "released": false,
+      "date": "2025-07-06",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Nautilus",
+      "trip": "1/2 Day AM",
+      "anglers": "5 Anglers",
+      "species": "Rockfish",
+      "count": 22,
+      "released": false,
+      "date": "2025-07-06",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Premier",
       "trip": "1/2 Day AM",
       "anglers": "54 Anglers",
@@ -48457,7 +48481,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-06 01:48:54",
+  "last_updated": "2025-07-06 12:37:05",
   "sources": [
     "San Diego Fish Reports"
   ]
