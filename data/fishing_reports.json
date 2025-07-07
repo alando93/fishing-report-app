@@ -16,7 +16,7 @@
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
-      "trip": "1/2 Day AM",
+      "trip": "1/2 Day PM",
       "anglers": "40 Anglers",
       "species": "Sand Bass",
       "count": 160,
@@ -28,7 +28,7 @@
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
-      "trip": "1/2 Day AM",
+      "trip": "1/2 Day PM",
       "anglers": "40 Anglers",
       "species": "Sand Bass",
       "count": 150,
@@ -40,7 +40,7 @@
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
-      "trip": "1/2 Day PM",
+      "trip": "1/2 Day AM",
       "anglers": "46 Anglers",
       "species": "Sand Bass",
       "count": 184,
@@ -52,7 +52,7 @@
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
-      "trip": "1/2 Day PM",
+      "trip": "1/2 Day AM",
       "anglers": "46 Anglers",
       "species": "Halibut",
       "count": 2,
@@ -356,6 +356,18 @@
       "anglers": "28 Anglers",
       "species": "Rockfish",
       "count": 1,
+      "released": false,
+      "date": "2025-07-07",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "24 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 96,
       "released": false,
       "date": "2025-07-07",
       "source": "San Diego Fish Reports"
@@ -49069,7 +49081,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-07 01:46:34",
+  "last_updated": "2025-07-07 12:40:47",
   "sources": [
     "San Diego Fish Reports"
   ]
