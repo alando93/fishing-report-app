@@ -243,6 +243,114 @@
     {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Sand Bass",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Halibut",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Calico Bass",
+      "count": 6,
+      "released": false,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Lingcod",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Whitefish",
+      "count": 54,
+      "released": false,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Rockfish",
+      "count": 27,
+      "released": false,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Barracuda",
+      "count": 5,
+      "released": true,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Black Seabass",
+      "count": 1,
+      "released": true,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Sea Star",
+      "trip": "3/4 Day",
+      "anglers": "12 Anglers",
+      "species": "Calico Bass",
+      "count": 12,
+      "released": true,
+      "date": "2025-07-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Southern Cal",
       "trip": "1/2 Day AM",
       "anglers": "40 Anglers",
@@ -51469,7 +51577,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-11 01:44:25",
+  "last_updated": "2025-07-11 12:40:04",
   "sources": [
     "San Diego Fish Reports"
   ]
