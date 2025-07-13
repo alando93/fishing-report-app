@@ -26,6 +26,18 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day Twilight",
+      "anglers": "39 Anglers",
+      "species": "Sand Bass",
+      "count": 156,
+      "released": false,
+      "date": "2025-07-13",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Daiwa Pacific",
       "trip": "Full Day",
@@ -453,6 +465,54 @@
       "species": "Yellowtail",
       "count": 10,
       "released": false,
+      "date": "2025-07-13",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "15 Anglers",
+      "species": "Sand Bass",
+      "count": 46,
+      "released": false,
+      "date": "2025-07-13",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "15 Anglers",
+      "species": "Sheephead",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-13",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "15 Anglers",
+      "species": "Calico Bass",
+      "count": 14,
+      "released": false,
+      "date": "2025-07-13",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "15 Anglers",
+      "species": "Calico Bass",
+      "count": 75,
+      "released": true,
       "date": "2025-07-13",
       "source": "San Diego Fish Reports"
     },
@@ -52609,7 +52669,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-13 01:53:19",
+  "last_updated": "2025-07-13 12:38:06",
   "sources": [
     "San Diego Fish Reports"
   ]
