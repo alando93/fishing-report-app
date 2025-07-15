@@ -495,6 +495,30 @@
     {
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Highliner",
+      "trip": "Full Day",
+      "anglers": "34 Anglers",
+      "species": "Sand Bass",
+      "count": 80,
+      "released": false,
+      "date": "2025-07-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Highliner",
+      "trip": "Full Day",
+      "anglers": "34 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 2,
+      "released": false,
+      "date": "2025-07-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
       "trip": "1/2 Day AM",
       "anglers": "26 Anglers",
@@ -54229,7 +54253,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-15 01:49:27",
+  "last_updated": "2025-07-15 12:42:36",
   "sources": [
     "San Diego Fish Reports"
   ]
