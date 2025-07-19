@@ -184,7 +184,7 @@
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Vendetta 2",
-      "trip": "Full Day",
+      "trip": "Overnight",
       "anglers": "16 Anglers",
       "species": "Yellowtail",
       "count": 51,
@@ -196,7 +196,7 @@
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Vendetta 2",
-      "trip": "Full Day",
+      "trip": "Overnight",
       "anglers": "16 Anglers",
       "species": "Bonito",
       "count": 2,
@@ -248,6 +248,18 @@
       "anglers": "21 Anglers",
       "species": "Mackerel",
       "count": 75,
+      "released": false,
+      "date": "2025-07-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "28 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 50,
       "released": false,
       "date": "2025-07-19",
       "source": "San Diego Fish Reports"
@@ -56749,7 +56761,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-19 01:43:04",
+  "last_updated": "2025-07-19 12:38:44",
   "sources": [
     "San Diego Fish Reports"
   ]
