@@ -99,6 +99,30 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day",
+      "anglers": "12 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-20",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day",
+      "anglers": "12 Anglers",
+      "species": "Mako Shark",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-20",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Daiwa Pacific",
       "trip": "Full Day",
       "anglers": "20 Anglers",
@@ -584,6 +608,30 @@
       "anglers": "22 Anglers",
       "species": "Rockfish",
       "count": 5,
+      "released": false,
+      "date": "2025-07-20",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-20",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Yellowtail",
+      "count": 25,
       "released": false,
       "date": "2025-07-20",
       "source": "San Diego Fish Reports"
@@ -57601,7 +57649,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-20 01:54:46",
+  "last_updated": "2025-07-20 12:39:02",
   "sources": [
     "San Diego Fish Reports"
   ]
