@@ -279,6 +279,42 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Daiwa Pacific",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Lingcod",
+      "count": 2,
+      "released": false,
+      "date": "2025-07-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Daiwa Pacific",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Rockfish",
+      "count": 14,
+      "released": false,
+      "date": "2025-07-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Daiwa Pacific",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Red Rockfish",
+      "count": 54,
+      "released": false,
+      "date": "2025-07-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Excaliur",
       "trip": "3 Day",
       "anglers": "27 Anglers",
@@ -680,6 +716,18 @@
       "anglers": "14 Anglers",
       "species": "Rockfish",
       "count": 1,
+      "released": false,
+      "date": "2025-07-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day PM",
+      "anglers": "15 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 60,
       "released": false,
       "date": "2025-07-21",
       "source": "San Diego Fish Reports"
@@ -58705,7 +58753,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-21 01:52:14",
+  "last_updated": "2025-07-21 12:44:03",
   "sources": [
     "San Diego Fish Reports"
   ]
