@@ -39,6 +39,90 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "1/2 Day PM",
+      "anglers": "21 Anglers",
+      "species": "Sand Bass",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "1/2 Day PM",
+      "anglers": "21 Anglers",
+      "species": "Calico Bass",
+      "count": 39,
+      "released": false,
+      "date": "2025-07-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "1/2 Day PM",
+      "anglers": "21 Anglers",
+      "species": "Rockfish",
+      "count": 4,
+      "released": false,
+      "date": "2025-07-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "1/2 Day PM",
+      "anglers": "21 Anglers",
+      "species": "Calico Bass",
+      "count": 120,
+      "released": true,
+      "date": "2025-07-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Nautilus",
+      "trip": "2 Day",
+      "anglers": "5 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 19,
+      "released": false,
+      "date": "2025-07-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Old Glory",
+      "trip": "Overnight",
+      "anglers": "31 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 10,
+      "released": false,
+      "date": "2025-07-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Old Glory",
+      "trip": "Overnight",
+      "anglers": "31 Anglers",
+      "species": "Yellowtail",
+      "count": 4,
+      "released": false,
+      "date": "2025-07-23",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Ranger 85",
       "trip": "2 Day",
       "anglers": "28 Anglers",
@@ -60349,7 +60433,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-23 01:48:11",
+  "last_updated": "2025-07-23 12:43:49",
   "sources": [
     "San Diego Fish Reports"
   ]
