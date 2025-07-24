@@ -194,6 +194,42 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "1.5 Day",
+      "anglers": "13 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 26,
+      "released": false,
+      "date": "2025-07-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "3 Day",
+      "anglers": "26 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 156,
+      "released": false,
+      "date": "2025-07-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "3 Day",
+      "anglers": "26 Anglers",
+      "species": "Yellowtail",
+      "count": 138,
+      "released": false,
+      "date": "2025-07-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Grande",
       "trip": "Full Day",
@@ -308,6 +344,30 @@
       "anglers": "32 Anglers",
       "species": "Bluefin Tuna",
       "count": 64,
+      "released": false,
+      "date": "2025-07-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "20 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 12,
+      "released": false,
+      "date": "2025-07-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "20 Anglers",
+      "species": "Yellowtail",
+      "count": 22,
       "released": false,
       "date": "2025-07-24",
       "source": "San Diego Fish Reports"
@@ -61117,7 +61177,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-24 01:47:16",
+  "last_updated": "2025-07-24 12:43:43",
   "sources": [
     "San Diego Fish Reports"
   ]
