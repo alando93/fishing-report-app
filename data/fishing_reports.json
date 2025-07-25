@@ -231,6 +231,18 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Horizon",
+      "trip": "Full Day",
+      "anglers": "17 Anglers",
+      "species": "Yellowtail",
+      "count": 19,
+      "released": false,
+      "date": "2025-07-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Malihini",
       "trip": "1/2 Day AM",
       "anglers": "44 Anglers",
@@ -260,6 +272,30 @@
       "anglers": "44 Anglers",
       "species": "Red Rockfish",
       "count": 40,
+      "released": false,
+      "date": "2025-07-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Old Glory",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 5,
+      "released": false,
+      "date": "2025-07-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Old Glory",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Yellowtail",
+      "count": 79,
       "released": false,
       "date": "2025-07-25",
       "source": "San Diego Fish Reports"
@@ -700,7 +736,7 @@
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
-      "trip": "1/2 Day AM",
+      "trip": "1/2 Day PM",
       "anglers": "36 Anglers",
       "species": "Sheephead",
       "count": 1,
@@ -712,7 +748,7 @@
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
-      "trip": "1/2 Day AM",
+      "trip": "1/2 Day PM",
       "anglers": "36 Anglers",
       "species": "Calico Bass",
       "count": 36,
@@ -61909,7 +61945,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-25 01:46:52",
+  "last_updated": "2025-07-25 12:42:12",
   "sources": [
     "San Diego Fish Reports"
   ]
