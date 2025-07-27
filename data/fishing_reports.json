@@ -111,6 +111,30 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "2.5 Day",
+      "anglers": "25 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 2,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "2.5 Day",
+      "anglers": "25 Anglers",
+      "species": "Yellowtail",
+      "count": 97,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Tradition",
       "trip": "Overnight",
       "anglers": "25 Anglers",
@@ -212,6 +236,90 @@
       "anglers": "45 Anglers",
       "species": "Red Rockfish",
       "count": 1,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Horizon",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Barracuda",
+      "count": 10,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Horizon",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Sculpin",
+      "count": 10,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Horizon",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Sheephead",
+      "count": 2,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Horizon",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Yellowtail",
+      "count": 38,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Horizon",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Calico Bass",
+      "count": 14,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Horizon",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Whitefish",
+      "count": 40,
+      "released": false,
+      "date": "2025-07-27",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Horizon",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
+      "species": "Rockfish",
+      "count": 5,
       "released": false,
       "date": "2025-07-27",
       "source": "San Diego Fish Reports"
@@ -63313,7 +63421,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-27 01:55:31",
+  "last_updated": "2025-07-27 12:40:11",
   "sources": [
     "San Diego Fish Reports"
   ]
