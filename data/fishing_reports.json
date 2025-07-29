@@ -687,6 +687,30 @@
     {
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "San Diego",
+      "trip": "Full Day",
+      "anglers": "35 Anglers",
+      "species": "Yellowtail",
+      "count": 7,
+      "released": false,
+      "date": "2025-07-29",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "San Diego",
+      "trip": "Full Day",
+      "anglers": "35 Anglers",
+      "species": "Dorado",
+      "count": 1,
+      "released": false,
+      "date": "2025-07-29",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Triute",
       "trip": "1.5 Day",
       "anglers": "30 Anglers",
@@ -65113,7 +65137,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-07-29 01:59:41",
+  "last_updated": "2025-07-29 12:45:35",
   "sources": [
     "San Diego Fish Reports"
   ]
