@@ -98,6 +98,42 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1.5 Day",
+      "anglers": "10 Anglers",
+      "species": "Barracuda",
+      "count": 35,
+      "released": false,
+      "date": "2025-08-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1.5 Day",
+      "anglers": "10 Anglers",
+      "species": "Yellowtail",
+      "count": 7,
+      "released": false,
+      "date": "2025-08-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1.5 Day",
+      "anglers": "10 Anglers",
+      "species": "Calico Bass",
+      "count": 5,
+      "released": false,
+      "date": "2025-08-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Grande",
       "trip": "Overnight",
@@ -724,66 +760,6 @@
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
-      "trip": "1/2 Day Twilight",
-      "anglers": "50 Anglers",
-      "species": "Sculpin",
-      "count": 4,
-      "released": false,
-      "date": "2025-08-02",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day Twilight",
-      "anglers": "50 Anglers",
-      "species": "Sheephead",
-      "count": 1,
-      "released": false,
-      "date": "2025-08-02",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day Twilight",
-      "anglers": "50 Anglers",
-      "species": "Calico Bass",
-      "count": 2,
-      "released": false,
-      "date": "2025-08-02",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day Twilight",
-      "anglers": "50 Anglers",
-      "species": "Rockfish",
-      "count": 47,
-      "released": false,
-      "date": "2025-08-02",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day Twilight",
-      "anglers": "50 Anglers",
-      "species": "Vermilion Rockfish",
-      "count": 5,
-      "released": false,
-      "date": "2025-08-02",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
       "trip": "1/2 Day PM",
       "anglers": "51 Anglers",
       "species": "Barracuda",
@@ -849,6 +825,66 @@
       "species": "Barracuda",
       "count": 100,
       "released": true,
+      "date": "2025-08-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day Twilight",
+      "anglers": "22 Anglers",
+      "species": "Sculpin",
+      "count": 4,
+      "released": false,
+      "date": "2025-08-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day Twilight",
+      "anglers": "22 Anglers",
+      "species": "Sheephead",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day Twilight",
+      "anglers": "22 Anglers",
+      "species": "Calico Bass",
+      "count": 2,
+      "released": false,
+      "date": "2025-08-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day Twilight",
+      "anglers": "22 Anglers",
+      "species": "Rockfish",
+      "count": 47,
+      "released": false,
+      "date": "2025-08-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day Twilight",
+      "anglers": "22 Anglers",
+      "species": "Vermilion Rockfish",
+      "count": 5,
+      "released": false,
       "date": "2025-08-02",
       "source": "San Diego Fish Reports"
     },
@@ -68461,7 +68497,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-02 01:44:13",
+  "last_updated": "2025-08-02 12:39:29",
   "sources": [
     "San Diego Fish Reports"
   ]
