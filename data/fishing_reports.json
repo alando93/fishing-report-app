@@ -90,9 +90,105 @@
       "boat": "Tradition",
       "trip": "Overnight",
       "anglers": "22 Anglers",
+      "species": "Barracuda",
+      "count": 30,
+      "released": false,
+      "date": "2025-08-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "Overnight",
+      "anglers": "22 Anglers",
       "species": "Yellowtail",
       "count": 97,
       "released": false,
+      "date": "2025-08-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "Overnight",
+      "anglers": "22 Anglers",
+      "species": "Lingcod",
+      "count": 6,
+      "released": false,
+      "date": "2025-08-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "Overnight",
+      "anglers": "22 Anglers",
+      "species": "Rockfish",
+      "count": 10,
+      "released": false,
+      "date": "2025-08-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "Overnight",
+      "anglers": "22 Anglers",
+      "species": "White Seabass",
+      "count": 2,
+      "released": false,
+      "date": "2025-08-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day",
+      "anglers": "14 Anglers",
+      "species": "Barracuda",
+      "count": 28,
+      "released": true,
+      "date": "2025-08-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day",
+      "anglers": "14 Anglers",
+      "species": "Calico Bass",
+      "count": 35,
+      "released": true,
+      "date": "2025-08-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day",
+      "anglers": "14 Anglers",
+      "species": "Rockfish",
+      "count": 2,
+      "released": true,
+      "date": "2025-08-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day",
+      "anglers": "14 Anglers",
+      "species": "White Seabass",
+      "count": 1,
+      "released": true,
       "date": "2025-08-03",
       "source": "San Diego Fish Reports"
     },
@@ -69193,7 +69289,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-03 01:57:11",
+  "last_updated": "2025-08-03 12:41:26",
   "sources": [
     "San Diego Fish Reports"
   ]
