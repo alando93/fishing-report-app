@@ -279,6 +279,42 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Calico Bass",
+      "count": 10,
+      "released": false,
+      "date": "2025-08-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Whitefish",
+      "count": 22,
+      "released": false,
+      "date": "2025-08-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "9 Anglers",
+      "species": "Rockfish",
+      "count": 40,
+      "released": false,
+      "date": "2025-08-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Producer",
       "trip": "Overnight",
       "anglers": "14 Anglers",
@@ -78829,7 +78865,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-15 01:42:44",
+  "last_updated": "2025-08-15 12:39:23",
   "sources": [
     "San Diego Fish Reports"
   ]
