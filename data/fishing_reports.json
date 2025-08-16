@@ -98,6 +98,66 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lucky B Sportfishing",
+      "trip": "Full Day",
+      "anglers": "4 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 8,
+      "released": false,
+      "date": "2025-08-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "1/2 Day Twilight",
+      "anglers": "9 Anglers",
+      "species": "Sand Bass",
+      "count": 10,
+      "released": false,
+      "date": "2025-08-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "1/2 Day Twilight",
+      "anglers": "9 Anglers",
+      "species": "Halibut",
+      "count": 8,
+      "released": false,
+      "date": "2025-08-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "1/2 Day Twilight",
+      "anglers": "9 Anglers",
+      "species": "Calico Bass",
+      "count": 10,
+      "released": false,
+      "date": "2025-08-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "1/2 Day Twilight",
+      "anglers": "9 Anglers",
+      "species": "Spotted Sand Bass",
+      "count": 35,
+      "released": false,
+      "date": "2025-08-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Malihini",
       "trip": "3/4 Day",
@@ -211,7 +271,7 @@
       "trip": "Overnight",
       "anglers": "36 Anglers",
       "species": "Bluefin Tuna",
-      "count": 41,
+      "count": 43,
       "released": false,
       "date": "2025-08-16",
       "source": "San Diego Fish Reports"
@@ -79801,7 +79861,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-16 01:37:25",
+  "last_updated": "2025-08-16 12:37:32",
   "sources": [
     "San Diego Fish Reports"
   ]
