@@ -1203,6 +1203,18 @@
     {
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "3 Day",
+      "anglers": "16 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 85,
+      "released": false,
+      "date": "2025-08-18",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Pacifica",
       "trip": "1.5 Day",
       "anglers": "28 Anglers",
@@ -82177,7 +82189,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-18 01:48:15",
+  "last_updated": "2025-08-18 12:42:43",
   "sources": [
     "San Diego Fish Reports"
   ]
