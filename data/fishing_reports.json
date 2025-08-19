@@ -3,6 +3,66 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "9 Anglers",
+      "species": "Rockfish",
+      "count": 28,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Sculpin",
+      "count": 2,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Sheephead",
+      "count": 3,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Calico Bass",
+      "count": 3,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Vermilion Rockfish",
+      "count": 42,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Fortune",
       "trip": "2.5 Day",
       "anglers": "20 Anglers",
@@ -92,6 +152,30 @@
       "anglers": "18 Anglers",
       "species": "Yellowtail",
       "count": 3,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "3.5 Day",
+      "anglers": "20 Anglers",
+      "species": "Bluefin Tuna (up to 200 pounds)",
+      "count": 115,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "3.5 Day",
+      "anglers": "20 Anglers",
+      "species": "Yellowtail",
+      "count": 10,
       "released": false,
       "date": "2025-08-19",
       "source": "San Diego Fish Reports"
@@ -332,6 +416,42 @@
       "anglers": "9 Anglers",
       "species": "Rockfish",
       "count": 40,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Mission Belle",
+      "trip": "Full Day",
+      "anglers": "30 Anglers",
+      "species": "Yellowtail",
+      "count": 12,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "15 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "15 Anglers",
+      "species": "Yellowtail",
+      "count": 5,
       "released": false,
       "date": "2025-08-19",
       "source": "San Diego Fish Reports"
@@ -82945,7 +83065,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-19 01:37:04",
+  "last_updated": "2025-08-19 12:40:00",
   "sources": [
     "San Diego Fish Reports"
   ]
