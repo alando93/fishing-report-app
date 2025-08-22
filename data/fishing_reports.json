@@ -3,6 +3,78 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "16 Anglers",
+      "species": "Sand Bass",
+      "count": 3,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "16 Anglers",
+      "species": "Sheephead",
+      "count": 2,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "16 Anglers",
+      "species": "Rockfish",
+      "count": 51,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "25 Anglers",
+      "species": "Sheephead",
+      "count": 4,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "25 Anglers",
+      "species": "Calico Bass",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "25 Anglers",
+      "species": "Rockfish",
+      "count": 119,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Pacific Queen",
       "trip": "3 Day",
       "anglers": "24 Anglers",
@@ -57,6 +129,102 @@
       "species": "Yellowtail",
       "count": 3,
       "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "8 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 2,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "8 Anglers",
+      "species": "Barracuda",
+      "count": 3,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "8 Anglers",
+      "species": "Sheephead",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "8 Anglers",
+      "species": "Yellowtail",
+      "count": 7,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "8 Anglers",
+      "species": "Calico Bass",
+      "count": 4,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "8 Anglers",
+      "species": "Whitefish",
+      "count": 7,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "8 Anglers",
+      "species": "Rockfish",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "8 Anglers",
+      "species": "Calico Bass",
+      "count": 15,
+      "released": true,
       "date": "2025-08-22",
       "source": "San Diego Fish Reports"
     },
@@ -344,6 +512,30 @@
       "anglers": "20 Anglers",
       "species": "Yellowtail",
       "count": 12,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Vendetta 2",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "9 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Vendetta 2",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "9 Anglers",
+      "species": "Yellowtail",
+      "count": 11,
       "released": false,
       "date": "2025-08-22",
       "source": "San Diego Fish Reports"
@@ -85405,7 +85597,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-22 01:26:40",
+  "last_updated": "2025-08-22 12:38:25",
   "sources": [
     "San Diego Fish Reports"
   ]
