@@ -291,6 +291,18 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day",
+      "anglers": "14 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 3,
+      "released": false,
+      "date": "2025-08-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Excaliur",
       "trip": "2.5 Day",
       "anglers": "26 Anglers",
@@ -88957,7 +88969,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-25 01:39:03",
+  "last_updated": "2025-08-25 12:40:20",
   "sources": [
     "San Diego Fish Reports"
   ]
