@@ -3,6 +3,66 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Sheephead",
+      "count": 8,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Calico Bass",
+      "count": 36,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Bonito",
+      "count": 4,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Rockfish",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Calico Bass",
+      "count": 50,
+      "released": true,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Islander",
       "trip": "3 Day",
       "anglers": "18 Anglers",
@@ -260,6 +320,66 @@
       "anglers": "13 Anglers",
       "species": "Yellowtail",
       "count": 10,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "El Gato Dos",
+      "trip": "Full Day Local",
+      "anglers": "5 Anglers",
+      "species": "Barracuda",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "El Gato Dos",
+      "trip": "Full Day Local",
+      "anglers": "5 Anglers",
+      "species": "Calico Bass",
+      "count": 7,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "El Gato Dos",
+      "trip": "Full Day Local",
+      "anglers": "5 Anglers",
+      "species": "Whitefish",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "El Gato Dos",
+      "trip": "Full Day Local",
+      "anglers": "5 Anglers",
+      "species": "Bonito",
+      "count": 2,
+      "released": false,
+      "date": "2025-08-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "El Gato Dos",
+      "trip": "Full Day Local",
+      "anglers": "5 Anglers",
+      "species": "Vermilion Rockfish",
+      "count": 25,
       "released": false,
       "date": "2025-08-26",
       "source": "San Diego Fish Reports"
@@ -89581,7 +89701,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-26 01:27:58",
+  "last_updated": "2025-08-26 12:41:33",
   "sources": [
     "San Diego Fish Reports"
   ]
