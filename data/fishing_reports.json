@@ -366,8 +366,20 @@
       "boat": "Producer",
       "trip": "Overnight",
       "anglers": "21 Anglers",
+      "species": "Whitefish",
+      "count": 22,
+      "released": false,
+      "date": "2025-08-29",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "21 Anglers",
       "species": "Rockfish",
-      "count": 15,
+      "count": 50,
       "released": false,
       "date": "2025-08-29",
       "source": "San Diego Fish Reports"
@@ -91813,7 +91825,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-29 01:25:09",
+  "last_updated": "2025-08-29 12:37:59",
   "sources": [
     "San Diego Fish Reports"
   ]
