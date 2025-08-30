@@ -74,6 +74,150 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "22 Anglers",
+      "species": "Halibut",
+      "count": 1,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "22 Anglers",
+      "species": "Sculpin",
+      "count": 2,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "22 Anglers",
+      "species": "Sheephead",
+      "count": 7,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "22 Anglers",
+      "species": "Calico Bass",
+      "count": 3,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "22 Anglers",
+      "species": "Whitefish",
+      "count": 12,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "22 Anglers",
+      "species": "Rockfish",
+      "count": 25,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Fortune",
+      "trip": "3.5 Day",
+      "anglers": "7 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 42,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Fortune",
+      "trip": "3.5 Day",
+      "anglers": "7 Anglers",
+      "species": "Sheephead",
+      "count": 42,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3.5 Day",
+      "anglers": "27 Anglers",
+      "species": "Bluefin Tuna (up to 200 pounds)",
+      "count": 58,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3.5 Day",
+      "anglers": "27 Anglers",
+      "species": "Yellowtail",
+      "count": 8,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "1.5 Day",
+      "anglers": "17 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 19,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Tomahawk",
+      "trip": "2.5 Day",
+      "anglers": "25 Anglers",
+      "species": "Bluefin Tuna (up to 120 pounds)",
+      "count": 100,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Excaliur",
       "trip": "2.5 Day",
@@ -224,6 +368,30 @@
       "anglers": "4 Anglers",
       "species": "Rockfish",
       "count": 9,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Old Glory",
+      "trip": "Overnight",
+      "anglers": "24 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 33,
+      "released": false,
+      "date": "2025-08-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Old Glory",
+      "trip": "Overnight",
+      "anglers": "24 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 1,
       "released": false,
       "date": "2025-08-30",
       "source": "San Diego Fish Reports"
@@ -92965,7 +93133,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-08-30 01:20:50",
+  "last_updated": "2025-08-30 12:34:30",
   "sources": [
     "San Diego Fish Reports"
   ]
