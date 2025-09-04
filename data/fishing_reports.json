@@ -231,6 +231,42 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Nautilus",
+      "trip": "Full Day",
+      "anglers": "6 Anglers",
+      "species": "Yellowtail",
+      "count": 6,
+      "released": false,
+      "date": "2025-09-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Nautilus",
+      "trip": "Full Day",
+      "anglers": "6 Anglers",
+      "species": "Calico Bass",
+      "count": 6,
+      "released": false,
+      "date": "2025-09-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Nautilus",
+      "trip": "Full Day",
+      "anglers": "6 Anglers",
+      "species": "Rockfish",
+      "count": 3,
+      "released": false,
+      "date": "2025-09-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Premier",
       "trip": "1/2 Day AM",
       "anglers": "12 Anglers",
@@ -98077,7 +98113,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-04 01:20:49",
+  "last_updated": "2025-09-04 12:36:21",
   "sources": [
     "San Diego Fish Reports"
   ]
