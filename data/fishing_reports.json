@@ -38,6 +38,42 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3 Day",
+      "anglers": "22 Anglers",
+      "species": "Bluefin Tuna (up to 70 pounds)",
+      "count": 20,
+      "released": false,
+      "date": "2025-09-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3 Day",
+      "anglers": "22 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 8,
+      "released": false,
+      "date": "2025-09-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lucky B Sportfishing",
+      "trip": "Full Day",
+      "anglers": "3 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 4,
+      "released": false,
+      "date": "2025-09-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Excaliur",
       "trip": "3 Day",
@@ -98629,7 +98665,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-05 01:22:57",
+  "last_updated": "2025-09-05 12:37:09",
   "sources": [
     "San Diego Fish Reports"
   ]
