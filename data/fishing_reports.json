@@ -159,6 +159,18 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Old Glory",
+      "trip": "Overnight",
+      "anglers": "18 Anglers",
+      "species": "Rockfish",
+      "count": 54,
+      "released": false,
+      "date": "2025-09-09",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Premier",
       "trip": "1/2 Day AM",
       "anglers": "19 Anglers",
@@ -102913,7 +102925,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-09 01:24:19",
+  "last_updated": "2025-09-09 12:40:27",
   "sources": [
     "San Diego Fish Reports"
   ]
