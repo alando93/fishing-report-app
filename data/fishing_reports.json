@@ -109,6 +109,66 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "16 Anglers",
+      "species": "Sheephead",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "16 Anglers",
+      "species": "Calico Bass",
+      "count": 23,
+      "released": false,
+      "date": "2025-09-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "16 Anglers",
+      "species": "Bonito",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "16 Anglers",
+      "species": "Rockfish",
+      "count": 3,
+      "released": false,
+      "date": "2025-09-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "16 Anglers",
+      "species": "Calico Bass",
+      "count": 50,
+      "released": true,
+      "date": "2025-09-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Blue Horizon",
@@ -103477,7 +103537,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-10 01:21:18",
+  "last_updated": "2025-09-10 12:37:42",
   "sources": [
     "San Diego Fish Reports"
   ]
