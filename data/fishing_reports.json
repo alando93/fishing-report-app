@@ -2,6 +2,42 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "2 Day",
+      "anglers": "21 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 3,
+      "released": false,
+      "date": "2025-09-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "2 Day",
+      "anglers": "21 Anglers",
+      "species": "Yellowtail",
+      "count": 2,
+      "released": false,
+      "date": "2025-09-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "2 Day",
+      "anglers": "21 Anglers",
+      "species": "Dorado",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Ocean Odyssey",
       "trip": "1.5 Day",
@@ -103813,7 +103849,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-11 01:23:31",
+  "last_updated": "2025-09-11 12:36:58",
   "sources": [
     "San Diego Fish Reports"
   ]
