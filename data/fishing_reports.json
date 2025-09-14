@@ -195,6 +195,18 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "3/4 Day",
+      "anglers": "6 Anglers",
+      "species": "Rockfish",
+      "count": 40,
+      "released": false,
+      "date": "2025-09-14",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Excaliur",
       "trip": "2 Day",
       "anglers": "25 Anglers",
@@ -440,6 +452,78 @@
       "anglers": "13 Anglers",
       "species": "Bluefin Tuna (up to 150 pounds)",
       "count": 78,
+      "released": false,
+      "date": "2025-09-14",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Sheephead",
+      "count": 13,
+      "released": false,
+      "date": "2025-09-14",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Yellowtail",
+      "count": 2,
+      "released": false,
+      "date": "2025-09-14",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Calico Bass",
+      "count": 28,
+      "released": false,
+      "date": "2025-09-14",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Whitefish",
+      "count": 6,
+      "released": false,
+      "date": "2025-09-14",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Bonito",
+      "count": 2,
+      "released": false,
+      "date": "2025-09-14",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Rockfish",
+      "count": 13,
       "released": false,
       "date": "2025-09-14",
       "source": "San Diego Fish Reports"
@@ -105709,7 +105793,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-14 01:27:37",
+  "last_updated": "2025-09-14 12:32:58",
   "sources": [
     "San Diego Fish Reports"
   ]
