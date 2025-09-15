@@ -75,11 +75,59 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "55 Anglers",
+      "species": "Sculpin",
+      "count": 9,
+      "released": false,
+      "date": "2025-09-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "55 Anglers",
+      "species": "Sheephead",
+      "count": 15,
+      "released": false,
+      "date": "2025-09-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "55 Anglers",
+      "species": "Rockfish",
+      "count": 97,
+      "released": false,
+      "date": "2025-09-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Islander",
       "trip": "3 Day",
       "anglers": "20 Anglers",
       "species": "Bluefin Tuna",
       "count": 40,
+      "released": false,
+      "date": "2025-09-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "2 Day",
+      "anglers": "17 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 68,
       "released": false,
       "date": "2025-09-15",
       "source": "San Diego Fish Reports"
@@ -107065,7 +107113,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-15 01:27:41",
+  "last_updated": "2025-09-15 12:38:45",
   "sources": [
     "San Diego Fish Reports"
   ]
