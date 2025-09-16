@@ -483,6 +483,66 @@
     {
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "San Diego",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "11 Anglers",
+      "species": "Sculpin",
+      "count": 15,
+      "released": false,
+      "date": "2025-09-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "San Diego",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "11 Anglers",
+      "species": "Yellowtail",
+      "count": 16,
+      "released": false,
+      "date": "2025-09-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "San Diego",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "11 Anglers",
+      "species": "Lingcod",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "San Diego",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "11 Anglers",
+      "species": "Whitefish",
+      "count": 35,
+      "released": false,
+      "date": "2025-09-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "San Diego",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "11 Anglers",
+      "species": "Rockfish",
+      "count": 18,
+      "released": false,
+      "date": "2025-09-16",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Sea Watch",
       "trip": "Full Day Coronado Islands",
       "anglers": "10 Anglers",
@@ -107677,7 +107737,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-16 01:21:15",
+  "last_updated": "2025-09-16 12:38:24",
   "sources": [
     "San Diego Fish Reports"
   ]
