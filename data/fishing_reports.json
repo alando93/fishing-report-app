@@ -15,6 +15,66 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-17",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Sheephead",
+      "count": 9,
+      "released": false,
+      "date": "2025-09-17",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Yellowtail",
+      "count": 20,
+      "released": false,
+      "date": "2025-09-17",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Lingcod",
+      "count": 3,
+      "released": false,
+      "date": "2025-09-17",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "Full Day",
+      "anglers": "18 Anglers",
+      "species": "Rockfish",
+      "count": 115,
+      "released": false,
+      "date": "2025-09-17",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Tomahawk",
       "trip": "2 Day",
       "anglers": "23 Anglers",
@@ -108145,7 +108205,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-17 01:21:46",
+  "last_updated": "2025-09-17 12:38:41",
   "sources": [
     "San Diego Fish Reports"
   ]
