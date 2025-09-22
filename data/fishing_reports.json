@@ -219,6 +219,18 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Alicia",
+      "trip": "Full Day Offshore",
+      "anglers": "12 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Excaliur",
       "trip": "2 Day",
       "anglers": "24 Anglers",
@@ -297,6 +309,126 @@
       "species": "Bluefin Tuna",
       "count": 168,
       "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Sand Bass",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Sculpin",
+      "count": 38,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Sheephead",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Calico Bass",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Lingcod",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Whitefish",
+      "count": 15,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Bonito",
+      "count": 13,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Rockfish",
+      "count": 51,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Red Rockfish",
+      "count": 62,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Malihini",
+      "trip": "3/4 Day",
+      "anglers": "31 Anglers",
+      "species": "Calico Bass",
+      "count": 8,
+      "released": true,
       "date": "2025-09-22",
       "source": "San Diego Fish Reports"
     },
@@ -728,6 +860,18 @@
       "anglers": "6 Anglers",
       "species": "Bluefin Tuna",
       "count": 1,
+      "released": false,
+      "date": "2025-09-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Highliner",
+      "trip": "1.5 Day",
+      "anglers": "26 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 36,
       "released": false,
       "date": "2025-09-22",
       "source": "San Diego Fish Reports"
@@ -111889,7 +112033,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-22 01:37:31",
+  "last_updated": "2025-09-22 12:39:19",
   "sources": [
     "San Diego Fish Reports"
   ]
