@@ -110,12 +110,84 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "Full Day",
+      "anglers": "25 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 3,
+      "released": false,
+      "date": "2025-09-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "2.5 Day",
+      "anglers": "14 Anglers",
+      "species": "Bluefin Tuna (up to 130 pounds)",
+      "count": 18,
+      "released": false,
+      "date": "2025-09-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "2.5 Day",
+      "anglers": "14 Anglers",
+      "species": "Yellowtail",
+      "count": 19,
+      "released": false,
+      "date": "2025-09-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "3.5 Day",
+      "anglers": "18 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 108,
+      "released": false,
+      "date": "2025-09-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "3.5 Day",
+      "anglers": "18 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 270,
+      "released": false,
+      "date": "2025-09-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Grande",
       "trip": "Full Day Offshore",
       "anglers": "16 Anglers",
       "species": "Bluefin Tuna",
       "count": 6,
+      "released": false,
+      "date": "2025-09-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Legend",
+      "trip": "1.5 Day",
+      "anglers": "25 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 15,
       "released": false,
       "date": "2025-09-26",
       "source": "San Diego Fish Reports"
@@ -113953,7 +114025,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-26 01:22:52",
+  "last_updated": "2025-09-26 12:38:45",
   "sources": [
     "San Diego Fish Reports"
   ]
