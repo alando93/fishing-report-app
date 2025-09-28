@@ -3,6 +3,42 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Constitution",
+      "trip": "2.5 Day",
+      "anglers": "25 Anglers",
+      "species": "Dorado",
+      "count": 4,
+      "released": false,
+      "date": "2025-09-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Constitution",
+      "trip": "2.5 Day",
+      "anglers": "25 Anglers",
+      "species": "Skipjack Tuna",
+      "count": 5,
+      "released": false,
+      "date": "2025-09-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Constitution",
+      "trip": "2.5 Day",
+      "anglers": "25 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 104,
+      "released": false,
+      "date": "2025-09-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day AM",
       "anglers": "55 Anglers",
@@ -80,6 +116,30 @@
       "anglers": "36 Anglers",
       "species": "Vermilion Rockfish",
       "count": 72,
+      "released": false,
+      "date": "2025-09-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Fortune",
+      "trip": "Overnight",
+      "anglers": "19 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 30,
+      "released": false,
+      "date": "2025-09-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Queen",
+      "trip": "1.5 Day",
+      "anglers": "22 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 110,
       "released": false,
       "date": "2025-09-28",
       "source": "San Diego Fish Reports"
@@ -248,6 +308,42 @@
       "anglers": "36 Anglers",
       "species": "Rockfish",
       "count": 53,
+      "released": false,
+      "date": "2025-09-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "29 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 4,
+      "released": false,
+      "date": "2025-09-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "29 Anglers",
+      "species": "Skipjack Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-09-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "29 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 15,
       "released": false,
       "date": "2025-09-28",
       "source": "San Diego Fish Reports"
@@ -115597,7 +115693,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-28 01:38:06",
+  "last_updated": "2025-09-28 12:34:43",
   "sources": [
     "San Diego Fish Reports"
   ]
