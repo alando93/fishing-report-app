@@ -651,6 +651,18 @@
     {
       "location": "San Diego, CA",
       "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Mission Belle",
+      "trip": "Full Day",
+      "anglers": "11 Anglers",
+      "species": "Yellowtail",
+      "count": 15,
+      "released": false,
+      "date": "2025-09-29",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "New Lo-An",
       "trip": "3 Day",
       "anglers": "16 Anglers",
@@ -116785,7 +116797,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-09-29 01:24:52",
+  "last_updated": "2025-09-29 12:40:30",
   "sources": [
     "San Diego Fish Reports"
   ]
