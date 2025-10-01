@@ -87,6 +87,30 @@
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "2 Day",
+      "anglers": "18 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 44,
+      "released": false,
+      "date": "2025-10-01",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "2 Day",
+      "anglers": "18 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 4,
+      "released": false,
+      "date": "2025-10-01",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
       "boat": "Tomahawk",
       "trip": "2 Day",
       "anglers": "27 Anglers",
@@ -118177,7 +118201,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-10-01 01:39:59",
+  "last_updated": "2025-10-01 12:40:41",
   "sources": [
     "San Diego Fish Reports"
   ]
