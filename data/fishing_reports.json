@@ -26,6 +26,90 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3 Day",
+      "anglers": "26 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 116,
+      "released": false,
+      "date": "2025-10-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3 Day",
+      "anglers": "26 Anglers",
+      "species": "Yellowtail",
+      "count": 32,
+      "released": false,
+      "date": "2025-10-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3 Day",
+      "anglers": "26 Anglers",
+      "species": "Dorado",
+      "count": 15,
+      "released": false,
+      "date": "2025-10-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Islander",
+      "trip": "3 Day",
+      "anglers": "26 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 16,
+      "released": false,
+      "date": "2025-10-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "3 Day",
+      "anglers": "9 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 54,
+      "released": false,
+      "date": "2025-10-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "3 Day",
+      "anglers": "9 Anglers",
+      "species": "Dorado",
+      "count": 10,
+      "released": false,
+      "date": "2025-10-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Pacific Dawn",
+      "trip": "3 Day",
+      "anglers": "9 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 13,
+      "released": false,
+      "date": "2025-10-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Alicia",
       "trip": "1/2 Day Twilight",
@@ -118753,7 +118837,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-10-02 01:21:27",
+  "last_updated": "2025-10-02 12:37:11",
   "sources": [
     "San Diego Fish Reports"
   ]
