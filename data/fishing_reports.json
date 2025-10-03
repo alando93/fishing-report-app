@@ -133,6 +133,42 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "17 Anglers",
+      "species": "Yellowtail",
+      "count": 7,
+      "released": false,
+      "date": "2025-10-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "17 Anglers",
+      "species": "Dorado",
+      "count": 9,
+      "released": false,
+      "date": "2025-10-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Producer",
+      "trip": "Overnight",
+      "anglers": "17 Anglers",
+      "species": "Skipjack Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-10-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Southern Cal",
@@ -119293,7 +119329,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-10-03 01:21:07",
+  "last_updated": "2025-10-03 12:37:23",
   "sources": [
     "San Diego Fish Reports"
   ]
