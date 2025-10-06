@@ -267,6 +267,30 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Patriot (SD)",
+      "trip": "Overnight",
+      "anglers": "10 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 8,
+      "released": false,
+      "date": "2025-10-06",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Patriot (SD)",
+      "trip": "Overnight",
+      "anglers": "10 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 1,
+      "released": false,
+      "date": "2025-10-06",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Premier",
       "trip": "1/2 Day PM",
       "anglers": "30 Anglers",
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-04-06",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Helgrens Sportfishing Fish Counts",
-      "boat": "Electra",
-      "trip": "3/4 Day",
-      "anglers": "19 Anglers",
-      "species": "Whitefish",
-      "count": 2,
-      "released": false,
-      "date": "2025-04-06",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Helgrens Sportfishing Fish Counts",
-      "boat": "Electra",
-      "trip": "3/4 Day",
-      "anglers": "19 Anglers",
-      "species": "Rockfish",
-      "count": 38,
-      "released": false,
-      "date": "2025-04-06",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-10-06 01:23:38",
+  "last_updated": "2025-10-06 12:39:45",
   "sources": [
     "San Diego Fish Reports"
   ]
