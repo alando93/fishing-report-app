@@ -366,7 +366,7 @@
       "boat": "El Gato Dos",
       "trip": "3/4 Day",
       "anglers": "5 Anglers",
-      "species": "Bluefin Tuna",
+      "species": "Bluefin Tuna (up to 145 pounds)",
       "count": 1,
       "released": false,
       "date": "2025-10-07",
@@ -120001,7 +120001,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-10-07 01:22:17",
+  "last_updated": "2025-10-07 12:39:39",
   "sources": [
     "San Diego Fish Reports"
   ]
