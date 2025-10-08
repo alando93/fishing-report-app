@@ -292,7 +292,7 @@
       "location": "San Diego, CA",
       "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "Daily Doule",
-      "trip": "1/2 Day Twilight",
+      "trip": "1/2 Day AM",
       "anglers": "13 Anglers",
       "species": "Rockfish",
       "count": 90,
@@ -464,6 +464,66 @@
       "anglers": "4 Anglers",
       "species": "Whitefish",
       "count": 6,
+      "released": false,
+      "date": "2025-10-08",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "3 Day",
+      "anglers": "18 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 39,
+      "released": false,
+      "date": "2025-10-08",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "3 Day",
+      "anglers": "18 Anglers",
+      "species": "Yellowtail",
+      "count": 3,
+      "released": false,
+      "date": "2025-10-08",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "3 Day",
+      "anglers": "18 Anglers",
+      "species": "Dorado",
+      "count": 2,
+      "released": false,
+      "date": "2025-10-08",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "3 Day",
+      "anglers": "18 Anglers",
+      "species": "Skipjack Tuna",
+      "count": 3,
+      "released": false,
+      "date": "2025-10-08",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Pacific Voyager",
+      "trip": "3 Day",
+      "anglers": "18 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 23,
       "released": false,
       "date": "2025-10-08",
       "source": "San Diego Fish Reports"
@@ -119939,69 +119999,9 @@
       "released": false,
       "date": "2025-04-10",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day AM",
-      "anglers": "24 Anglers",
-      "species": "Calico Bass",
-      "count": 1,
-      "released": false,
-      "date": "2025-04-10",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day AM",
-      "anglers": "24 Anglers",
-      "species": "Whitefish",
-      "count": 1,
-      "released": false,
-      "date": "2025-04-10",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day AM",
-      "anglers": "24 Anglers",
-      "species": "Rockfish",
-      "count": 60,
-      "released": false,
-      "date": "2025-04-10",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day AM",
-      "anglers": "24 Anglers",
-      "species": "Vermilion Rockfish",
-      "count": 12,
-      "released": false,
-      "date": "2025-04-10",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "13 Anglers",
-      "species": "Sand Bass",
-      "count": 2,
-      "released": false,
-      "date": "2025-04-10",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-10-08 01:22:28",
+  "last_updated": "2025-10-08 12:39:45",
   "sources": [
     "San Diego Fish Reports"
   ]
