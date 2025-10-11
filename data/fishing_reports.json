@@ -109,6 +109,42 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "44 Anglers",
+      "species": "Sand Bass",
+      "count": 4,
+      "released": false,
+      "date": "2025-10-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "44 Anglers",
+      "species": "Halibut",
+      "count": 1,
+      "released": false,
+      "date": "2025-10-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "44 Anglers",
+      "species": "Sculpin",
+      "count": 83,
+      "released": false,
+      "date": "2025-10-11",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Chuasco II",
@@ -119963,45 +119999,9 @@
       "released": false,
       "date": "2025-04-12",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "29 Anglers",
-      "species": "Sculpin",
-      "count": 52,
-      "released": false,
-      "date": "2025-04-12",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "29 Anglers",
-      "species": "Calico Bass",
-      "count": 2,
-      "released": false,
-      "date": "2025-04-12",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "29 Anglers",
-      "species": "Rockfish",
-      "count": 71,
-      "released": false,
-      "date": "2025-04-12",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-10-11 01:20:11",
+  "last_updated": "2025-10-11 12:34:07",
   "sources": [
     "San Diego Fish Reports"
   ]
