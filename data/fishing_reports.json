@@ -507,11 +507,83 @@
     {
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Sculpin",
+      "count": 1,
+      "released": false,
+      "date": "2025-11-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Sheephead",
+      "count": 13,
+      "released": false,
+      "date": "2025-11-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "27 Anglers",
+      "species": "Whitefish",
+      "count": 132,
+      "released": false,
+      "date": "2025-11-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "San Diego",
       "trip": "Full Day Offshore",
       "anglers": "24 Anglers",
       "species": "Bluefin Tuna",
       "count": 1,
+      "released": false,
+      "date": "2025-11-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Triute",
+      "trip": "1.5 Day",
+      "anglers": "30 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 7,
+      "released": false,
+      "date": "2025-11-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Triute",
+      "trip": "1.5 Day",
+      "anglers": "30 Anglers",
+      "species": "Yellowtail",
+      "count": 12,
+      "released": false,
+      "date": "2025-11-03",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Triute",
+      "trip": "1.5 Day",
+      "anglers": "30 Anglers",
+      "species": "Yellowfin Tuna",
+      "count": 150,
       "released": false,
       "date": "2025-11-03",
       "source": "San Diego Fish Reports"
@@ -119927,81 +119999,9 @@
       "released": false,
       "date": "2025-05-12",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "19 Anglers",
-      "species": "Rockfish",
-      "count": 60,
-      "released": false,
-      "date": "2025-05-12",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "19 Anglers",
-      "species": "Sanddab",
-      "count": 20,
-      "released": false,
-      "date": "2025-05-12",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Mission Belle",
-      "trip": "Full Day",
-      "anglers": "21 Anglers",
-      "species": "Lingcod",
-      "count": 2,
-      "released": false,
-      "date": "2025-05-12",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Mission Belle",
-      "trip": "Full Day",
-      "anglers": "21 Anglers",
-      "species": "Whitefish",
-      "count": 72,
-      "released": false,
-      "date": "2025-05-12",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Mission Belle",
-      "trip": "Full Day",
-      "anglers": "21 Anglers",
-      "species": "Rockfish",
-      "count": 45,
-      "released": false,
-      "date": "2025-05-12",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Point Loma",
-      "trip": "1/2 Day AM",
-      "anglers": "7 Anglers",
-      "species": "Rockfish",
-      "count": 51,
-      "released": false,
-      "date": "2025-05-12",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-11-03 01:40:33",
+  "last_updated": "2025-11-03 12:41:45",
   "sources": [
     "San Diego Fish Reports"
   ]
