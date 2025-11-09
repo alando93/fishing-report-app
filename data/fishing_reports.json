@@ -99,6 +99,54 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "35 Anglers",
+      "species": "Sand Bass",
+      "count": 8,
+      "released": false,
+      "date": "2025-11-09",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "35 Anglers",
+      "species": "Sculpin",
+      "count": 50,
+      "released": false,
+      "date": "2025-11-09",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "35 Anglers",
+      "species": "Sheephead",
+      "count": 2,
+      "released": false,
+      "date": "2025-11-09",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "35 Anglers",
+      "species": "White Croaker",
+      "count": 15,
+      "released": false,
+      "date": "2025-11-09",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Producer",
       "trip": "Overnight",
       "anglers": "26 Anglers",
@@ -119951,57 +119999,9 @@
       "released": false,
       "date": "2025-05-17",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Mission Belle",
-      "trip": "Full Day",
-      "anglers": "21 Anglers",
-      "species": "Sculpin",
-      "count": 35,
-      "released": false,
-      "date": "2025-05-17",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Mission Belle",
-      "trip": "Full Day",
-      "anglers": "21 Anglers",
-      "species": "Sheephead",
-      "count": 1,
-      "released": false,
-      "date": "2025-05-17",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Mission Belle",
-      "trip": "Full Day",
-      "anglers": "21 Anglers",
-      "species": "Lingcod",
-      "count": 1,
-      "released": false,
-      "date": "2025-05-17",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Mission Belle",
-      "trip": "Full Day",
-      "anglers": "21 Anglers",
-      "species": "Whitefish",
-      "count": 61,
-      "released": false,
-      "date": "2025-05-17",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-11-09 01:40:08",
+  "last_updated": "2025-11-09 12:35:29",
   "sources": [
     "San Diego Fish Reports"
   ]
