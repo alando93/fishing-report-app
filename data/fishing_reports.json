@@ -148,7 +148,7 @@
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Sea Watch",
-      "trip": "1/2 Day AM",
+      "trip": "1/2 Day PM",
       "anglers": "24 Anglers",
       "species": "Yellowtail",
       "count": 10,
@@ -160,7 +160,7 @@
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Sea Watch",
-      "trip": "1/2 Day AM",
+      "trip": "1/2 Day PM",
       "anglers": "24 Anglers",
       "species": "Calico Bass",
       "count": 6,
@@ -172,7 +172,7 @@
       "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Sea Watch",
-      "trip": "1/2 Day AM",
+      "trip": "1/2 Day PM",
       "anglers": "24 Anglers",
       "species": "Whitefish",
       "count": 12,
@@ -120001,7 +120001,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-11-13 01:38:40",
+  "last_updated": "2025-11-13 12:42:39",
   "sources": [
     "San Diego Fish Reports"
   ]
