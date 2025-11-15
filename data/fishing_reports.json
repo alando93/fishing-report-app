@@ -2,6 +2,30 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Polaris Supreme",
+      "trip": "3 Day",
+      "anglers": "16 Anglers",
+      "species": "Bluefin Tuna",
+      "count": 96,
+      "released": false,
+      "date": "2025-11-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Polaris Supreme",
+      "trip": "3 Day",
+      "anglers": "16 Anglers",
+      "species": "Yellowtail",
+      "count": 69,
+      "released": false,
+      "date": "2025-11-15",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day AM",
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-05-22",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "37 Anglers",
-      "species": "Calico Bass",
-      "count": 250,
-      "released": true,
-      "date": "2025-05-22",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Dolphin",
-      "trip": "1/2 Day AM",
-      "anglers": "18 Anglers",
-      "species": "Rockfish",
-      "count": 56,
-      "released": false,
-      "date": "2025-05-21",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-11-14 12:40:39",
+  "last_updated": "2025-11-15 01:26:45",
   "sources": [
     "San Diego Fish Reports"
   ]
