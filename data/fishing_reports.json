@@ -2,6 +2,42 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 28,
+      "released": false,
+      "date": "2025-11-18",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Rock Crab",
+      "count": 12,
+      "released": false,
+      "date": "2025-11-18",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 74,
+      "released": true,
+      "date": "2025-11-18",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day AM",
@@ -119963,45 +119999,9 @@
       "released": false,
       "date": "2025-05-23",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "New Lo-An",
-      "trip": "2 Day",
-      "anglers": "26 Anglers",
-      "species": "Bluefin Tuna",
-      "count": 18,
-      "released": false,
-      "date": "2025-05-23",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day AM",
-      "anglers": "22 Anglers",
-      "species": "Rockfish",
-      "count": 155,
-      "released": false,
-      "date": "2025-05-23",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day Twilight",
-      "anglers": "27 Anglers",
-      "species": "Barracuda",
-      "count": 1,
-      "released": false,
-      "date": "2025-05-23",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-11-17 12:41:26",
+  "last_updated": "2025-11-18 01:37:10",
   "sources": [
     "San Diego Fish Reports"
   ]
