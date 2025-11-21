@@ -2,84 +2,12 @@
   "reports": [
     {
       "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Tradition",
-      "trip": "1/2 Day Twilight",
-      "anglers": "10 Anglers",
-      "species": "Spiny Lobster",
-      "count": 27,
-      "released": false,
-      "date": "2025-11-21",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Tradition",
-      "trip": "1/2 Day Twilight",
-      "anglers": "10 Anglers",
-      "species": "Spiny Lobster",
-      "count": 94,
-      "released": true,
-      "date": "2025-11-21",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "12 Anglers",
-      "species": "Sand Bass",
-      "count": 1,
-      "released": false,
-      "date": "2025-11-21",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "12 Anglers",
-      "species": "Rockfish",
-      "count": 120,
-      "released": false,
-      "date": "2025-11-21",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Sea Watch",
-      "trip": "1/2 Day AM",
-      "anglers": "12 Anglers",
-      "species": "Rockfish",
-      "count": 86,
-      "released": false,
-      "date": "2025-11-21",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Sea Watch",
       "trip": "1/2 Day PM",
-      "anglers": "38 Anglers",
-      "species": "Sand Bass",
-      "count": 4,
-      "released": false,
-      "date": "2025-11-21",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Sea Watch",
-      "trip": "1/2 Day PM",
-      "anglers": "38 Anglers",
+      "anglers": "21 Anglers",
       "species": "Sculpin",
-      "count": 1,
+      "count": 7,
       "released": false,
       "date": "2025-11-21",
       "source": "San Diego Fish Reports"
@@ -89,9 +17,9 @@
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Sea Watch",
       "trip": "1/2 Day PM",
-      "anglers": "38 Anglers",
+      "anglers": "21 Anglers",
       "species": "Sheephead",
-      "count": 4,
+      "count": 6,
       "released": false,
       "date": "2025-11-21",
       "source": "San Diego Fish Reports"
@@ -101,33 +29,9 @@
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "Sea Watch",
       "trip": "1/2 Day PM",
-      "anglers": "38 Anglers",
-      "species": "Calico Bass",
-      "count": 1,
-      "released": false,
-      "date": "2025-11-21",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Sea Watch",
-      "trip": "1/2 Day PM",
-      "anglers": "38 Anglers",
+      "anglers": "21 Anglers",
       "species": "Whitefish",
-      "count": 24,
-      "released": false,
-      "date": "2025-11-21",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Sea Watch",
-      "trip": "1/2 Day PM",
-      "anglers": "38 Anglers",
-      "species": "Bonito",
-      "count": 2,
+      "count": 21,
       "released": false,
       "date": "2025-11-21",
       "source": "San Diego Fish Reports"
@@ -120001,7 +119905,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-11-21 01:28:40",
+  "last_updated": "2025-11-21 12:39:36",
   "sources": [
     "San Diego Fish Reports"
   ]
