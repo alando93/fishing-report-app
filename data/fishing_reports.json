@@ -9,6 +9,42 @@
       "species": "Sculpin",
       "count": 7,
       "released": false,
+      "date": "2025-11-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "1/2 Day PM",
+      "anglers": "21 Anglers",
+      "species": "Sheephead",
+      "count": 6,
+      "released": false,
+      "date": "2025-11-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "1/2 Day PM",
+      "anglers": "21 Anglers",
+      "species": "Whitefish",
+      "count": 21,
+      "released": false,
+      "date": "2025-11-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "1/2 Day PM",
+      "anglers": "21 Anglers",
+      "species": "Sculpin",
+      "count": 7,
+      "released": false,
       "date": "2025-11-21",
       "source": "San Diego Fish Reports"
     },
@@ -119905,7 +119941,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-11-21 12:39:36",
+  "last_updated": "2025-11-22 01:25:31",
   "sources": [
     "San Diego Fish Reports"
   ]
