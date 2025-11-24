@@ -13,6 +13,66 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "47 Anglers",
+      "species": "Sand Bass",
+      "count": 25,
+      "released": false,
+      "date": "2025-11-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "47 Anglers",
+      "species": "Sculpin",
+      "count": 215,
+      "released": false,
+      "date": "2025-11-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "47 Anglers",
+      "species": "Sheephead",
+      "count": 12,
+      "released": false,
+      "date": "2025-11-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "47 Anglers",
+      "species": "Calico Bass",
+      "count": 3,
+      "released": false,
+      "date": "2025-11-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "47 Anglers",
+      "species": "Whitefish",
+      "count": 7,
+      "released": false,
+      "date": "2025-11-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Chuasco II",
@@ -119939,69 +119999,9 @@
       "released": false,
       "date": "2025-05-24",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Malihini",
-      "trip": "3/4 Day",
-      "anglers": "16 Anglers",
-      "species": "Red Rockfish",
-      "count": 6,
-      "released": false,
-      "date": "2025-05-24",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Malihini",
-      "trip": "3/4 Day",
-      "anglers": "16 Anglers",
-      "species": "Calico Bass",
-      "count": 70,
-      "released": true,
-      "date": "2025-05-24",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day AM",
-      "anglers": "48 Anglers",
-      "species": "Rockfish",
-      "count": 259,
-      "released": false,
-      "date": "2025-05-24",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "25 Anglers",
-      "species": "Sheephead",
-      "count": 1,
-      "released": false,
-      "date": "2025-05-24",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "25 Anglers",
-      "species": "Calico Bass",
-      "count": 41,
-      "released": false,
-      "date": "2025-05-24",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-11-24 01:44:11",
+  "last_updated": "2025-11-24 12:42:19",
   "sources": [
     "San Diego Fish Reports"
   ]
