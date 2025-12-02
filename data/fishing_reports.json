@@ -1,6 +1,42 @@
 {
   "reports": [
     {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Southern Cal",
+      "trip": "1/2 Day AM",
+      "anglers": "18 Anglers",
+      "species": "Sculpin",
+      "count": 40,
+      "released": false,
+      "date": "2025-12-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Southern Cal",
+      "trip": "1/2 Day AM",
+      "anglers": "18 Anglers",
+      "species": "Rockfish",
+      "count": 80,
+      "released": false,
+      "date": "2025-12-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "11 Anglers",
+      "species": "Rockfish",
+      "count": 110,
+      "released": false,
+      "date": "2025-12-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
@@ -119963,45 +119999,9 @@
       "released": false,
       "date": "2025-05-30",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "29 Anglers",
-      "species": "Rockfish",
-      "count": 5,
-      "released": false,
-      "date": "2025-05-30",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "29 Anglers",
-      "species": "Calico Bass",
-      "count": 100,
-      "released": true,
-      "date": "2025-05-30",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Pacific Voyager",
-      "trip": "2 Day",
-      "anglers": "20 Anglers",
-      "species": "Bluefin Tuna (up to 180 pounds)",
-      "count": 46,
-      "released": false,
-      "date": "2025-05-30",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-12-01 12:43:02",
+  "last_updated": "2025-12-02 01:40:04",
   "sources": [
     "San Diego Fish Reports"
   ]
