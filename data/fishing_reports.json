@@ -2,6 +2,54 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Sand Bass",
+      "count": 8,
+      "released": false,
+      "date": "2025-12-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Sculpin",
+      "count": 56,
+      "released": false,
+      "date": "2025-12-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Sheephead",
+      "count": 8,
+      "released": false,
+      "date": "2025-12-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "13 Anglers",
+      "species": "Calico Bass",
+      "count": 15,
+      "released": false,
+      "date": "2025-12-05",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Tradition",
       "trip": "1/2 Day Twilight",
@@ -119951,57 +119999,9 @@
       "released": true,
       "date": "2025-05-30",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "28 Anglers",
-      "species": "Sculpin",
-      "count": 20,
-      "released": false,
-      "date": "2025-05-30",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "28 Anglers",
-      "species": "Rockfish",
-      "count": 90,
-      "released": false,
-      "date": "2025-05-30",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "28 Anglers",
-      "species": "Sanddab",
-      "count": 30,
-      "released": false,
-      "date": "2025-05-30",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Mission Belle",
-      "trip": "Full Day",
-      "anglers": "6 Anglers",
-      "species": "Barracuda",
-      "count": 1,
-      "released": false,
-      "date": "2025-05-30",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-12-05 01:41:12",
+  "last_updated": "2025-12-05 12:42:05",
   "sources": [
     "San Diego Fish Reports"
   ]
