@@ -2,6 +2,78 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "20 Anglers",
+      "species": "Sand Bass",
+      "count": 4,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "20 Anglers",
+      "species": "Sculpin",
+      "count": 8,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "20 Anglers",
+      "species": "Sheephead",
+      "count": 8,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "20 Anglers",
+      "species": "Calico Bass",
+      "count": 20,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "20 Anglers",
+      "species": "Bonito",
+      "count": 39,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "20 Anglers",
+      "species": "Calico Bass",
+      "count": 35,
+      "released": true,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
       "trip": "1/2 Day AM",
@@ -119927,81 +119999,9 @@
       "released": true,
       "date": "2025-06-01",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Dolphin",
-      "trip": "1/2 Day PM",
-      "anglers": "58 Anglers",
-      "species": "Calico Bass",
-      "count": 2,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Dolphin",
-      "trip": "1/2 Day PM",
-      "anglers": "58 Anglers",
-      "species": "Bonito (up to 15 pounds)",
-      "count": 57,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Dolphin",
-      "trip": "1/2 Day PM",
-      "anglers": "58 Anglers",
-      "species": "Rockfish",
-      "count": 16,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Lierty",
-      "trip": "Full Day",
-      "anglers": "8 Anglers",
-      "species": "Bonito (up to 15 pounds)",
-      "count": 40,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Grande",
-      "trip": "Full Day",
-      "anglers": "30 Anglers",
-      "species": "Bonito",
-      "count": 85,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Nautilus",
-      "trip": "1/2 Day AM",
-      "anglers": "6 Anglers",
-      "species": "Rockfish",
-      "count": 51,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-12-10 01:43:10",
+  "last_updated": "2025-12-10 12:44:13",
   "sources": [
     "San Diego Fish Reports"
   ]
