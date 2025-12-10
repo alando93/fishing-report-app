@@ -2,6 +2,78 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "29 Anglers",
+      "species": "Rockfish",
+      "count": 180,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "13 Anglers",
+      "species": "Sand Bass",
+      "count": 11,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "13 Anglers",
+      "species": "Sculpin",
+      "count": 10,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "13 Anglers",
+      "species": "Sheephead",
+      "count": 13,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "13 Anglers",
+      "species": "Calico Bass",
+      "count": 9,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "Sea Watch",
+      "trip": "3/4 Day",
+      "anglers": "13 Anglers",
+      "species": "Bonito",
+      "count": 37,
+      "released": false,
+      "date": "2025-12-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day AM",
@@ -119927,81 +119999,9 @@
       "released": false,
       "date": "2025-06-01",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day AM",
-      "anglers": "53 Anglers",
-      "species": "Rockfish",
-      "count": 264,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "31 Anglers",
-      "species": "Sculpin",
-      "count": 11,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "31 Anglers",
-      "species": "Sheephead",
-      "count": 6,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "31 Anglers",
-      "species": "Calico Bass",
-      "count": 49,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "31 Anglers",
-      "species": "Rockfish",
-      "count": 31,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "26 Anglers",
-      "species": "Sand Bass",
-      "count": 2,
-      "released": false,
-      "date": "2025-06-01",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-12-09 12:44:10",
+  "last_updated": "2025-12-10 01:43:10",
   "sources": [
     "San Diego Fish Reports"
   ]
