@@ -63,6 +63,30 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "15 Anglers",
+      "species": "Bonito",
+      "count": 15,
+      "released": false,
+      "date": "2025-12-13",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "15 Anglers",
+      "species": "Rockfish",
+      "count": 37,
+      "released": false,
+      "date": "2025-12-13",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Tradition",
       "trip": "1/2 Day Twilight",
       "anglers": "10 Anglers",
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-06-02",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Daily Doule",
-      "trip": "1/2 Day AM",
-      "anglers": "6 Anglers",
-      "species": "Calico Bass",
-      "count": 15,
-      "released": false,
-      "date": "2025-06-02",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Daily Doule",
-      "trip": "1/2 Day AM",
-      "anglers": "6 Anglers",
-      "species": "Rockfish",
-      "count": 15,
-      "released": false,
-      "date": "2025-06-02",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-12-13 01:37:46",
+  "last_updated": "2025-12-13 12:38:57",
   "sources": [
     "San Diego Fish Reports"
   ]
