@@ -135,6 +135,18 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "32 Anglers",
+      "species": "Bonito",
+      "count": 160,
+      "released": false,
+      "date": "2025-12-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Tradition",
       "trip": "1/2 Day Twilight",
       "anglers": "10 Anglers",
@@ -320,6 +332,30 @@
       "anglers": "49 Anglers",
       "species": "Bonito",
       "count": 220,
+      "released": false,
+      "date": "2025-12-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "52 Anglers",
+      "species": "Whitefish",
+      "count": 1,
+      "released": false,
+      "date": "2025-12-22",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "52 Anglers",
+      "species": "Bonito",
+      "count": 230,
       "released": false,
       "date": "2025-12-22",
       "source": "San Diego Fish Reports"
@@ -119963,45 +119999,9 @@
       "released": false,
       "date": "2025-06-07",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "25 Anglers",
-      "species": "Whitefish",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-07",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "25 Anglers",
-      "species": "Rockfish",
-      "count": 8,
-      "released": false,
-      "date": "2025-06-07",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "25 Anglers",
-      "species": "White Seabass",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-07",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-12-22 01:48:28",
+  "last_updated": "2025-12-22 12:42:57",
   "sources": [
     "San Diego Fish Reports"
   ]
