@@ -73,6 +73,18 @@
       "source": "San Diego Fish Reports"
     },
     {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day PM",
+      "anglers": "18 Anglers",
+      "species": "Bonito",
+      "count": 21,
+      "released": false,
+      "date": "2025-12-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Chuasco II",
@@ -119987,21 +119999,9 @@
       "released": false,
       "date": "2025-06-08",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Lierty",
-      "trip": "Full Day",
-      "anglers": "19 Anglers",
-      "species": "Lingcod",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-08",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2025-12-28 01:54:02",
+  "last_updated": "2025-12-28 12:40:44",
   "sources": [
     "San Diego Fish Reports"
   ]
