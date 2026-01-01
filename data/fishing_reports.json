@@ -134,6 +134,30 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day Twilight",
+      "anglers": "13 Anglers",
+      "species": "Bonito",
+      "count": 50,
+      "released": false,
+      "date": "2026-01-01",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Daily Doule",
+      "trip": "1/2 Day Twilight",
+      "anglers": "13 Anglers",
+      "species": "Rockfish",
+      "count": 35,
+      "released": false,
+      "date": "2026-01-01",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
       "trip": "1/2 Day AM",
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-06-10",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Sea Watch",
-      "trip": "3/4 Day",
-      "anglers": "10 Anglers",
-      "species": "Sand Bass",
-      "count": 4,
-      "released": false,
-      "date": "2025-06-10",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Sea Watch",
-      "trip": "3/4 Day",
-      "anglers": "10 Anglers",
-      "species": "Sheephead",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-10",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-01-01 01:54:51",
+  "last_updated": "2026-01-01 12:42:51",
   "sources": [
     "San Diego Fish Reports"
   ]
