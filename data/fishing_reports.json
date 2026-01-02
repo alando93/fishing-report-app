@@ -2,6 +2,30 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 35,
+      "released": false,
+      "date": "2026-01-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 84,
+      "released": true,
+      "date": "2026-01-02",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day AM",
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-06-10",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Polaris Supreme",
-      "trip": "3 Day",
-      "anglers": "23 Anglers",
-      "species": "Vermilion Rockfish",
-      "count": 144,
-      "released": false,
-      "date": "2025-06-10",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Polaris Supreme",
-      "trip": "3 Day",
-      "anglers": "23 Anglers",
-      "species": "White Seabass",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-10",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-01-01 12:42:51",
+  "last_updated": "2026-01-02 01:46:25",
   "sources": [
     "San Diego Fish Reports"
   ]
