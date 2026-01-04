@@ -170,6 +170,18 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day PM",
+      "anglers": "50 Anglers",
+      "species": "Bonito",
+      "count": 15,
+      "released": false,
+      "date": "2026-01-04",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Premier",
       "trip": "1/2 Day AM",
@@ -119987,21 +119999,9 @@
       "released": false,
       "date": "2025-06-10",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Dolphin",
-      "trip": "1/2 Day AM",
-      "anglers": "15 Anglers",
-      "species": "Calico Bass",
-      "count": 30,
-      "released": false,
-      "date": "2025-06-10",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-01-04 01:55:40",
+  "last_updated": "2026-01-04 12:40:44",
   "sources": [
     "San Diego Fish Reports"
   ]
