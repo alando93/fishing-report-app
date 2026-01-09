@@ -3,6 +3,30 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 26,
+      "released": false,
+      "date": "2026-01-09",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 53,
+      "released": true,
+      "date": "2026-01-09",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Premier",
       "trip": "1/2 Day AM",
       "anglers": "24 Anglers",
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-06-11",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Dolphin",
-      "trip": "1/2 Day PM",
-      "anglers": "26 Anglers",
-      "species": "Calico Bass",
-      "count": 100,
-      "released": true,
-      "date": "2025-06-11",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Pacific Dawn",
-      "trip": "2 Day",
-      "anglers": "10 Anglers",
-      "species": "Bluefin Tuna (up to 200 pounds)",
-      "count": 3,
-      "released": false,
-      "date": "2025-06-11",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-01-08 12:47:02",
+  "last_updated": "2026-01-09 01:46:56",
   "sources": [
     "San Diego Fish Reports"
   ]
