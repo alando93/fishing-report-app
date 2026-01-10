@@ -3,6 +3,18 @@
     {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
+      "boat": "Nautilus",
+      "trip": "1/2 Day AM",
+      "anglers": "5 Anglers",
+      "species": "Bonito",
+      "count": 25,
+      "released": false,
+      "date": "2026-01-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
       "boat": "Premier",
       "trip": "1/2 Day AM",
       "anglers": "51 Anglers",
@@ -20,6 +32,18 @@
       "anglers": "51 Anglers",
       "species": "Bonito",
       "count": 255,
+      "released": false,
+      "date": "2026-01-10",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Premier",
+      "trip": "1/2 Day Twilight",
+      "anglers": "15 Anglers",
+      "species": "Bonito",
+      "count": 70,
       "released": false,
       "date": "2026-01-10",
       "source": "San Diego Fish Reports"
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-06-12",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "40 Anglers",
-      "species": "Calico Bass",
-      "count": 75,
-      "released": true,
-      "date": "2025-06-12",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Polaris Supreme",
-      "trip": "2 Day",
-      "anglers": "24 Anglers",
-      "species": "Bluefin Tuna",
-      "count": 22,
-      "released": false,
-      "date": "2025-06-12",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-01-10 01:43:41",
+  "last_updated": "2026-01-10 12:40:04",
   "sources": [
     "San Diego Fish Reports"
   ]
