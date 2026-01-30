@@ -1,6 +1,18 @@
 {
   "reports": [
     {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "22 Anglers",
+      "species": "Bonito",
+      "count": 80,
+      "released": false,
+      "date": "2026-01-30",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "Oceanside, CA",
       "landing": "Oceanside Sea Center Fish Counts",
       "boat": "Southern Cal",
@@ -119987,21 +119999,9 @@
       "released": false,
       "date": "2025-06-15",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Blue Horizon",
-      "trip": "3/4 Day",
-      "anglers": "22 Anglers",
-      "species": "Sheephead",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-15",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-01-29 12:58:03",
+  "last_updated": "2026-01-30 02:03:34",
   "sources": [
     "San Diego Fish Reports"
   ]
