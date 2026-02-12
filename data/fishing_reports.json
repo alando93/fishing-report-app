@@ -2,6 +2,54 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "3/4 Day",
+      "anglers": "10 Anglers",
+      "species": "Barred Sand Bass",
+      "count": 28,
+      "released": false,
+      "date": "2026-02-12",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "3/4 Day",
+      "anglers": "10 Anglers",
+      "species": "Sculpin",
+      "count": 22,
+      "released": false,
+      "date": "2026-02-12",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "3/4 Day",
+      "anglers": "10 Anglers",
+      "species": "Calico Bass",
+      "count": 2,
+      "released": false,
+      "date": "2026-02-12",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Point Loma Sportfishing Fish Counts",
+      "boat": "Point Loma",
+      "trip": "3/4 Day",
+      "anglers": "10 Anglers",
+      "species": "Whitefish",
+      "count": 23,
+      "released": false,
+      "date": "2026-02-12",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
       "trip": "1/2 Day AM",
@@ -119951,57 +119999,9 @@
       "released": true,
       "date": "2025-06-17",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Daily Doule",
-      "trip": "1/2 Day PM",
-      "anglers": "20 Anglers",
-      "species": "Calico Bass",
-      "count": 50,
-      "released": false,
-      "date": "2025-06-17",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Daily Doule",
-      "trip": "1/2 Day PM",
-      "anglers": "20 Anglers",
-      "species": "Rockfish",
-      "count": 8,
-      "released": false,
-      "date": "2025-06-17",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Point Loma Sportfishing Fish Counts",
-      "boat": "Daily Doule",
-      "trip": "1/2 Day PM",
-      "anglers": "20 Anglers",
-      "species": "Calico Bass",
-      "count": 101,
-      "released": true,
-      "date": "2025-06-17",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "Aztec",
-      "trip": "1.5 Day",
-      "anglers": "17 Anglers",
-      "species": "Bluefin Tuna",
-      "count": 2,
-      "released": false,
-      "date": "2025-06-17",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-11 13:11:05",
+  "last_updated": "2026-02-12 02:12:53",
   "sources": [
     "San Diego Fish Reports"
   ]
