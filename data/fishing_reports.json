@@ -2,6 +2,30 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 23,
+      "released": false,
+      "date": "2026-02-17",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 46,
+      "released": true,
+      "date": "2026-02-17",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day AM",
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-06-19",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "San Diego",
-      "trip": "Full Day",
-      "anglers": "30 Anglers",
-      "species": "Sheephead",
-      "count": 3,
-      "released": false,
-      "date": "2025-06-19",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "San Diego",
-      "trip": "Full Day",
-      "anglers": "30 Anglers",
-      "species": "Yellowtail",
-      "count": 4,
-      "released": false,
-      "date": "2025-06-19",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-16 13:04:22",
+  "last_updated": "2026-02-17 02:08:06",
   "sources": [
     "San Diego Fish Reports"
   ]
