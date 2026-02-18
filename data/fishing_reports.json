@@ -9,6 +9,30 @@
       "species": "Spiny Lobster",
       "count": 23,
       "released": false,
+      "date": "2026-02-18",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 46,
+      "released": true,
+      "date": "2026-02-18",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 23,
+      "released": false,
       "date": "2026-02-17",
       "source": "San Diego Fish Reports"
     },
@@ -119975,33 +119999,9 @@
       "released": true,
       "date": "2025-06-19",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "San Diego",
-      "trip": "Full Day",
-      "anglers": "30 Anglers",
-      "species": "Sand Bass",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-19",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "San Diego",
-      "trip": "Full Day",
-      "anglers": "30 Anglers",
-      "species": "Sculpin",
-      "count": 20,
-      "released": false,
-      "date": "2025-06-19",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-17 13:04:33",
+  "last_updated": "2026-02-18 02:11:46",
   "sources": [
     "San Diego Fish Reports"
   ]
