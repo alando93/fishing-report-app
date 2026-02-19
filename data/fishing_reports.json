@@ -9,6 +9,30 @@
       "species": "Spiny Lobster",
       "count": 23,
       "released": false,
+      "date": "2026-02-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 46,
+      "released": true,
+      "date": "2026-02-19",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "H&M Landing Fish Counts",
+      "boat": "Tradition",
+      "trip": "1/2 Day Twilight",
+      "anglers": "10 Anglers",
+      "species": "Spiny Lobster",
+      "count": 23,
+      "released": false,
       "date": "2026-02-18",
       "source": "San Diego Fish Reports"
     },
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-06-19",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "45 Anglers",
-      "species": "Rockfish",
-      "count": 5,
-      "released": false,
-      "date": "2025-06-19",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "45 Anglers",
-      "species": "Calico Bass",
-      "count": 100,
-      "released": true,
-      "date": "2025-06-19",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-18 13:05:03",
+  "last_updated": "2026-02-19 02:10:18",
   "sources": [
     "San Diego Fish Reports"
   ]
