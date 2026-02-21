@@ -1,6 +1,30 @@
 {
   "reports": [
     {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Southern Cal",
+      "trip": "1/2 Day AM",
+      "anglers": "12 Anglers",
+      "species": "Sculpin",
+      "count": 36,
+      "released": false,
+      "date": "2026-02-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "Oceanside, CA",
+      "landing": "Oceanside Sea Center Fish Counts",
+      "boat": "Southern Cal",
+      "trip": "1/2 Day AM",
+      "anglers": "12 Anglers",
+      "species": "Sanddab",
+      "count": 75,
+      "released": false,
+      "date": "2026-02-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
       "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Tradition",
@@ -119975,33 +119999,9 @@
       "released": false,
       "date": "2025-06-19",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "45 Anglers",
-      "species": "Barracuda",
-      "count": 2,
-      "released": false,
-      "date": "2025-06-19",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "New Seaforth",
-      "trip": "1/2 Day PM",
-      "anglers": "45 Anglers",
-      "species": "Sculpin",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-19",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-20 12:59:21",
+  "last_updated": "2026-02-21 02:01:12",
   "sources": [
     "San Diego Fish Reports"
   ]
