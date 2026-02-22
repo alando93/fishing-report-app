@@ -329,7 +329,7 @@
       "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "Point Loma",
       "trip": "1/2 Day AM",
-      "anglers": "0 Anglers",
+      "anglers": "22 Anglers",
       "species": "Barred Sand Bass",
       "count": 15,
       "released": false,
@@ -341,7 +341,7 @@
       "landing": "Point Loma Sportfishing Fish Counts",
       "boat": "Point Loma",
       "trip": "1/2 Day AM",
-      "anglers": "0 Anglers",
+      "anglers": "22 Anglers",
       "species": "Sculpin",
       "count": 4,
       "released": false,
@@ -120001,7 +120001,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-22 02:10:40",
+  "last_updated": "2026-02-22 12:51:00",
   "sources": [
     "San Diego Fish Reports"
   ]
