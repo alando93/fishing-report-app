@@ -2,6 +2,42 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "24 Anglers",
+      "species": "Sculpin",
+      "count": 9,
+      "released": false,
+      "date": "2026-02-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "24 Anglers",
+      "species": "Whitefish",
+      "count": 50,
+      "released": false,
+      "date": "2026-02-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "24 Anglers",
+      "species": "Bonito",
+      "count": 25,
+      "released": false,
+      "date": "2026-02-24",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day AM",
@@ -119963,45 +119999,9 @@
       "released": true,
       "date": "2025-06-20",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Sea Star",
-      "trip": "1/2 Day AM",
-      "anglers": "10 Anglers",
-      "species": "Calico Bass",
-      "count": 53,
-      "released": true,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "43 Anglers",
-      "species": "Sand Bass",
-      "count": 20,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Southern Cal",
-      "trip": "1/2 Day AM",
-      "anglers": "43 Anglers",
-      "species": "Calico Bass",
-      "count": 11,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-23 13:05:35",
+  "last_updated": "2026-02-24 02:08:05",
   "sources": [
     "San Diego Fish Reports"
   ]
