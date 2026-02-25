@@ -2,6 +2,66 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "31 Anglers",
+      "species": "Sand Bass",
+      "count": 3,
+      "released": false,
+      "date": "2026-02-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "31 Anglers",
+      "species": "Sculpin",
+      "count": 4,
+      "released": false,
+      "date": "2026-02-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "31 Anglers",
+      "species": "Calico Bass",
+      "count": 2,
+      "released": false,
+      "date": "2026-02-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "31 Anglers",
+      "species": "Whitefish",
+      "count": 25,
+      "released": false,
+      "date": "2026-02-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "31 Anglers",
+      "species": "Bonito",
+      "count": 60,
+      "released": false,
+      "date": "2026-02-25",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Dolphin",
       "trip": "1/2 Day PM",
@@ -119939,69 +119999,9 @@
       "released": false,
       "date": "2025-06-20",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Sea Star",
-      "trip": "1/2 Day AM",
-      "anglers": "10 Anglers",
-      "species": "Calico Bass",
-      "count": 17,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Sea Star",
-      "trip": "1/2 Day AM",
-      "anglers": "10 Anglers",
-      "species": "Whitefish",
-      "count": 3,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Sea Star",
-      "trip": "1/2 Day AM",
-      "anglers": "10 Anglers",
-      "species": "Rockfish",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Sea Star",
-      "trip": "1/2 Day AM",
-      "anglers": "10 Anglers",
-      "species": "Sand Bass",
-      "count": 2,
-      "released": true,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Sea Star",
-      "trip": "1/2 Day AM",
-      "anglers": "10 Anglers",
-      "species": "Cabezon",
-      "count": 2,
-      "released": true,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-24 13:06:31",
+  "last_updated": "2026-02-25 02:09:45",
   "sources": [
     "San Diego Fish Reports"
   ]
