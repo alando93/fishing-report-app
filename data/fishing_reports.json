@@ -5,6 +5,42 @@
       "landing": "Seaforth Sportfishing Fish Counts",
       "boat": "New Seaforth",
       "trip": "1/2 Day AM",
+      "anglers": "21 Anglers",
+      "species": "Sculpin",
+      "count": 7,
+      "released": false,
+      "date": "2026-02-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "21 Anglers",
+      "species": "Whitefish",
+      "count": 143,
+      "released": false,
+      "date": "2026-02-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
+      "anglers": "21 Anglers",
+      "species": "Bonito",
+      "count": 2,
+      "released": false,
+      "date": "2026-02-26",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Seaforth Sportfishing Fish Counts",
+      "boat": "New Seaforth",
+      "trip": "1/2 Day AM",
       "anglers": "31 Anglers",
       "species": "Sand Bass",
       "count": 3,
@@ -119963,45 +119999,9 @@
       "released": false,
       "date": "2025-06-20",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day PM",
-      "anglers": "41 Anglers",
-      "species": "Calico Bass",
-      "count": 120,
-      "released": true,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Sea Star",
-      "trip": "1/2 Day AM",
-      "anglers": "10 Anglers",
-      "species": "Sand Bass",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "Oceanside, CA",
-      "landing": "Oceanside Sea Center Fish Counts",
-      "boat": "Sea Star",
-      "trip": "1/2 Day AM",
-      "anglers": "10 Anglers",
-      "species": "Sculpin",
-      "count": 3,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-25 13:05:43",
+  "last_updated": "2026-02-26 02:05:55",
   "sources": [
     "San Diego Fish Reports"
   ]
