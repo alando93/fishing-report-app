@@ -2,6 +2,54 @@
   "reports": [
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "20 Anglers",
+      "species": "Sand Bass",
+      "count": 39,
+      "released": false,
+      "date": "2026-02-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day AM",
+      "anglers": "20 Anglers",
+      "species": "Sculpin",
+      "count": 34,
+      "released": false,
+      "date": "2026-02-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "19 Anglers",
+      "species": "Sand Bass",
+      "count": 16,
+      "released": false,
+      "date": "2026-02-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Dolphin",
+      "trip": "1/2 Day PM",
+      "anglers": "19 Anglers",
+      "species": "Sculpin",
+      "count": 37,
+      "released": false,
+      "date": "2026-02-28",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Premier",
       "trip": "1/2 Day AM",
@@ -119951,57 +119999,9 @@
       "released": false,
       "date": "2025-06-20",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Malihini",
-      "trip": "3/4 Day",
-      "anglers": "20 Anglers",
-      "species": "Calico Bass",
-      "count": 25,
-      "released": true,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day AM",
-      "anglers": "38 Anglers",
-      "species": "Sand Bass",
-      "count": 20,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day AM",
-      "anglers": "38 Anglers",
-      "species": "Cabezon",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "H&M Landing Fish Counts",
-      "boat": "Premier",
-      "trip": "1/2 Day AM",
-      "anglers": "38 Anglers",
-      "species": "Sculpin",
-      "count": 1,
-      "released": false,
-      "date": "2025-06-20",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-02-28 01:54:49",
+  "last_updated": "2026-02-28 12:46:36",
   "sources": [
     "San Diego Fish Reports"
   ]
