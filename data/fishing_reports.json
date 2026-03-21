@@ -38,6 +38,18 @@
     },
     {
       "location": "San Diego, CA",
+      "landing": "Fisherman's Landing Fish Counts",
+      "boat": "Lierty",
+      "trip": "Full Day Coronado Islands",
+      "anglers": "41 Anglers",
+      "species": "Yellowtail",
+      "count": 47,
+      "released": false,
+      "date": "2026-03-21",
+      "source": "San Diego Fish Reports"
+    },
+    {
+      "location": "San Diego, CA",
       "landing": "H&M Landing Fish Counts",
       "boat": "Grande",
       "trip": "Full Day Coronado Islands",
@@ -119987,21 +119999,9 @@
       "released": false,
       "date": "2025-06-28",
       "source": "San Diego Fish Reports"
-    },
-    {
-      "location": "San Diego, CA",
-      "landing": "Seaforth Sportfishing Fish Counts",
-      "boat": "San Diego",
-      "trip": "Full Day",
-      "anglers": "21 Anglers",
-      "species": "Rockfish",
-      "count": 53,
-      "released": false,
-      "date": "2025-06-28",
-      "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-03-21 02:01:17",
+  "last_updated": "2026-03-21 12:50:29",
   "sources": [
     "San Diego Fish Reports"
   ]
