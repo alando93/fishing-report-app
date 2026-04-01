@@ -30,7 +30,7 @@
             </div>
             
             <div class="columns mt-4">
-                <div class="column is-8">
+                <div class="column is-12">
                     <h2 class="title is-4">
                         <i class="fas fa-chart-line mr-2"></i>Recent Fishing Activity
                     </h2>
@@ -41,31 +41,11 @@
                     </div>
                 </div>
                 
-                <div class="column is-4">
-                    <h2 class="title is-4">
-                        <i class="fas fa-map-marker-alt mr-2"></i>Hot Spots
-                    </h2>
-                    <div class="box dashboard-card">
-                        <div class="chart-container">
-                            <canvas id="hotSpotsChart"></canvas>
-                        </div>
-                    </div>
-                </div>
+
             </div>
             
             <div class="columns">
-                <div class="column is-6">
-                    <h2 class="title is-4">
-                        <i class="fas fa-fish mr-2"></i>Top Species
-                    </h2>
-                    <div class="box dashboard-card">
-                        <div class="chart-container">
-                            <canvas id="speciesChart"></canvas>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="column is-6">
+                <div class="column is-12">
                     <h2 class="title is-4">
                         <i class="fas fa-newspaper mr-2"></i>Latest Reports
                     </h2>
@@ -75,14 +55,16 @@
                                 <tr>
                                     <th>Date</th>
                                     <th>Location</th>
+                                    <th>Boat</th>
                                     <th>Species</th>
+                                    <th>Fish Count</th>
                                     <th>Source</th>
                                 </tr>
                             </thead>
                             <tbody id="reportsTableBody">
                                 <!-- Reports will be loaded here -->
                                 <tr>
-                                    <td colspan="7" class="has-text-centered">Loading reports...</td>
+                                    <td colspan="6" class="has-text-centered">Loading reports...</td>
                                 </tr>
                             </tbody>
                         </table>

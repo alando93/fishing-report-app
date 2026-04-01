@@ -8,8 +8,6 @@ const COLORS = [
 
 // Charts objects
 let activityChart;
-let hotSpotsChart;
-let speciesChart;
 
 // Initialize the dashboard
 document.addEventListener('DOMContentLoaded', function() {
@@ -21,14 +19,13 @@ async function initializeDashboard() {
         // Fetch the fishing report data
         const data = await fetchFishingData();
         
-        // Update the Last Updated text
-        document.getElementById('lastUpdated').textContent = `Last updated: ${data.last_updated || 'Unknown'}`;
+        // Display the date range and last updated time
+        const dateRange = getDateRange(data.reports);
+        document.getElementById('lastUpdated').textContent = `Data from ${dateRange} | Last updated: ${data.last_updated || 'Unknown'}`;
         
         // Render all charts and tables
         renderReportsTable(data.reports);
         renderActivityChart(data.reports);
-        renderHotSpotsChart(data.reports);
-        renderSpeciesChart(data.reports);
         
     } catch (error) {
         console.error('Error initializing dashboard:', error);
@@ -59,6 +56,28 @@ async function fetchFishingData() {
     }
 }
 
+function getDateRange(reports) {
+    if (!reports || reports.length === 0) {
+        return 'No data available';
+    }
+    
+    // Extract all dates and find min and max
+    const dates = reports
+        .map(report => new Date(report.date))
+        .filter(date => !isNaN(date));
+    
+    if (dates.length === 0) {
+        return 'No valid dates';
+    }
+    
+    const minDate = new Date(Math.min(...dates.map(d => d.getTime())));
+    const maxDate = new Date(Math.max(...dates.map(d => d.getTime())));
+    
+    const formatDate = (date) => date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+    
+    return `${formatDate(minDate)} to ${formatDate(maxDate)}`;
+}
+
 function renderReportsTable(reports) {
     const tableBody = document.getElementById('reportsTableBody');
     tableBody.innerHTML = '';
@@ -72,7 +91,7 @@ function renderReportsTable(reports) {
     const recentReports = sortedReports.slice(0, 50);
 
     if (recentReports.length === 0) {
-        tableBody.innerHTML = '<tr><td colspan="7" class="has-text-centered">No reports available</td></tr>';
+        tableBody.innerHTML = '<tr><td colspan="6" class="has-text-centered">No reports available</td></tr>';
         return;
     }
 
@@ -81,18 +100,14 @@ function renderReportsTable(reports) {
 
         // Format the date
         const date = new Date(report.date);
-        //const formattedDate = date.toLocaleDateString();
+        const formattedDate = date.toLocaleDateString();
 
         row.innerHTML = `
             <td>${formattedDate}</td>
             <td>${report.location || 'Unknown'}</td>
-            <td>${report.landing || 'Unknown'}</td>
             <td>${report.boat || 'Unknown'}</td>
-            <td>${report.trip || 'Unknown'}</td>
-            <td>${report.anglers || 'Unknown'}</td>
             <td>${report.species || 'Unknown'}</td>
             <td>${report.count || 0}</td>
-            <td>${report.released ? 'Yes' : 'No'}</td>
             <td>${report.source || 'Unknown'}</td>
         `;
 
@@ -117,28 +132,57 @@ function formatSpecies(species) {
 }
 
 function renderActivityChart(reports) {
-    // Group reports by date
-    const dateGroups = {};
+    // Group reports by date and species
+    const dateSpeciesData = {};
+    const allSpecies = new Set();
     
     reports.forEach(report => {
         const date = report.date;
-        if (!dateGroups[date]) {
-            dateGroups[date] = 0;
+        const species = report.species || 'Unknown';
+        
+        allSpecies.add(species);
+        
+        if (!dateSpeciesData[date]) {
+            dateSpeciesData[date] = {};
         }
-        dateGroups[date]++;
+        
+        if (!dateSpeciesData[date][species]) {
+            dateSpeciesData[date][species] = 0;
+        }
+        
+        dateSpeciesData[date][species] += report.count || 0;
     });
     
-    // Sort dates
-    const sortedDates = Object.keys(dateGroups).sort();
+    // Get all unique species sorted
+    const speciesList = Array.from(allSpecies).sort();
     
-    // Take the last 14 days
-    const recentDates = sortedDates.slice(-14);
-    const recentCounts = recentDates.map(date => dateGroups[date]);
+    // Get all dates sorted
+    const allDates = Object.keys(dateSpeciesData).sort();
     
     // Format dates for display
-    const formattedDates = recentDates.map(date => {
+    const formattedDates = allDates.map(date => {
         const d = new Date(date);
         return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+    });
+    
+    // Create datasets for each species
+    const datasets = speciesList.map((species, index) => {
+        const data = allDates.map(date => {
+            const count = dateSpeciesData[date][species] || 0;
+            // Return null for 0 values so they don't appear on the chart
+            return count === 0 ? null : count;
+        });
+        
+        return {
+            label: species,
+            data: data,
+            borderColor: COLORS[index % COLORS.length],
+            backgroundColor: COLORS[index % COLORS.length] + '33', // Add transparency
+            borderWidth: 2,
+            tension: 0.3,
+            fill: false,
+            spanGaps: false // Don't connect across null values
+        };
     });
     
     // Create/update chart
@@ -152,15 +196,7 @@ function renderActivityChart(reports) {
         type: 'line',
         data: {
             labels: formattedDates,
-            datasets: [{
-                label: 'Number of Reports',
-                data: recentCounts,
-                backgroundColor: 'rgba(0, 136, 254, 0.2)',
-                borderColor: '#0088FE',
-                borderWidth: 2,
-                tension: 0.1,
-                fill: true
-            }]
+            datasets: datasets
         },
         options: {
             responsive: true,
@@ -168,120 +204,11 @@ function renderActivityChart(reports) {
             plugins: {
                 title: {
                     display: true,
-                    text: 'Fishing Activity (Last 14 Days)'
+                    text: 'Fishing Activity (Lifetime)'
                 },
                 legend: {
-                    display: false
-                }
-            },
-            scales: {
-                y: {
-                    beginAtZero: true,
-                    title: {
-                        display: true,
-                        text: 'Number of Reports'
-                    }
-                },
-                x: {
-                    title: {
-                        display: true,
-                        text: 'Date'
-                    }
-                }
-            }
-        }
-    });
-}
-
-function renderHotSpotsChart(reports) {
-    // Count reports by location
-    const locationCounts = {};
-    
-    reports.forEach(report => {
-        const location = report.location || 'Unknown';
-        if (!locationCounts[location]) {
-            locationCounts[location] = 0;
-        }
-        locationCounts[location]++;
-    });
-    
-    // Sort locations by count (descending)
-    const sortedLocations = Object.keys(locationCounts).sort((a, b) => {
-        return locationCounts[b] - locationCounts[a];
-    });
-    
-    // Take top 5 locations
-    const topLocations = sortedLocations.slice(0, 5);
-    const topCounts = topLocations.map(location => locationCounts[location]);
-    
-    // Create/update chart
-    const ctx = document.getElementById('hotSpotsChart').getContext('2d');
-    
-    if (hotSpotsChart) {
-        hotSpotsChart.destroy();
-    }
-    
-    hotSpotsChart = new Chart(ctx, {
-        type: 'pie',
-        data: {
-            labels: topLocations,
-            datasets: [{
-                data: topCounts,
-                backgroundColor: COLORS.slice(0, topLocations.length)
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    position: 'right'
-                }
-            }
-        }
-    });
-}
-
-function renderSpeciesChart(reports) {
-    const speciesCounts = {};
-
-    reports.forEach(report => {
-        if (!report.species) return;
-
-        const speciesKey = report.released ? `${report.species} (Released)` : report.species;
-
-        if (!speciesCounts[speciesKey]) {
-            speciesCounts[speciesKey] = 0;
-        }
-        speciesCounts[speciesKey] += report.count;
-    });
-
-    const sortedSpecies = Object.keys(speciesCounts).sort((a, b) => speciesCounts[b] - speciesCounts[a]);
-    const topSpecies = sortedSpecies.slice(0, 6);
-    const topCounts = topSpecies.map(species => speciesCounts[species]);
-
-    const ctx = document.getElementById('speciesChart').getContext('2d');
-
-    if (speciesChart) {
-        speciesChart.destroy();
-    }
-
-    speciesChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: topSpecies,
-            datasets: [{
-                label: 'Number of Fish',
-                data: topCounts,
-                backgroundColor: COLORS.slice(0, topSpecies.length)
-            }]
-        },
-        options: {
-            responsive: true,
-            maintainAspectRatio: false,
-            plugins: {
-                legend: {
-                    display: false
+                    display: true,
+                    position: 'top'
                 }
             },
             scales: {
@@ -290,6 +217,12 @@ function renderSpeciesChart(reports) {
                     title: {
                         display: true,
                         text: 'Number of Fish'
+                    }
+                },
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Date'
                     }
                 }
             }
