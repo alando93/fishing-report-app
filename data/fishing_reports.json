@@ -10,7 +10,8 @@
       "count": 15,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -22,7 +23,8 @@
       "count": 9,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -34,7 +36,8 @@
       "count": 6,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -46,7 +49,8 @@
       "count": 6,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -58,7 +62,8 @@
       "count": 10,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -70,55 +75,60 @@
       "count": 11,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Lierty",
+      "boat": "Liberty",
       "trip": "Full Day",
       "anglers": "20 Anglers",
       "species": "Sheephead",
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Lierty",
+      "boat": "Liberty",
       "trip": "Full Day",
       "anglers": "20 Anglers",
       "species": "Yellowtail",
       "count": 3,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Lierty",
+      "boat": "Liberty",
       "trip": "Full Day",
       "anglers": "20 Anglers",
       "species": "Lingcod",
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
-      "boat": "Lierty",
+      "boat": "Liberty",
       "trip": "Full Day",
       "anglers": "20 Anglers",
       "species": "Rockfish",
       "count": 2,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -130,7 +140,8 @@
       "count": 4,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -142,7 +153,8 @@
       "count": 2,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -154,7 +166,8 @@
       "count": 60,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -166,7 +179,8 @@
       "count": 20,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -178,7 +192,8 @@
       "count": 36,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -190,7 +205,8 @@
       "count": 67,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -202,7 +218,8 @@
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -214,7 +231,8 @@
       "count": 5,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -226,7 +244,8 @@
       "count": 60,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -238,7 +257,8 @@
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -250,7 +270,8 @@
       "count": 9,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -262,7 +283,8 @@
       "count": 2,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -274,7 +296,8 @@
       "count": 11,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -286,7 +309,8 @@
       "count": 2,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -298,7 +322,8 @@
       "count": 2,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -310,7 +335,8 @@
       "count": 4,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -322,7 +348,8 @@
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -334,7 +361,8 @@
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -346,7 +374,8 @@
       "count": 3,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -358,7 +387,8 @@
       "count": 8,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -370,7 +400,8 @@
       "count": 50,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -382,7 +413,8 @@
       "count": 17,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -394,7 +426,8 @@
       "count": 40,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -406,7 +439,8 @@
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -418,7 +452,8 @@
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -430,7 +465,8 @@
       "count": 2,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -442,7 +478,8 @@
       "count": 56,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -454,7 +491,8 @@
       "count": 1,
       "released": false,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -466,7 +504,8 @@
       "count": 10,
       "released": true,
       "date": "2026-04-01",
-      "source": "San Diego Fish Reports"
+      "source": "San Diego Fish Reports",
+      "source_url": "https://www.sandiegofishreports.com/dock_totals/boats.php?date=2026-04-01"
     },
     {
       "location": "San Diego, CA",
@@ -120001,7 +120040,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-04-01 02:38:35",
+  "last_updated": "2026-04-01 13:23:03",
   "sources": [
     "San Diego Fish Reports"
   ]
