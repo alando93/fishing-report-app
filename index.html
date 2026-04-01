@@ -34,7 +34,7 @@
                     <h2 class="title is-4">
                         <i class="fas fa-chart-line mr-2"></i>Recent Fishing Activity
                     </h2>
-                    <div class="box dashboard-card">
+                    <div id="chartSection" class="box dashboard-card">
                         <div class="chart-container">
                             <canvas id="activityChart"></canvas>
                         </div>
@@ -71,7 +71,14 @@
                     </div>
                 </div>
             </div>
-            
+            <div class="columns mt-4">
+                <div class="column is-12">
+                    <h2 class="title is-4">
+                        <i class="fas fa-calendar-alt mr-2"></i>Boat Activity Calendar
+                    </h2>
+                <div class="box" id="boatCalendarRoot"></div>
+            </div>
+            </div>
             <footer class="mt-6 has-text-centered has-text-grey">
                 <p>
                     <span id="lastUpdated">Last updated: Loading...</span>
@@ -87,5 +94,6 @@
 
     <!-- JavaScript for the dashboard -->
     <script src="static/js/dashboard.js"></script>
+    <script src="static/js/boatCalendar.js"></script>
 </body>
 </html>

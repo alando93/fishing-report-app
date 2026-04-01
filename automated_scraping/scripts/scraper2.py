@@ -44,7 +44,7 @@ def parse_fish_counts(html_content, report_date=None):
                 
             # Extract boat information
             boat_info = columns[0].text.strip().split('\n')
-            boat_name = boat_info[0].strip().replace('b', '').strip()
+            boat_name = boat_info[0].strip()
             
             ## Extract trip details
             #print('columns[1]: ',columns[1])
@@ -108,10 +108,48 @@ def parse_fish_counts(html_content, report_date=None):
                     "count": int(count.strip()),
                     "released": is_released,
                     "date": report_date,
-                    "source": "San Diego Fish Reports"
+                    "source": "San Diego Fish Reports",
+                    "source_url": f"https://www.sandiegofishreports.com/dock_totals/boats.php?date={report_date}"
                 })
     
     return data
+
+
+def build_dry_run_metadata(reports):
+    """Build metadata for a dry run without saving data."""
+    unique_dates = sorted({r["date"] for r in reports if r.get("date")})
+    unique_boats = {r["boat"] for r in reports if r.get("boat")}
+    unique_landings = {r["landing"] for r in reports if r.get("landing")}
+    unique_species = {r["species"] for r in reports if r.get("species")}
+    sources = {r["source"] for r in reports if r.get("source")}
+
+    total_fish_count = sum(r.get("count", 0) for r in reports)
+    species_totals = {}
+    boat_totals = {}
+    for report in reports:
+        species = report.get("species")
+        boat = report.get("boat")
+        count = report.get("count", 0) or 0
+        if species:
+            species_totals[species] = species_totals.get(species, 0) + count
+        if boat:
+            boat_totals[boat] = boat_totals.get(boat, 0) + count
+
+    top_species = sorted(species_totals.items(), key=lambda x: x[1], reverse=True)[:5]
+    top_boats = sorted(boat_totals.items(), key=lambda x: x[1], reverse=True)[:5]
+
+    return {
+        "report_date": unique_dates[0] if len(unique_dates) == 1 else unique_dates,
+        "report_count": len(reports),
+        "unique_boats": len(unique_boats),
+        "unique_landings": len(unique_landings),
+        "unique_species": len(unique_species),
+        "total_fish_count": total_fish_count,
+        "top_species": top_species,
+        "top_boats": top_boats,
+        "sources": sorted(sources)
+    }
+
 
 def load_existing_data():
     """Load existing data from fishing_reports.json."""
@@ -245,6 +283,8 @@ if __name__ == "__main__":
             save_data(new_reports)
         else:
             print("Dry run enabled: not saving any data.")
+            print("Dry run data:")
+            print(json.dumps(new_reports, indent=2))
 
     if args.start_date and args.end_date:
         start_date = datetime.strptime(args.start_date, "%Y-%m-%d")
