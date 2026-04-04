@@ -95,7 +95,7 @@
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Liberty",
-      "trip": "3/4 Day",
+      "trip": "Full Day",
       "anglers": "38 Anglers",
       "species": "Yellowtail",
       "count": 11,
@@ -108,7 +108,7 @@
       "location": "San Diego, CA",
       "landing": "Fisherman's Landing Fish Counts",
       "boat": "Liberty",
-      "trip": "3/4 Day",
+      "trip": "Full Day",
       "anglers": "38 Anglers",
       "species": "Bonito",
       "count": 76,
@@ -120178,7 +120178,7 @@
       "source": "San Diego Fish Reports"
     }
   ],
-  "last_updated": "2026-04-04 02:10:36",
+  "last_updated": "2026-04-04 12:56:29",
   "sources": [
     "San Diego Fish Reports"
   ]
