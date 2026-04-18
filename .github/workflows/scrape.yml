@@ -28,7 +28,7 @@ jobs:
         pip install -r requirements.txt
         
     - name: Run scraper
-      run: python automated_scraping/scripts/scraper2.py
+      run: python automated_scraping/scripts/sandiego_fish_reports_scraper.py
       
     - name: Commit and push changes
       run: |

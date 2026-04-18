@@ -302,8 +302,8 @@ if __name__ == "__main__":
 
 #Usage:
 #To run for a custom range:
-#python automated_scraping/scripts/scraper2.py --start_date 2025-04-01 --end_date 2025-05-24
+#python automated_scraping/scripts/sandiego_fish_reports_scraper.py --start_date 2025-04-01 --end_date 2025-05-24
 #To run for today:
-#python automated_scraping/scripts/scraper2.py
+#python automated_scraping/scripts/sandiego_fish_reports_scraper.py
 #To do a dry run (no saving):
-#python automated_scraping/scripts/scraper2.py --dry_run
+#python automated_scraping/scripts/sandiego_fish_reports_scraper.py --dry_run
