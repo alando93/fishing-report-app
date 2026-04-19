@@ -45,6 +45,16 @@ let _rt = {
     speciesFilter: null // UI.makeMultiSelect handle
 };
 
+// Exposed so the Trends chart can jump the Daily view to a clicked date.
+window._rtJumpToDate = function (date) {
+    if (!date) return;
+    if (_rt.minDate && date < _rt.minDate) return;
+    if (_rt.maxDate && date > _rt.maxDate) return;
+    _rtChangeDate(date);
+    const section = document.getElementById('reportsSection');
+    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
 function initReportsTable(reports) {
     _rt.allReports = reports;
 
@@ -226,15 +236,29 @@ function _rtBuildTable(trips) {
 
         const tableRows = lrows.map(r => {
             const isMultiTrip = lrows.filter(x => x.boat === r.boat).length > 1;
+            const td = (typeof TripDuration !== 'undefined')
+                ? TripDuration.parse(r.trip)
+                : { tripDays: 1, windowDays: 1, isMultiDay: false, matched: true };
+            const daysDisplay = td.matched
+                ? TripDuration.formatDays(td.tripDays)
+                : '\u2014';
+
             const pills = r.catch.map(c => {
                 const avgStr = r.anglers > 0
                     ? (c.cnt / r.anglers).toFixed(1) + '/ang'
-                    : '\u2014';
+                    : '';
+                const perDayStr = td.isMultiDay
+                    ? (c.cnt / td.tripDays).toFixed(0) + '/day'
+                    : '';
+                const parts = [];
+                if (avgStr)    parts.push(`<span class="rt-pill-avg">${avgStr}</span>`);
+                if (perDayStr) parts.push(`<span class="rt-pill-avg rt-pill-perday">${perDayStr}</span>`);
+                if (!parts.length && r.anglers <= 0) parts.push('<span class="rt-pill-avg">\u2014</span>');
                 return `
                     <span class="rt-pill" data-sp="${c.sp}">
                         <span class="rt-pill-count">${c.cnt}</span>
                         <span class="rt-pill-species">${c.sp}</span>
-                        <span class="rt-pill-avg">${avgStr}</span>
+                        ${parts.join('')}
                     </span>`;
             }).join('');
 
@@ -245,6 +269,7 @@ function _rtBuildTable(trips) {
                         <div class="rt-boat-trip">${r.trip}</div>
                     </td>
                     <td class="rt-col-anglers">${r.anglers || '\u2014'}</td>
+                    <td class="rt-col-days${td.isMultiDay ? ' rt-days-multi' : ''}">${daysDisplay}</td>
                     <td class="rt-col-catch">
                         <div class="rt-catch-list">${pills}</div>
                     </td>
@@ -267,13 +292,15 @@ function _rtBuildTable(trips) {
                     <colgroup>
                         <col class="rt-col-boat">
                         <col class="rt-col-anglers">
+                        <col class="rt-col-days">
                         <col class="rt-col-catch">
                     </colgroup>
                     <thead>
                         <tr>
                             <th>Boat / Trip</th>
                             <th>Anglers</th>
-                            <th>Catch <span class="rt-th-hint">count &middot; avg per angler</span></th>
+                            <th>Days</th>
+                            <th>Catch <span class="rt-th-hint">count &middot; per angler &middot; per day</span></th>
                         </tr>
                     </thead>
                     <tbody>${tableRows}</tbody>
