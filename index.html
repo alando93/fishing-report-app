@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SoCal Fishing Dashboard</title>
-    <!-- Bulma CSS for easy styling -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
-    <!-- Font Awesome icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Custom styles -->
     <link rel="stylesheet" href="static/css/style.css">
 </head>
 <body>
@@ -23,26 +20,17 @@
 
     <section class="section">
         <div class="container">
-            <div class="notification is-info is-light">
-                <p><i class="fas fa-info-circle mr-2"></i> Data is automatically updated every 12 hours from multiple SoCal fishing report sources.</p>
-            </div>
-
-            <div class="columns">
-                <div class="column is-12">
-                    <h2 class="title is-4">
-                        <i class="fas fa-newspaper mr-2"></i>Latest Reports
-                    </h2>
-                    <!-- Populated entirely by initReportsTable() in dashboard.js -->
-                    <div id="reportsSection"></div>
-                </div>
-            </div>
+            <div id="reportsSection"></div>
+            <div id="trendsSection"></div>
 
             <footer class="mt-6 has-text-centered has-text-grey">
-                <p>
-                    <span id="lastUpdated">Last updated: Loading...</span>
+                <p id="lastUpdated">Last updated: Loading...</p>
+                <p class="mt-2" style="font-size: 12px;">
+                    Data scraped every 12 hours from
+                    <a href="https://www.sandiegofishreports.com/" target="_blank" rel="noopener">sandiegofishreports.com</a>.
                 </p>
                 <p class="mt-2">
-                    <a href="https://github.com/yourusername/socal-fishing-dashboard" target="_blank">
+                    <a href="https://github.com/alando93/fishing-report-app" target="_blank" rel="noopener">
                         <i class="fab fa-github mr-1"></i>View on GitHub
                     </a>
                 </p>
@@ -50,7 +38,10 @@
         </div>
     </section>
 
-    <!-- JavaScript for the dashboard -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <script src="static/js/moon.js"></script>
+    <script src="static/js/ui.js"></script>
+    <script src="static/js/trends.js"></script>
     <script src="static/js/dashboard.js"></script>
 </body>
 </html>

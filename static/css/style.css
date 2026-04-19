@@ -1,58 +1,484 @@
-/* Custom styles for the fishing dashboard */
+/* ---------------------------------------------------------------------------
+   Fishing dashboard — design tokens & shared styles.
 
-.dashboard-card {
-    height: 400px;
+   Kept intentionally restrained: neutral palette, small type scale, one
+   accent color. Works on top of Bulma which provides the base layout /
+   navbar / notification classes.
+--------------------------------------------------------------------------- */
+
+:root {
+    /* Neutrals */
+    --fg:         #363636;
+    --fg-muted:   #666666;
+    --fg-subtle:  #aaaaaa;
+    --bg:         #ffffff;
+    --bg-subtle:  #fafafa;
+    --bg-chip:    #f5f5f5;
+    --border:     #dbdbdb;
+    --border-soft:#eeeeee;
+    --divider:    #f5f5f5;
+
+    /* Accent */
+    --accent:     #3273dc;
+    --accent-bg:  #ebf3fb;
+
+    /* Typography */
+    --font-xs:    10px;
+    --font-sm:    11px;
+    --font-md:    12px;
+    --font-body:  13px;
+    --font-lg:    15px;
+
+    /* Spacing */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 24px;
+
+    /* Radius */
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-pill: 99px;
+
+    /* Chart palette (low-saturation, colorblind-friendlyish) */
+    --chart-1: #4c6e91;
+    --chart-2: #6a9a8b;
+    --chart-3: #b47a4a;
+    --chart-4: #8a7ea8;
+    --chart-5: #a8996a;
+    --chart-6: #7a7a7a;
+    --chart-7: #c17676;
+    --chart-8: #5a8aa0;
+
+    /* Moon overlay */
+    --moon-new:  rgba(100, 100, 120, 0.12);
+    --moon-full: rgba(230, 200, 110, 0.18);
+}
+
+/* --- Section scaffolding -------------------------------------------------- */
+
+.app-section {
+    font-size: var(--font-body);
+}
+
+.app-section + .app-section {
+    margin-top: var(--space-5);
+}
+
+/* --- Section toolbar (shared between Daily and Trends) -------------------- */
+
+.section-toolbar {
     display: flex;
-    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-4);
 }
 
-.chart-container {
-    position: relative;
-    flex: 1;
-    width: 100%;
-    min-height: 300px;
+.toolbar-title {
+    font-size: var(--font-lg);
+    font-weight: 600;
+    color: var(--fg);
 }
 
-.notification {
-    border-radius: 6px;
+.toolbar-sub {
+    font-size: var(--font-md);
+    color: var(--fg-subtle);
+    margin-top: 2px;
 }
 
-.species-tag {
-    margin-right: 4px;
-    margin-bottom: 4px;
+.toolbar-link {
+    display: inline-block;
+    margin-top: var(--space-1);
+    font-size: var(--font-md);
+    color: var(--accent);
+    text-decoration: none;
+}
+.toolbar-link:hover { text-decoration: underline; }
+
+.toolbar-controls {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    flex-wrap: wrap;
+    flex-shrink: 0;
 }
 
-/* Custom colors for fish species */
-.yellowtail-color { background-color: #FFBB28; }
-.tuna-color { background-color: #0088FE; }
-.rockfish-color { background-color: #FF8042; }
-.dorado-color { background-color: #00C49F; }
-.bass-color { background-color: #8884d8; }
-.halibut-color { background-color: #82ca9d; }
+/* --- Buttons -------------------------------------------------------------- */
 
-/* Table styles */
-.table th, .table td {
+.btn {
+    padding: 5px 10px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--bg);
+    cursor: pointer;
+    font-size: var(--font-md);
+    color: var(--fg-muted);
+    white-space: nowrap;
+    line-height: 1.2;
+}
+.btn:hover { background: var(--bg-subtle); }
+.btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.btn.is-on,
+.btn--active {
+    border-color: var(--accent);
+    background: var(--accent-bg);
+    color: var(--accent);
+}
+
+/* Date picker group */
+.date-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+}
+.date-group button {
+    padding: 5px 9px;
+    background: var(--bg);
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 1;
+    color: var(--fg-muted);
+}
+.date-group button:disabled { opacity: 0.3; cursor: not-allowed; }
+.date-group input[type="date"] {
+    padding: 5px 10px;
+    font-size: var(--font-md);
+    font-weight: 500;
+    color: var(--fg);
+    background: var(--bg);
+    border: none;
+    border-left: 1px solid var(--border);
+    border-right: 1px solid var(--border);
+    cursor: pointer;
+    outline: none;
+}
+
+/* --- Multi-select dropdown (ui.js) ---------------------------------------- */
+
+.ms-root { position: relative; }
+
+.ms-btn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 10px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--border);
+    background: var(--bg);
+    cursor: pointer;
+    font-size: var(--font-md);
+    color: var(--fg-muted);
+    white-space: nowrap;
+    line-height: 1.2;
+}
+.ms-btn:hover { background: var(--bg-subtle); }
+
+.ms-badge {
+    font-size: var(--font-xs);
+    font-weight: 500;
+    background: var(--accent-bg);
+    color: var(--accent);
+    border-radius: var(--radius-pill);
+    padding: 1px 6px;
+}
+
+.ms-dropdown {
+    position: absolute;
+    right: 0;
+    top: calc(100% + 4px);
+    z-index: 200;
+    background: var(--bg);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    min-width: 220px;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.ms-dd-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: var(--space-2) var(--space-3);
+    border-bottom: 1px solid var(--divider);
+    font-size: var(--font-sm);
+    color: var(--fg-subtle);
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+}
+
+.ms-clear {
+    cursor: pointer;
+    color: var(--accent);
+    font-size: var(--font-sm);
+}
+.ms-clear:hover { text-decoration: underline; }
+
+.ms-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: 7px var(--space-3);
+    cursor: pointer;
+    font-size: var(--font-body);
+    color: var(--fg);
+    border-bottom: 1px solid var(--divider);
+}
+.ms-item:hover { background: var(--bg-subtle); }
+.ms-item:last-child { border-bottom: none; }
+
+.ms-check {
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    flex-shrink: 0;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ms-item.is-on .ms-check {
+    border-color: var(--accent);
+    background: var(--accent-bg);
+}
+.ms-item.is-on .ms-check::after {
+    content: '';
+    width: 8px;
+    height: 5px;
+    border-left: 1.5px solid var(--accent);
+    border-bottom: 1.5px solid var(--accent);
+    transform: rotate(-45deg) translate(1px, -1px);
+}
+
+.ms-item-label { flex: 1; }
+.ms-item-meta {
+    font-size: var(--font-sm);
+    color: var(--fg-subtle);
+    margin-left: auto;
+}
+
+/* --- Segmented button group (ui.js) --------------------------------------- */
+
+.seg {
+    display: inline-flex;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+}
+
+.seg-btn {
+    padding: 5px 10px;
+    border: none;
+    border-right: 1px solid var(--border);
+    background: var(--bg);
+    cursor: pointer;
+    font-size: var(--font-md);
+    color: var(--fg-muted);
+    line-height: 1.2;
+}
+.seg-btn:last-child { border-right: none; }
+.seg-btn:hover { background: var(--bg-subtle); }
+.seg-btn.is-on {
+    background: var(--accent-bg);
+    color: var(--accent);
+    font-weight: 500;
+}
+
+/* --- Daily Reports table (rt-*) ------------------------------------------ */
+
+.rt-moon {
+    font-variant-emoji: text;
+    margin-left: 2px;
+}
+
+.rt-card {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    overflow: hidden;
+    background: var(--bg);
+}
+
+.rt-empty {
+    padding: 48px 20px;
     text-align: center;
+    color: var(--fg-subtle);
+    font-size: var(--font-body);
+}
+
+.rt-landing-header {
+    display: flex;
+    align-items: center;
+    gap: var(--space-2);
+    padding: 9px var(--space-3);
+    background: var(--bg-subtle);
+    border-bottom: 1px solid var(--border-soft);
+}
+.rt-landing-header + .rt-landing-header,
+.rt-landing-block + .rt-landing-block .rt-landing-header {
+    border-top: 1px solid var(--border-soft);
+}
+
+.rt-landing-name {
+    font-size: var(--font-md);
+    font-weight: 600;
+    color: var(--fg);
+}
+.rt-landing-count {
+    font-size: var(--font-sm);
+    color: var(--fg-subtle);
+}
+
+.rt-landing-icon {
+    opacity: 0.35;
+    flex-shrink: 0;
+}
+
+.rt-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.rt-table th {
+    font-size: var(--font-sm);
+    font-weight: 500;
+    color: var(--fg-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    padding: 6px var(--space-3);
+    text-align: left;
+    border-bottom: 1px solid var(--divider);
+    background: var(--bg);
+}
+.rt-table th .rt-th-hint {
+    font-weight: 400;
+    text-transform: none;
+    letter-spacing: 0;
+    font-size: var(--font-xs);
+}
+.rt-table td {
+    padding: var(--space-2) var(--space-3);
+    border-bottom: 1px solid var(--divider);
+    vertical-align: top;
+}
+
+.rt-col-boat    { width: 22%; }
+.rt-col-anglers { width: 8%;  font-size: var(--font-body); color: var(--fg-subtle); }
+.rt-col-catch   { }
+
+.rt-boat-name {
+    font-weight: 600;
+    font-size: var(--font-body);
+    color: var(--fg);
+}
+.rt-boat-trip {
+    font-size: var(--font-sm);
+    color: var(--fg-muted);
+    margin-top: 2px;
+}
+
+.rt-multi-trip td:first-child {
+    border-left: 2px solid var(--border);
+    padding-left: 10px;
+}
+
+.rt-catch-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rt-pill {
+    display: inline-flex;
+    align-items: baseline;
+    gap: var(--space-1);
+    padding: 2px 8px 2px 6px;
+    border-radius: var(--radius-pill);
+    font-size: var(--font-sm);
+    border: 1px solid var(--border-soft);
+    background: var(--bg-chip);
+    margin: 2px;
+}
+.rt-pill-count {
+    font-weight: 600;
+    color: var(--fg);
+    font-size: var(--font-md);
+}
+.rt-pill-species { color: var(--fg-muted); }
+.rt-pill-avg {
+    color: var(--fg-subtle);
+    font-size: var(--font-xs);
+    margin-left: 2px;
+}
+
+/* --- Trends section ------------------------------------------------------- */
+
+.trends-body {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--bg);
+    padding: var(--space-4);
+}
+
+.trends-control-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-3);
+}
+
+.trends-control-row > label {
+    font-size: var(--font-sm);
+    color: var(--fg-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.trends-chart-wrap {
+    position: relative;
+    width: 100%;
+    height: 380px;
+}
+
+.trends-legend-note {
+    font-size: var(--font-sm);
+    color: var(--fg-subtle);
+    margin-top: var(--space-2);
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+}
+.trends-legend-swatch {
+    display: inline-block;
+    width: 14px;
+    height: 10px;
     vertical-align: middle;
+    margin-right: 4px;
+    border-radius: 2px;
+}
+.trends-legend-swatch.new  { background: var(--moon-new); }
+.trends-legend-swatch.full { background: var(--moon-full); }
+
+.trends-empty {
+    padding: 48px 20px;
+    text-align: center;
+    color: var(--fg-subtle);
+    font-size: var(--font-body);
 }
 
-.released-yes {
-    background-color: #d4edda;
-    color: #155724;
-}
+/* --- Responsive tweaks ---------------------------------------------------- */
 
-.released-no {
-    background-color: #f8d7da;
-    color: #721c24;
-}
-
-/* Make the dashboard more mobile-friendly */
-@media screen and (max-width: 768px) {
-    .dashboard-card {
-        height: 300px;
-    }
-    
-    .chart-container {
-        min-height: 250px;
-    }
+@media screen and (max-width: 640px) {
+    .trends-chart-wrap { height: 300px; }
+    .rt-col-boat    { width: 40%; }
+    .rt-col-anglers { width: 18%; }
 }
