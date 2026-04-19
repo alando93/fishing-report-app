@@ -177,14 +177,13 @@
             .sort((a, b) => parseInt(b.meta.replace(/,/g, '')) - parseInt(a.meta.replace(/,/g, '')));
     }
 
-    // Pick up to 3 most-caught species of interest as a sensible default.
     function defaultSpeciesSelection() {
-        const preferred = ['Yellowtail', 'Bluefin Tuna', 'Yellowfin Tuna', 'Dorado'];
+        const preferred = ['Bluefin Tuna', 'Yellowfin Tuna'];
         const available = new Set(_tr.allSpecies);
         const picks = preferred.filter(s => available.has(s));
-        if (picks.length) return new Set(picks.slice(0, 3));
-        // Fall back to top 3 by total count
-        return new Set(speciesItems().slice(0, 3).map(i => i.value));
+        if (picks.length) return new Set(picks);
+        // Fall back to top 2 by total count
+        return new Set(speciesItems().slice(0, 2).map(i => i.value));
     }
 
     // --- Aggregation -------------------------------------------------------
