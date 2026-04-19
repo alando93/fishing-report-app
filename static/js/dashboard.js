@@ -34,6 +34,60 @@ async function fetchFishingData() {
 }
 
 // ---------------------------------------------------------------------------
+// Species metadata — daily bag limits (per angler per day) and categories.
+// ---------------------------------------------------------------------------
+
+const SPECIES_DAILY_LIMIT = {
+    'Yellowtail': 10,
+    'Bluefin Tuna': 2,
+    'Yellowfin Tuna': 10,
+    'Albacore': 25,
+    'Skipjack Tuna': 25,
+    'Dorado': 5,
+    'Wahoo': 10,
+    'White Seabass': 3,
+    'White Sea Bass': 3,
+    'Halibut': 5,
+    'Calico Bass': 5,
+    'Sand Bass': 10,
+    'Spotted Bay Bass': 3,
+    'Rockfish': 10,
+    'Vermilion Rockfish': 10,
+    'Bocaccio': 10,
+    'Canary Rockfish': 10,
+    'Chilipepper': 10,
+    'Cowcod': 0,
+    'Lingcod': 2,
+    'Sheephead': 5,
+    'Sculpin': 10,
+    'Bonito': 20,
+    'Barracuda': 10,
+    'Striped Marlin': 1,
+    'Swordfish': 1,
+};
+
+const SPECIES_CATEGORY = {
+    tuna:       ['Bluefin Tuna', 'Yellowfin Tuna', 'Albacore', 'Skipjack Tuna', 'Skipjack'],
+    rockfish:   ['Rockfish', 'Vermilion Rockfish', 'Bocaccio', 'Canary Rockfish',
+                 'Chilipepper', 'Cowcod', 'Sculpin'],
+    bass:       ['Calico Bass', 'Sand Bass', 'Spotted Bay Bass', 'White Seabass', 'White Sea Bass'],
+    yellowtail: ['Yellowtail', 'Amberjack'],
+    flatfish:   ['Halibut', 'Sanddab', 'Sand Dab', 'Sole', 'Flounder', 'Turbot'],
+    pelagic:    ['Dorado', 'Wahoo', 'Striped Marlin', 'Marlin', 'Swordfish', 'Barracuda', 'Bonito'],
+};
+
+function _rtSpeciesCategory(sp) {
+    const lower = sp.toLowerCase();
+    for (const [cat, list] of Object.entries(SPECIES_CATEGORY)) {
+        if (list.some(name => lower.includes(name.toLowerCase()) ||
+                              name.toLowerCase().includes(lower))) {
+            return cat;
+        }
+    }
+    return null;
+}
+
+// ---------------------------------------------------------------------------
 // Reports Table — date-navigable, landing-grouped, species-filterable.
 // ---------------------------------------------------------------------------
 
@@ -43,6 +97,16 @@ let _rt = {
     minDate: '',
     maxDate: '',
     speciesFilter: null // UI.makeMultiSelect handle
+};
+
+// Exposed so the Trends chart can jump the Daily view to a clicked date.
+window._rtJumpToDate = function (date) {
+    if (!date) return;
+    if (_rt.minDate && date < _rt.minDate) return;
+    if (_rt.maxDate && date > _rt.maxDate) return;
+    _rtChangeDate(date);
+    const section = document.getElementById('reportsSection');
+    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
 };
 
 function initReportsTable(reports) {
@@ -80,7 +144,8 @@ function initReportsTable(reports) {
                 </div>
             </div>
 
-            <div id="rt-card" class="rt-card"></div>
+            <div id="rt-legend" class="rt-legend"></div>
+            <div id="rt-card"   class="rt-card"></div>
         </div>
     `;
 
@@ -195,7 +260,28 @@ function _rtChangeDate(date) {
     _rt.speciesFilter.setItems(speciesItems);
 
     _rtBuildTable(trips);
+    _rtUpdateLegend(trips);
     _rtApplyFilter();
+}
+
+const _RT_CATEGORY_LABELS = {
+    tuna: 'Tuna', rockfish: 'Rockfish', bass: 'Bass',
+    yellowtail: 'Yellowtail', flatfish: 'Flatfish', pelagic: 'Pelagic',
+};
+
+function _rtUpdateLegend(trips) {
+    const el = document.getElementById('rt-legend');
+    if (!el) return;
+    const present = new Set(
+        trips.flatMap(r => r.catch.map(c => _rtSpeciesCategory(c.sp))).filter(Boolean)
+    );
+    if (!present.size) { el.innerHTML = ''; return; }
+    el.innerHTML = Object.keys(_RT_CATEGORY_LABELS)
+        .filter(cat => present.has(cat))
+        .map(cat =>
+            `<span class="rt-legend-item rt-legend--${cat}">` +
+            `<span class="rt-legend-swatch"></span>${_RT_CATEGORY_LABELS[cat]}</span>`
+        ).join('');
 }
 
 function _rtBuildTable(trips) {
@@ -226,15 +312,51 @@ function _rtBuildTable(trips) {
 
         const tableRows = lrows.map(r => {
             const isMultiTrip = lrows.filter(x => x.boat === r.boat).length > 1;
+            const td = (typeof TripDuration !== 'undefined')
+                ? TripDuration.parse(r.trip)
+                : { tripDays: 1, windowDays: 1, isMultiDay: false, matched: true };
+            const daysDisplay = td.matched
+                ? TripDuration.formatDays(td.tripDays)
+                : '\u2014';
+
             const pills = r.catch.map(c => {
                 const avgStr = r.anglers > 0
                     ? (c.cnt / r.anglers).toFixed(1) + '/ang'
-                    : '\u2014';
+                    : '';
+                const perDayStr = td.isMultiDay && r.anglers > 0
+                    ? (c.cnt / (r.anglers * td.tripDays)).toFixed(2) + '/ang/day'
+                    : '';
+                const parts = [];
+                if (avgStr)    parts.push(`<span class="rt-pill-avg">${avgStr}</span>`);
+                if (perDayStr) parts.push(`<span class="rt-pill-avg rt-pill-perday">${perDayStr}</span>`);
+                if (!parts.length && r.anglers <= 0) parts.push('<span class="rt-pill-avg">\u2014</span>');
+
+                const limit = SPECIES_DAILY_LIMIT[c.sp];
+                let limitBar = '';
+                if (limit != null && r.anglers > 0 && limit > 0) {
+                    const days = Math.max(1, Math.ceil(td.tripDays));
+                    const pct = Math.min(1, c.cnt / (r.anglers * days * limit));
+                    const pctRound = Math.round(pct * 100);
+                    const barClass = pct >= 1    ? 'rt-limit-bar--full'
+                                   : pct >= 0.8 ? 'rt-limit-bar--high'
+                                   : pct >= 0.5 ? 'rt-limit-bar--mid'
+                                   :              'rt-limit-bar--low';
+                    const trophy = pct >= 1 ? '\u{1F3C6}' : '';
+                    limitBar = `<span class="rt-limit-wrap" title="${pctRound}% of limit">` +
+                               `<span class="rt-limit-bar ${barClass}" style="width:${Math.round(pct * 40)}px"></span>` +
+                               `<span class="rt-limit-pct">${pctRound}%</span>` +
+                               `${trophy}</span>`;
+                } else if (limit === 0 && c.cnt > 0) {
+                    limitBar = `<span class="rt-limit-wrap" title="Protected species">\u26A0\uFE0F</span>`;
+                }
+
+                const cat = _rtSpeciesCategory(c.sp);
+                const catClass = cat ? ` rt-pill--${cat}` : '';
                 return `
-                    <span class="rt-pill" data-sp="${c.sp}">
+                    <span class="rt-pill${catClass}" data-sp="${c.sp}">
                         <span class="rt-pill-count">${c.cnt}</span>
                         <span class="rt-pill-species">${c.sp}</span>
-                        <span class="rt-pill-avg">${avgStr}</span>
+                        ${parts.join('')}${limitBar}
                     </span>`;
             }).join('');
 
@@ -245,6 +367,7 @@ function _rtBuildTable(trips) {
                         <div class="rt-boat-trip">${r.trip}</div>
                     </td>
                     <td class="rt-col-anglers">${r.anglers || '\u2014'}</td>
+                    <td class="rt-col-days${td.isMultiDay ? ' rt-days-multi' : ''}">${daysDisplay}</td>
                     <td class="rt-col-catch">
                         <div class="rt-catch-list">${pills}</div>
                     </td>
@@ -267,13 +390,15 @@ function _rtBuildTable(trips) {
                     <colgroup>
                         <col class="rt-col-boat">
                         <col class="rt-col-anglers">
+                        <col class="rt-col-days">
                         <col class="rt-col-catch">
                     </colgroup>
                     <thead>
                         <tr>
                             <th>Boat / Trip</th>
                             <th>Anglers</th>
-                            <th>Catch <span class="rt-th-hint">count &middot; avg per angler</span></th>
+                            <th>Days</th>
+                            <th>Catch <span class="rt-th-hint">count &middot; per angler &middot; per angler/day</span></th>
                         </tr>
                     </thead>
                     <tbody>${tableRows}</tbody>

@@ -13,7 +13,9 @@
         mode: 'species',    // 'species' | 'boat'
         metric: 'total',    // 'total' | 'perAngler'
         smoothing: 0,       // 0 | 7 | 14
-        rangeDays: 90       // 30 | 90 | 365 | 0 (all)
+        rangeDays: 90,      // 30 | 90 | 365 | 0 (all)
+        attribution: 'asReported', // 'asReported' | 'spread'
+        breakdown: {},      // breakdown[date][groupLabel][subLabel] = count
     };
 
     window.initTrendsSection = function (reports) {
@@ -55,6 +57,14 @@
                         <div id="tr-range"></div>
                     </div>
 
+                    <div class="trends-control-row">
+                        <label>Attribution</label>
+                        <div id="tr-attribution"></div>
+                        <span class="trends-attribution-hint">
+                            How multi-day trip catches are distributed across the calendar.
+                        </span>
+                    </div>
+
                     <div class="trends-chart-wrap">
                         <canvas id="trends-chart"></canvas>
                     </div>
@@ -62,6 +72,7 @@
                     <div class="trends-legend-note">
                         <span><span class="trends-legend-swatch new"></span>new moon (\u00B11 day)</span>
                         <span><span class="trends-legend-swatch full"></span>full moon (\u00B11 day)</span>
+                        <span class="trends-click-hint">Tip: click any day to view its Daily Report.</span>
                     </div>
                 </div>
             </div>
@@ -111,6 +122,16 @@
             onChange: v => { _tr.rangeDays = parseInt(v, 10) || 0; redraw(); }
         });
 
+        UI.makeSegmented({
+            container: document.getElementById('tr-attribution'),
+            options: [
+                { value: 'asReported', label: 'As reported' },
+                { value: 'spread',     label: 'Spread multi-day' }
+            ],
+            selected: _tr.attribution,
+            onChange: v => { _tr.attribution = v; redraw(); }
+        });
+
         // Multi-selects
         _tr.speciesMS = UI.makeMultiSelect({
             container: document.getElementById('tr-species-ms'),
@@ -156,14 +177,13 @@
             .sort((a, b) => parseInt(b.meta.replace(/,/g, '')) - parseInt(a.meta.replace(/,/g, '')));
     }
 
-    // Pick up to 3 most-caught species of interest as a sensible default.
     function defaultSpeciesSelection() {
-        const preferred = ['Yellowtail', 'Bluefin Tuna', 'Yellowfin Tuna', 'Dorado'];
+        const preferred = ['Bluefin Tuna', 'Yellowfin Tuna'];
         const available = new Set(_tr.allSpecies);
         const picks = preferred.filter(s => available.has(s));
-        if (picks.length) return new Set(picks.slice(0, 3));
-        // Fall back to top 3 by total count
-        return new Set(speciesItems().slice(0, 3).map(i => i.value));
+        if (picks.length) return new Set(picks);
+        // Fall back to top 2 by total count
+        return new Set(speciesItems().slice(0, 2).map(i => i.value));
     }
 
     // --- Aggregation -------------------------------------------------------
@@ -177,29 +197,49 @@
         return _tr.dates.filter(d => Date.parse(d + 'T12:00:00Z') >= startTs);
     }
 
+    // For each record, yield one or more { date, weight } entries depending
+    // on the current attribution mode.
+    function eachAllocation(r, cb) {
+        if (_tr.attribution === 'spread' && typeof TripDuration !== 'undefined') {
+            TripDuration.allocate(r.date, r.trip).forEach(a => cb(a.date, a.weight));
+        } else {
+            cb(r.date, 1);
+        }
+    }
+
     // Build one series per selected species: daily total (or per-angler) for
     // that species across all boats.
     function seriesBySpecies(dates) {
         const selected = _tr.speciesMS.getSelected();
         if (!selected.size) return [];
 
-        // counts[date][species] = count
-        // anglers[date] = set of trip keys seen (to sum distinct trips)
-        const counts = {};
-        const anglerSum = {};    // per-date total anglers across trips that caught anything
+        const counts = {};       // counts[date][species] = count
+        const anglerSum = {};    // anglerSum[date] = total anglers
+        // Track which (tripKey, date) pairs we've already counted anglers for,
+        // so anglers don't get inflated by multiple species rows on the same trip.
+        const anglerSeen = {};
 
-        const tripSeen = {};     // date -> Set(tripKey) to avoid double-counting anglers
         _tr.reports.forEach(r => {
             if (!r.date || !r.species || !selected.has(r.species)) return;
-            counts[r.date] = counts[r.date] || {};
-            counts[r.date][r.species] = (counts[r.date][r.species] || 0) + (r.count || 0);
+            const anglers = parseInt(r.anglers) || 0;
+            const tripKey = `${r.date}|${r.boat}|${r.trip}`;
+            const countAnglersOnThisRow = !anglerSeen[tripKey];
+            if (countAnglersOnThisRow) anglerSeen[tripKey] = true;
 
-            const tripKey = `${r.boat}|${r.trip}`;
-            tripSeen[r.date] = tripSeen[r.date] || new Set();
-            if (!tripSeen[r.date].has(tripKey)) {
-                tripSeen[r.date].add(tripKey);
-                anglerSum[r.date] = (anglerSum[r.date] || 0) + (parseInt(r.anglers) || 0);
-            }
+            eachAllocation(r, (d, w) => {
+                counts[d] = counts[d] || {};
+                counts[d][r.species] = (counts[d][r.species] || 0) + (r.count || 0) * w;
+                if (countAnglersOnThisRow) {
+                    anglerSum[d] = (anglerSum[d] || 0) + anglers * w;
+                }
+
+                // Breakdown: for each species, track catch per boat
+                const boat = r.boat || 'Unknown';
+                _tr.breakdown[d] = _tr.breakdown[d] || {};
+                _tr.breakdown[d][r.species] = _tr.breakdown[d][r.species] || {};
+                _tr.breakdown[d][r.species][boat] =
+                    (_tr.breakdown[d][r.species][boat] || 0) + (r.count || 0) * w;
+            });
         });
 
         return [...selected].sort().map(sp => ({
@@ -222,21 +262,30 @@
 
         const counts = {};       // counts[date][boat]
         const anglerSum = {};    // anglerSum[date][boat]
-        const tripSeen = {};     // tripSeen[date][boat] = Set of trip keys
+        const anglerSeen = {};   // (tripKey) already counted for anglers?
 
         _tr.reports.forEach(r => {
             if (!r.date || !r.boat || !selected.has(r.boat)) return;
-            counts[r.date] = counts[r.date] || {};
-            counts[r.date][r.boat] = (counts[r.date][r.boat] || 0) + (r.count || 0);
+            const anglers = parseInt(r.anglers) || 0;
+            const tripKey = `${r.date}|${r.boat}|${r.trip}`;
+            const countAnglersOnThisRow = !anglerSeen[tripKey];
+            if (countAnglersOnThisRow) anglerSeen[tripKey] = true;
 
-            const tripKey = r.trip || '';
-            tripSeen[r.date] = tripSeen[r.date] || {};
-            tripSeen[r.date][r.boat] = tripSeen[r.date][r.boat] || new Set();
-            if (!tripSeen[r.date][r.boat].has(tripKey)) {
-                tripSeen[r.date][r.boat].add(tripKey);
-                anglerSum[r.date] = anglerSum[r.date] || {};
-                anglerSum[r.date][r.boat] = (anglerSum[r.date][r.boat] || 0) + (parseInt(r.anglers) || 0);
-            }
+            eachAllocation(r, (d, w) => {
+                counts[d] = counts[d] || {};
+                counts[d][r.boat] = (counts[d][r.boat] || 0) + (r.count || 0) * w;
+                if (countAnglersOnThisRow) {
+                    anglerSum[d] = anglerSum[d] || {};
+                    anglerSum[d][r.boat] = (anglerSum[d][r.boat] || 0) + anglers * w;
+                }
+
+                // Breakdown: for each boat, track catch per species
+                const sp = r.species || 'Unknown';
+                _tr.breakdown[d] = _tr.breakdown[d] || {};
+                _tr.breakdown[d][r.boat] = _tr.breakdown[d][r.boat] || {};
+                _tr.breakdown[d][r.boat][sp] =
+                    (_tr.breakdown[d][r.boat][sp] || 0) + (r.count || 0) * w;
+            });
         });
 
         return [...selected].sort().map(boat => ({
@@ -313,6 +362,20 @@
                 maintainAspectRatio: false,
                 responsive: true,
                 interaction: { mode: 'nearest', axis: 'x', intersect: false },
+                onClick(evt, _els, chart) {
+                    const points = chart.getElementsAtEventForMode(
+                        evt, 'nearest', { intersect: false, axis: 'x' }, false);
+                    if (!points.length) return;
+                    const date = chart.data.labels[points[0].index];
+                    if (date && typeof window._rtJumpToDate === 'function') {
+                        window._rtJumpToDate(date);
+                    }
+                },
+                onHover(evt, _els, chart) {
+                    const points = chart.getElementsAtEventForMode(
+                        evt, 'nearest', { intersect: false, axis: 'x' }, false);
+                    chart.canvas.style.cursor = points.length ? 'pointer' : 'default';
+                },
                 scales: {
                     x: {
                         ticks: {
@@ -350,11 +413,23 @@
                             },
                             label(ctx) {
                                 const v = ctx.parsed.y;
-                                if (v == null) return `${ctx.dataset.label}: —`;
-                                const fmt = _tr.metric === 'perAngler'
-                                    ? v.toFixed(2) + ' / angler'
-                                    : v.toLocaleString();
-                                return `${ctx.dataset.label}: ${fmt}`;
+                                const fmt = v == null ? '\u2014'
+                                    : _tr.metric === 'perAngler'
+                                        ? v.toFixed(2) + ' / angler'
+                                        : Math.round(v).toLocaleString();
+                                const lines = [`${ctx.dataset.label}: ${fmt}`];
+                                const date = ctx.chart.data.labels[ctx.dataIndex];
+                                const sub = _tr.breakdown[date] &&
+                                            _tr.breakdown[date][ctx.dataset.label];
+                                if (sub) {
+                                    Object.entries(sub)
+                                        .sort((a, b) => b[1] - a[1])
+                                        .slice(0, 8)
+                                        .forEach(([name, cnt]) => {
+                                            lines.push(`  ${name}: ${Math.round(cnt).toLocaleString()}`);
+                                        });
+                                }
+                                return lines;
                             }
                         }
                     }
@@ -368,6 +443,7 @@
 
     function redraw() {
         if (!_tr.chart) return;
+        _tr.breakdown = {};
         const dates = visibleDates();
         const raw = _tr.mode === 'species' ? seriesBySpecies(dates) : seriesByBoat(dates);
 
