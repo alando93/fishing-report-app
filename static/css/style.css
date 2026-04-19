@@ -54,6 +54,20 @@
     /* Moon overlay */
     --moon-new:  rgba(100, 100, 120, 0.12);
     --moon-full: rgba(230, 200, 110, 0.18);
+
+    /* Species category pill tokens */
+    --pill-tuna-bg:            rgba(66, 100, 180, 0.09);
+    --pill-tuna-border:        rgba(66, 100, 180, 0.30);
+    --pill-rockfish-bg:        rgba(200, 80, 60, 0.09);
+    --pill-rockfish-border:    rgba(200, 80, 60, 0.28);
+    --pill-bass-bg:            rgba(50, 160, 100, 0.09);
+    --pill-bass-border:        rgba(50, 160, 100, 0.28);
+    --pill-yellowtail-bg:      rgba(190, 150, 20, 0.09);
+    --pill-yellowtail-border:  rgba(190, 150, 20, 0.30);
+    --pill-flatfish-bg:        rgba(40, 160, 170, 0.09);
+    --pill-flatfish-border:    rgba(40, 160, 170, 0.28);
+    --pill-pelagic-bg:         rgba(130, 70, 180, 0.09);
+    --pill-pelagic-border:     rgba(130, 70, 180, 0.28);
 }
 
 /* --- Section scaffolding -------------------------------------------------- */
@@ -430,6 +444,69 @@ td.rt-col-days.rt-days-multi {
     font-size: var(--font-xs);
     margin-left: 2px;
 }
+
+/* Species category pill tints */
+.rt-pill--tuna       { background: var(--pill-tuna-bg);       border-color: var(--pill-tuna-border); }
+.rt-pill--rockfish   { background: var(--pill-rockfish-bg);   border-color: var(--pill-rockfish-border); }
+.rt-pill--bass       { background: var(--pill-bass-bg);       border-color: var(--pill-bass-border); }
+.rt-pill--yellowtail { background: var(--pill-yellowtail-bg); border-color: var(--pill-yellowtail-border); }
+.rt-pill--flatfish   { background: var(--pill-flatfish-bg);   border-color: var(--pill-flatfish-border); }
+.rt-pill--pelagic    { background: var(--pill-pelagic-bg);    border-color: var(--pill-pelagic-border); }
+
+/* Limit health bar */
+.rt-limit-wrap {
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.rt-limit-bar {
+    display: inline-block;
+    height: 4px;
+    border-radius: 2px;
+    background: #cccccc;
+    min-width: 2px;
+}
+.rt-limit-bar--low  { background: #f14668; }
+.rt-limit-bar--mid  { background: #f0c040; }
+.rt-limit-bar--high { background: #48c774; }
+.rt-limit-bar--full { background: #2da44e; width: 40px !important; }
+.rt-limit-pct {
+    font-size: var(--font-xs);
+    color: var(--fg-subtle);
+    line-height: 1;
+    min-width: 24px;
+}
+
+/* Species category legend */
+.rt-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-2);
+    min-height: 0;
+}
+.rt-legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: var(--font-sm);
+    color: var(--fg-muted);
+}
+.rt-legend-swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    flex-shrink: 0;
+}
+.rt-legend--tuna       .rt-legend-swatch { background: var(--pill-tuna-border);       border-color: var(--pill-tuna-border); }
+.rt-legend--rockfish   .rt-legend-swatch { background: var(--pill-rockfish-border);   border-color: var(--pill-rockfish-border); }
+.rt-legend--bass       .rt-legend-swatch { background: var(--pill-bass-border);       border-color: var(--pill-bass-border); }
+.rt-legend--yellowtail .rt-legend-swatch { background: var(--pill-yellowtail-border); border-color: var(--pill-yellowtail-border); }
+.rt-legend--flatfish   .rt-legend-swatch { background: var(--pill-flatfish-border);   border-color: var(--pill-flatfish-border); }
+.rt-legend--pelagic    .rt-legend-swatch { background: var(--pill-pelagic-border);    border-color: var(--pill-pelagic-border); }
 
 /* --- Trends section ------------------------------------------------------- */
 

@@ -14,7 +14,8 @@
         metric: 'total',    // 'total' | 'perAngler'
         smoothing: 0,       // 0 | 7 | 14
         rangeDays: 90,      // 30 | 90 | 365 | 0 (all)
-        attribution: 'asReported' // 'asReported' | 'spread'
+        attribution: 'asReported', // 'asReported' | 'spread'
+        breakdown: {},      // breakdown[date][groupLabel][subLabel] = count
     };
 
     window.initTrendsSection = function (reports) {
@@ -176,14 +177,13 @@
             .sort((a, b) => parseInt(b.meta.replace(/,/g, '')) - parseInt(a.meta.replace(/,/g, '')));
     }
 
-    // Pick up to 3 most-caught species of interest as a sensible default.
     function defaultSpeciesSelection() {
-        const preferred = ['Yellowtail', 'Bluefin Tuna', 'Yellowfin Tuna', 'Dorado'];
+        const preferred = ['Bluefin Tuna', 'Yellowfin Tuna'];
         const available = new Set(_tr.allSpecies);
         const picks = preferred.filter(s => available.has(s));
-        if (picks.length) return new Set(picks.slice(0, 3));
-        // Fall back to top 3 by total count
-        return new Set(speciesItems().slice(0, 3).map(i => i.value));
+        if (picks.length) return new Set(picks);
+        // Fall back to top 2 by total count
+        return new Set(speciesItems().slice(0, 2).map(i => i.value));
     }
 
     // --- Aggregation -------------------------------------------------------
@@ -232,6 +232,13 @@
                 if (countAnglersOnThisRow) {
                     anglerSum[d] = (anglerSum[d] || 0) + anglers * w;
                 }
+
+                // Breakdown: for each species, track catch per boat
+                const boat = r.boat || 'Unknown';
+                _tr.breakdown[d] = _tr.breakdown[d] || {};
+                _tr.breakdown[d][r.species] = _tr.breakdown[d][r.species] || {};
+                _tr.breakdown[d][r.species][boat] =
+                    (_tr.breakdown[d][r.species][boat] || 0) + (r.count || 0) * w;
             });
         });
 
@@ -271,6 +278,13 @@
                     anglerSum[d] = anglerSum[d] || {};
                     anglerSum[d][r.boat] = (anglerSum[d][r.boat] || 0) + anglers * w;
                 }
+
+                // Breakdown: for each boat, track catch per species
+                const sp = r.species || 'Unknown';
+                _tr.breakdown[d] = _tr.breakdown[d] || {};
+                _tr.breakdown[d][r.boat] = _tr.breakdown[d][r.boat] || {};
+                _tr.breakdown[d][r.boat][sp] =
+                    (_tr.breakdown[d][r.boat][sp] || 0) + (r.count || 0) * w;
             });
         });
 
@@ -399,11 +413,23 @@
                             },
                             label(ctx) {
                                 const v = ctx.parsed.y;
-                                if (v == null) return `${ctx.dataset.label}: —`;
-                                const fmt = _tr.metric === 'perAngler'
-                                    ? v.toFixed(2) + ' / angler'
-                                    : Math.round(v).toLocaleString();
-                                return `${ctx.dataset.label}: ${fmt}`;
+                                const fmt = v == null ? '\u2014'
+                                    : _tr.metric === 'perAngler'
+                                        ? v.toFixed(2) + ' / angler'
+                                        : Math.round(v).toLocaleString();
+                                const lines = [`${ctx.dataset.label}: ${fmt}`];
+                                const date = ctx.chart.data.labels[ctx.dataIndex];
+                                const sub = _tr.breakdown[date] &&
+                                            _tr.breakdown[date][ctx.dataset.label];
+                                if (sub) {
+                                    Object.entries(sub)
+                                        .sort((a, b) => b[1] - a[1])
+                                        .slice(0, 8)
+                                        .forEach(([name, cnt]) => {
+                                            lines.push(`  ${name}: ${Math.round(cnt).toLocaleString()}`);
+                                        });
+                                }
+                                return lines;
                             }
                         }
                     }
@@ -417,6 +443,7 @@
 
     function redraw() {
         if (!_tr.chart) return;
+        _tr.breakdown = {};
         const dates = visibleDates();
         const raw = _tr.mode === 'species' ? seriesBySpecies(dates) : seriesByBoat(dates);
 

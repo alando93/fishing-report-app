@@ -54,6 +54,8 @@ Scraper logs go to `scraper_v3.log` in the working directory. See `README.md` fo
 - **Moon phase is approximate.** Synodic cycle anchored to 2000-01-06, ±1 day accuracy. Fine for fishing. Don't swap in an astronomy dependency.
 - **Relative paths.** The dashboard fetches `data/fishing_reports.json` relatively — it must be served from the repo root, not a subpath.
 - **GitHub Actions needs write access.** For private repos, confirm *Settings → Actions → Workflow permissions → Read and write*.
+- **Species lookup tables live in `dashboard.js`.** Two module-level constants govern pill display: `SPECIES_DAILY_LIMIT` (species → daily bag limit per angler) and `SPECIES_CATEGORY` (category name → list of species name substrings). Add new species to both when scraper output introduces names not yet covered. The category helper `_rtSpeciesCategory(sp)` does case-insensitive substring matching — prefer adding full common names rather than short fragments to avoid false matches.
+- **Trends breakdown is rebuilt on every `redraw()`.** `_tr.breakdown` (reset at the top of `redraw()`) is populated inside `seriesBySpecies()` and `seriesByBoat()` as a side effect of the main aggregation loop. The tooltip `label` callback reads from it synchronously. If you refactor the aggregation functions, ensure `_tr.breakdown` is still populated before `_tr.chart.update()` is called.
 
 ## Conventions
 
