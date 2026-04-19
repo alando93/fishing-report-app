@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python automated_scraping/scripts/sandiego_fish_reports_scraper_v3.py)"
+    ]
+  }
+}

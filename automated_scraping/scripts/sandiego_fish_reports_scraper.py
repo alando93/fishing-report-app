@@ -1,309 +1,421 @@
-import requests
-from bs4 import BeautifulSoup
+#!/usr/bin/env python3
+"""
+San Diego Fish Reports Scraper
+
+Scrapes fishing report data from:
+    https://www.sandiegofishreports.com/dock_totals/boats.php?date=YYYY-MM-DD
+
+Usage:
+    # Scrape the last 7 days (default)
+    python sandiego_fish_reports_scraper.py
+
+    # Scrape a specific date
+    python sandiego_fish_reports_scraper.py --date 2026-04-17
+
+    # Scrape a date range
+    python sandiego_fish_reports_scraper.py --start_date 2026-04-01 --end_date 2026-04-17
+
+    # Parse without saving
+    python sandiego_fish_reports_scraper.py --dry_run
+
+Output:
+    data/fishing_reports.json  — matches the schema read by static/js/dashboard.js
+"""
+
+import argparse
 import json
+import logging
 import os
 import re
+import sys
 from datetime import datetime, timedelta
+from typing import Any, Dict, List, Optional
 
-# Ensure the data directory exists
-os.makedirs("data", exist_ok=True)
+import requests
+from bs4 import BeautifulSoup, Tag
 
-def parse_fish_counts(html_content, report_date=None):
-    """Parse fish counts from the HTML content."""
-    soup = BeautifulSoup(html_content, 'html.parser')
-    
-    # Use the provided report_date or default to today's date
-    if report_date is None:
-        report_date = datetime.now().strftime("%Y-%m-%d")
-    
-    # Find all landing panels (each landing has a panel with tables)
-    landing_panels = soup.find_all('div', class_='panel')
-    
-    data = []
-    
-    for panel in landing_panels:
-        # Check if this panel contains fish counts (has an h2 heading)
-        heading = panel.find('h2')
-        if not heading:
-            continue
-            
-        landing_name = heading.text.strip().replace(' Fish Counts for Today', '')
-        
-        # Find the table in this panel
-        table = panel.find('table')
-        if not table:
-            continue
-            
-        # Process each row in the table
-        rows = table.find('tbody').find_all('tr') if table.find('tbody') else table.find_all('tr')[1:]
-        
-        for row in rows:
-            columns = row.find_all('td')
-            if len(columns) < 3:
-                continue
-                
-            # Extract boat information
-            boat_info = columns[0].text.strip().split('\n')
-            boat_name = boat_info[0].strip()
-            
-            ## Extract trip details
-            #print('columns[1]: ',columns[1])
-            #print('columns[1] type: ',type(columns[1]))
-            #trip_info = columns[1].text.strip().split('\n')
-            
-            #trip_type_match = re.search(r'<a[^>]*>([^<]+)</a>', columns[1].text)
-            #trip_type = trip_type_match.group(1) if trip_type_match else None
-            #anglers_match = re.search(r'(\d+) Anglers', trip_info[0])
-            #num_anglers = anglers_match.group(1) if anglers_match else "0"
-            #print('Trip type: ',trip_type)
-            #print('Num anglers: ',num_anglers)
-            #trip_type = ""
-            #for line in trip_info:
-            #    if "Day" in line:
-            #        trip_type = line.strip()
-            #        break
+# ---------------------------------------------------------------------------
+# Logging
+# ---------------------------------------------------------------------------
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.StreamHandler(sys.stdout),
+        logging.FileHandler("scraper_v3.log", mode="a"),
+    ],
+)
+logger = logging.getLogger(__name__)
 
-            """
-            Extract anglers count and trip type from BeautifulSoup Tag object
-            """
-            # Get all text content and split by <br/> or line breaks
-            text_parts = columns[1].get_text(separator='|', strip=True).split('|')
-            
-            # First part should be the anglers
-            num_anglers = text_parts[0] if text_parts else None
-            
-            # Find the <a> tag and get its text for trip type
-            a_tag = columns[1].find('a')
-            trip_type = a_tag.get_text(strip=True) if a_tag else None
-            
-            print('Trip type: ',trip_type)
-            print('Num anglers: ',num_anglers)
-            # Extract fish counts
-            catch_info = columns[2].text.strip()
-            
-            # Parse the catch information
-            fish_counts = re.findall(r'(\d+) ([^,]+?)(?:,|$)', catch_info)
-            
-            # Get location from the boat info
-            location = "Unknown"
-            for line in boat_info:
-                if "CA" in line:
-                    location = line.strip()
-                    break
-            
-            # Add each fish type to our data
-            for count, species in fish_counts:
-                # Clean up species (remove any "Released" text)
-                clean_species = species.strip().split(' Released')[0].strip()
-                is_released = 'Released' in species
-                
-                # Create the report
-                data.append({
-                    "location": location,
-                    "landing": landing_name,
-                    "boat": boat_name,
-                    "trip": trip_type,
-                    "anglers": num_anglers,
-                    "species": clean_species,
-                    "count": int(count.strip()),
-                    "released": is_released,
-                    "date": report_date,
-                    "source": "San Diego Fish Reports",
-                    "source_url": f"https://www.sandiegofishreports.com/dock_totals/boats.php?date={report_date}"
-                })
-    
-    return data
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+BASE_URL = "https://www.sandiegofishreports.com/dock_totals/boats.php"
+DATA_DIR = "data"
+OUTPUT_FILE = os.path.join(DATA_DIR, "fishing_reports.json")
+MAX_RECORDS = 100_000
+REQUEST_TIMEOUT = 30
+SOURCE_NAME = "San Diego Fish Reports"
+
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.5",
+    "Accept-Encoding": "gzip, deflate",
+    "Connection": "keep-alive",
+    "Upgrade-Insecure-Requests": "1",
+}
+
+# Regex: matches patterns like "107 Rockfish" or "2 Sheephead Released"
+# Handles optional leading comma/whitespace between entries.
+CATCH_PATTERN = re.compile(r"(\d+)\s+([A-Za-z][A-Za-z\s]*?)(?:\s+(Released))?(?=\s*,\s*\d|\s*$)")
 
 
-def build_dry_run_metadata(reports):
-    """Build metadata for a dry run without saving data."""
-    unique_dates = sorted({r["date"] for r in reports if r.get("date")})
-    unique_boats = {r["boat"] for r in reports if r.get("boat")}
-    unique_landings = {r["landing"] for r in reports if r.get("landing")}
-    unique_species = {r["species"] for r in reports if r.get("species")}
-    sources = {r["source"] for r in reports if r.get("source")}
+# ---------------------------------------------------------------------------
+# Scraper
+# ---------------------------------------------------------------------------
+class FishReportsScraper:
+    def __init__(self) -> None:
+        self.session = requests.Session()
+        self.session.headers.update(HEADERS)
+        os.makedirs(DATA_DIR, exist_ok=True)
 
-    total_fish_count = sum(r.get("count", 0) for r in reports)
-    species_totals = {}
-    boat_totals = {}
-    for report in reports:
-        species = report.get("species")
-        boat = report.get("boat")
-        count = report.get("count", 0) or 0
-        if species:
-            species_totals[species] = species_totals.get(species, 0) + count
-        if boat:
-            boat_totals[boat] = boat_totals.get(boat, 0) + count
+    # ------------------------------------------------------------------
+    # Public API
+    # ------------------------------------------------------------------
 
-    top_species = sorted(species_totals.items(), key=lambda x: x[1], reverse=True)[:5]
-    top_boats = sorted(boat_totals.items(), key=lambda x: x[1], reverse=True)[:5]
-
-    return {
-        "report_date": unique_dates[0] if len(unique_dates) == 1 else unique_dates,
-        "report_count": len(reports),
-        "unique_boats": len(unique_boats),
-        "unique_landings": len(unique_landings),
-        "unique_species": len(unique_species),
-        "total_fish_count": total_fish_count,
-        "top_species": top_species,
-        "top_boats": top_boats,
-        "sources": sorted(sources)
-    }
-
-
-def load_existing_data():
-    """Load existing data from fishing_reports.json."""
-    try:
-        with open("data/fishing_reports.json", "r") as f:
-            return json.load(f)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {"reports": [], "last_updated": "", "sources": []}
-
-def save_data(new_reports):
-    """Save the combined data to fishing_reports.json, overwriting reports for dates in new_reports."""
-    existing_data = load_existing_data()
-    existing_reports = existing_data.get("reports", [])
-
-    # Get all dates present in new_reports
-    new_dates = set(r["date"] for r in new_reports)
-
-    # Keep only reports NOT in the new date range
-    filtered_existing = [r for r in existing_reports if r["date"] not in new_dates]
-
-    # Combine and deduplicate
-    combined_reports = filtered_existing + new_reports
-
-    # Remove duplicates (by date, location, boat, species, count)
-    unique_reports = []
-    seen = set()
-    for report in combined_reports:
-        key = f"{report['date']}-{report['location']}-{report['boat']}-{report['species']}-{report['count']}"
-        if key not in seen:
-            seen.add(key)
-            unique_reports.append(report)
-
-    # Keep only the last 10000 reports
-    unique_reports = sorted(unique_reports, key=lambda x: x["date"], reverse=True)[:10000]
-
-    # Prepare the final data structure
-    data = {
-        "reports": unique_reports,
-        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-        "sources": list(set(report["source"] for report in unique_reports))
-    }
-
-    # Save to JSON file
-    with open("data/fishing_reports.json", "w") as f:
-        json.dump(data, f, indent=2)
-
-    print(f"Saved {len(unique_reports)} reports to data/fishing_reports.json")
-    
-    # Generate a summary
-    print("\nSummary by landing and boat:")
-    summary = {}
-    for report in unique_reports:
-        landing = report["landing"]
-        boat = report["boat"]
-        if landing not in summary:
-            summary[landing] = {}
-        if boat not in summary[landing]:
-            summary[landing][boat] = {}
-        
-        species = report["species"]
-        count = report["count"]
-        
-        if species in summary[landing][boat]:
-            summary[landing][boat][species] += count
-        else:
-            summary[landing][boat][species] = count
-    
-    # Print the summary
-    for landing, boats in summary.items():
-        print(f"\n{landing}:")
-        for boat, species_counts in boats.items():
-            print(f"  {boat}:")
-            for species, count in species_counts.items():
-                print(f"    {species}: {count}")
-
-def main(html_content=None, date=None):
-    """Main function to scrape, parse, and save fish counts."""
-    if html_content is None:
-        # Use the provided date or default to today's date
-        if date is None:
-            date = datetime.now().strftime("%Y-%m-%d")
-        
-        url = f"https://www.sandiegofishreports.com/dock_totals/boats.php?date={date}"
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-        }
+    def scrape_date(self, date: str) -> List[Dict[str, Any]]:
+        """Fetch and parse reports for a single date string (YYYY-MM-DD)."""
+        url = f"{BASE_URL}?date={date}"
+        logger.info("Fetching %s", url)
 
         try:
-            response = requests.get(url, headers=headers)
+            response = self.session.get(url, timeout=REQUEST_TIMEOUT)
             response.raise_for_status()
-            html_content = response.content
-        except requests.RequestException as e:
-            print(f"Error fetching data from {url}: {e}")
-            return
-    
-    print(f"Parsing fish counts for date: {date}...")
-    new_reports = parse_fish_counts(html_content, report_date=date)
-    print(f"Parsed {len(new_reports)} new reports.")
-    save_data(new_reports)
+        except requests.RequestException as exc:
+            logger.error("Request failed for %s: %s", url, exc)
+            return []
 
-# Example usage with the provided HTML or a specific date
-if __name__ == "__main__":
-    import argparse
+        try:
+            soup = BeautifulSoup(response.content, "html.parser")
+            reports = self._parse_page(soup, date, url)
+        except Exception as exc:  # noqa: BLE001
+            logger.error("Parse error for %s: %s", date, exc)
+            return []
 
-    parser = argparse.ArgumentParser(description="Scrape San Diego Fish Reports for a date range or today.")
-    parser.add_argument("--start_date", type=str, help="Start date in YYYY-MM-DD format")
-    parser.add_argument("--end_date", type=str, help="End date in YYYY-MM-DD format")
-    parser.add_argument("--dry_run", action="store_true", help="If set, do not save any data to fishing_reports.json")
-    args = parser.parse_args()
+        logger.info("Extracted %d report rows for %s", len(reports), date)
+        return reports
 
-    def main_with_dry_run(html_content=None, date=None, dry_run=False):
-        if html_content is None:
-            if date is None:
-                date = datetime.now().strftime("%Y-%m-%d")
-            url = f"https://www.sandiegofishreports.com/dock_totals/boats.php?date={date}"
-            headers = {
-                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
-            }
-            try:
-                response = requests.get(url, headers=headers)
-                response.raise_for_status()
-                html_content = response.content
-            except requests.RequestException as e:
-                print(f"Error fetching data from {url}: {e}")
-                return
+    def scrape_date_range(self, start_date: str, end_date: str, dry_run: bool = False) -> None:
+        """Scrape every date in [start_date, end_date] inclusive."""
+        start = datetime.strptime(start_date, "%Y-%m-%d")
+        end = datetime.strptime(end_date, "%Y-%m-%d")
 
-        print(f"Parsing fish counts for date: {date}...")
-        new_reports = parse_fish_counts(html_content, report_date=date)
-        print(f"Parsed {len(new_reports)} new reports.")
-        if not dry_run:
-            save_data(new_reports)
+        if start > end:
+            logger.error("start_date must be <= end_date")
+            sys.exit(1)
+
+        all_reports: List[Dict[str, Any]] = []
+        current = start
+        while current <= end:
+            all_reports.extend(self.scrape_date(current.strftime("%Y-%m-%d")))
+            current += timedelta(days=1)
+
+        if all_reports:
+            self.save_reports(all_reports, dry_run=dry_run)
         else:
-            print("Dry run enabled: not saving any data.")
-            print("Dry run data:")
-            print(json.dumps(new_reports, indent=2))
+            logger.warning("No reports collected for range %s – %s", start_date, end_date)
 
-    if args.start_date and args.end_date:
-        start_date = datetime.strptime(args.start_date, "%Y-%m-%d")
-        end_date = datetime.strptime(args.end_date, "%Y-%m-%d")
-        current_date = start_date
+    def save_reports(self, new_reports: List[Dict[str, Any]], dry_run: bool = False) -> None:
+        """Merge new_reports with existing data, deduplicate, trim, and write."""
+        if dry_run:
+            logger.info("DRY RUN — would save %d new report rows (sample below)", len(new_reports))
+            print(json.dumps(new_reports[:5], indent=2))
+            return
 
-        while current_date <= end_date:
-            date_str = current_date.strftime("%Y-%m-%d")
-            main_with_dry_run(date=date_str, dry_run=args.dry_run)
-            current_date += timedelta(days=1)
-    else:
-        # Run for today's date
-        today_str = datetime.now().strftime("%Y-%m-%d")
-        main_with_dry_run(date=today_str, dry_run=args.dry_run)
+        existing = self._load_existing()
+        existing_reports: List[Dict[str, Any]] = existing.get("reports", [])
 
-#Usage:
-#To run for a custom range:
-#python automated_scraping/scripts/sandiego_fish_reports_scraper.py --start_date 2025-04-01 --end_date 2025-05-24
-#To run for today:
-#python automated_scraping/scripts/sandiego_fish_reports_scraper.py
-#To do a dry run (no saving):
-#python automated_scraping/scripts/sandiego_fish_reports_scraper.py --dry_run
+        # Replace all records for dates present in the new batch
+        new_dates = {r["date"] for r in new_reports}
+        kept = [r for r in existing_reports if r["date"] not in new_dates]
+
+        combined = self._deduplicate(kept + new_reports)
+        # Keep the MAX_RECORDS most-recent records
+        combined.sort(key=lambda r: r["date"], reverse=True)
+        combined = combined[:MAX_RECORDS]
+
+        sources = sorted({r["source"] for r in combined})
+        payload = {
+            "reports": combined,
+            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "sources": sources,
+        }
+
+        with open(OUTPUT_FILE, "w", encoding="utf-8") as fh:
+            json.dump(payload, fh, indent=2, ensure_ascii=False)
+
+        logger.info("Saved %d total reports to %s", len(combined), OUTPUT_FILE)
+
+    # ------------------------------------------------------------------
+    # Parsing helpers
+    # ------------------------------------------------------------------
+
+    def _parse_page(self, soup: BeautifulSoup, report_date: str, source_url: str) -> List[Dict[str, Any]]:
+        reports: List[Dict[str, Any]] = []
+
+        panels = soup.find_all("div", class_="panel")
+        if not panels:
+            logger.warning("No .panel elements found on page — HTML structure may have changed")
+            return reports
+
+        for panel in panels:
+            landing = self._extract_landing_name(panel)
+            if not landing:
+                continue
+
+            table = panel.find("table")
+            if not table:
+                logger.debug("Panel '%s' has no table, skipping", landing)
+                continue
+
+            rows = self._get_data_rows(table)
+            for row in rows:
+                cols = row.find_all("td")
+                if len(cols) < 3:
+                    continue
+                try:
+                    boat_info = self._parse_boat_col(cols[0])
+                    trip_info = self._parse_trip_col(cols[1])
+                    catches = self._parse_catch_col(cols[2])
+                except Exception as exc:  # noqa: BLE001
+                    logger.warning("Skipping malformed row in landing '%s': %s", landing, exc)
+                    continue
+
+                if not boat_info or not catches:
+                    continue
+
+                for catch in catches:
+                    reports.append(
+                        {
+                            "location": boat_info["location"],
+                            "landing": landing,
+                            "boat": boat_info["boat"],
+                            "trip": trip_info["trip"],
+                            "anglers": trip_info["anglers"],
+                            "species": catch["species"],
+                            "count": catch["count"],
+                            "released": catch["released"],
+                            "date": report_date,
+                            "source": SOURCE_NAME,
+                            "source_url": source_url,
+                        }
+                    )
+
+        return reports
+
+    @staticmethod
+    def _extract_landing_name(panel: Tag) -> Optional[str]:
+        heading = panel.find("h2")
+        if not heading:
+            return None
+        name = heading.get_text(strip=True)
+        # Strip the trailing page-title noise
+        name = re.sub(r"\s*-?\s*Fish Counts for Today\s*$", "", name, flags=re.IGNORECASE)
+        return name.strip() or None
+
+    @staticmethod
+    def _get_data_rows(table: Tag) -> List[Tag]:
+        tbody = table.find("tbody")
+        if tbody:
+            return tbody.find_all("tr")
+        all_rows = table.find_all("tr")
+        # Skip the first row if it looks like a header (contains <th>)
+        if all_rows and all_rows[0].find("th"):
+            return all_rows[1:]
+        return all_rows
+
+    @staticmethod
+    def _parse_boat_col(col: Tag) -> Optional[Dict[str, str]]:
+        """
+        First column: boat name on the first text line, optional address below.
+        Location defaults to 'San Diego, CA' when no address is present.
+        """
+        lines = [ln.strip() for ln in col.get_text(separator="\n").splitlines() if ln.strip()]
+        if not lines:
+            return None
+
+        boat = lines[0]
+        location = "San Diego, CA"
+
+        # Look for an address-style line: contains a comma or state abbreviation
+        for line in lines[1:]:
+            if re.search(r",\s*[A-Z]{2}|,\s*CA\b", line):
+                location = line.strip()
+                break
+
+        return {"boat": boat, "location": location}
+
+    @staticmethod
+    def _parse_trip_col(col: Tag) -> Dict[str, str]:
+        """
+        Second column typically has:
+          - a number (angler count) as plain text
+          - a hyperlinked trip-type string
+        Returns anglers as the full text (e.g. "53 Anglers") when available,
+        or just the raw number string otherwise.
+        """
+        result: Dict[str, str] = {"trip": "Unknown", "anglers": "Unknown"}
+
+        # Trip type is usually inside an <a> tag
+        a_tag = col.find("a")
+        if a_tag:
+            result["trip"] = a_tag.get_text(strip=True)
+
+        # Anglers: look for a line/span that mentions a number + "Anglers"
+        full_text = col.get_text(separator="\n", strip=True)
+        # Match patterns like "53 Anglers", "53", "Anglers: 53"
+        angler_match = re.search(r"(\d+)\s*Anglers?", full_text, re.IGNORECASE)
+        if angler_match:
+            result["anglers"] = angler_match.group(0).strip()
+        else:
+            # Fallback: grab the first number found
+            num_match = re.search(r"\d+", full_text)
+            if num_match:
+                result["anglers"] = num_match.group(0)
+
+        return result
+
+    @staticmethod
+    def _parse_catch_col(col: Tag) -> List[Dict[str, Any]]:
+        """
+        Third column: one or more catches, e.g.:
+            "107 Rockfish, 2 Sheephead Released, 10 Calico Bass"
+
+        Each entry becomes {'species': str, 'count': int, 'released': bool}.
+        """
+        text = col.get_text(separator=" ", strip=True)
+        # Normalise multiple spaces
+        text = re.sub(r"\s{2,}", " ", text)
+
+        catches: List[Dict[str, Any]] = []
+
+        for m in CATCH_PATTERN.finditer(text):
+            count_str, raw_species, released_flag = m.group(1), m.group(2), m.group(3)
+
+            species = raw_species.strip()
+            # Strip any trailing "Released" that slipped into the species group
+            species = re.sub(r"\s*Released\s*$", "", species, flags=re.IGNORECASE).strip()
+
+            if not species:
+                continue
+
+            try:
+                count = int(count_str)
+            except ValueError:
+                continue
+
+            catches.append(
+                {
+                    "species": species,
+                    "count": count,
+                    "released": released_flag is not None,
+                }
+            )
+
+        if not catches:
+            logger.debug("No catches parsed from cell text: %r", text[:120])
+
+        return catches
+
+    # ------------------------------------------------------------------
+    # Persistence helpers
+    # ------------------------------------------------------------------
+
+    @staticmethod
+    def _load_existing() -> Dict[str, Any]:
+        try:
+            with open(OUTPUT_FILE, "r", encoding="utf-8") as fh:
+                return json.load(fh)
+        except FileNotFoundError:
+            return {"reports": [], "last_updated": "", "sources": []}
+        except json.JSONDecodeError as exc:
+            logger.warning("Could not parse existing %s (%s) — starting fresh", OUTPUT_FILE, exc)
+            return {"reports": [], "last_updated": "", "sources": []}
+
+    @staticmethod
+    def _deduplicate(reports: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        seen: set = set()
+        unique: List[Dict[str, Any]] = []
+        for r in reports:
+            key = (r["date"], r.get("location"), r.get("boat"), r.get("species"), r.get("count"))
+            if key not in seen:
+                seen.add(key)
+                unique.append(r)
+        return unique
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+def build_arg_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(
+        description="San Diego Fish Reports Scraper",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog="""
+Examples:
+  python sandiego_fish_reports_scraper.py
+  python sandiego_fish_reports_scraper.py --date 2026-04-17
+  python sandiego_fish_reports_scraper.py --start_date 2026-04-01 --end_date 2026-04-17
+  python sandiego_fish_reports_scraper.py --dry_run
+        """,
+    )
+    parser.add_argument("--date", help="Scrape a single date (YYYY-MM-DD)")
+    parser.add_argument("--start_date", help="Range start date (YYYY-MM-DD)")
+    parser.add_argument("--end_date", help="Range end date (YYYY-MM-DD)")
+    parser.add_argument("--dry_run", action="store_true", help="Parse without writing to disk")
+    parser.add_argument("--verbose", action="store_true", help="Enable DEBUG logging")
+    return parser
+
+
+def main() -> None:
+    args = build_arg_parser().parse_args()
+
+    if args.verbose:
+        logging.getLogger().setLevel(logging.DEBUG)
+
+    scraper = FishReportsScraper()
+
+    try:
+        if args.date:
+            reports = scraper.scrape_date(args.date)
+            scraper.save_reports(reports, dry_run=args.dry_run)
+
+        elif args.start_date and args.end_date:
+            scraper.scrape_date_range(args.start_date, args.end_date, dry_run=args.dry_run)
+
+        elif args.start_date or args.end_date:
+            logger.error("Both --start_date and --end_date are required for a range scrape.")
+            sys.exit(1)
+
+        else:
+            # Default: scrape the last 7 days
+            today = datetime.now()
+            start = (today - timedelta(days=7)).strftime("%Y-%m-%d")
+            end = (today - timedelta(days=1)).strftime("%Y-%m-%d")
+            scraper.scrape_date_range(start, end, dry_run=args.dry_run)
+
+    except KeyboardInterrupt:
+        logger.info("Interrupted by user")
+    except Exception as exc:  # noqa: BLE001
+        logger.error("Unexpected error: %s", exc, exc_info=True)
+        sys.exit(1)
+
+
+if __name__ == "__main__":
+    main()
