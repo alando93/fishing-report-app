@@ -323,8 +323,8 @@ function _rtBuildTable(trips) {
                 const avgStr = r.anglers > 0
                     ? (c.cnt / r.anglers).toFixed(1) + '/ang'
                     : '';
-                const perDayStr = td.isMultiDay
-                    ? (c.cnt / td.tripDays).toFixed(0) + '/day'
+                const perDayStr = td.isMultiDay && r.anglers > 0
+                    ? (c.cnt / (r.anglers * td.tripDays)).toFixed(2) + '/ang/day'
                     : '';
                 const parts = [];
                 if (avgStr)    parts.push(`<span class="rt-pill-avg">${avgStr}</span>`);
@@ -398,7 +398,7 @@ function _rtBuildTable(trips) {
                             <th>Boat / Trip</th>
                             <th>Anglers</th>
                             <th>Days</th>
-                            <th>Catch <span class="rt-th-hint">count &middot; per angler &middot; per day</span></th>
+                            <th>Catch <span class="rt-th-hint">count &middot; per angler &middot; per angler/day</span></th>
                         </tr>
                     </thead>
                     <tbody>${tableRows}</tbody>
