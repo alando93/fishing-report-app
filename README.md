@@ -19,8 +19,12 @@ The single view is **Fish Count by Day** — a table of all trips for a selected
 - Navigate dates with the prev/next arrows or the date picker
 - Jump to the most recent data with the **Latest** button
 - Filter the table to specific species using the **Filter species** dropdown
-- Each species pill shows the raw count and average per angler
+- Each species pill shows the raw count, average per angler, and (for multi-day trips) a per-day rate
+- Pills are color-coded by species family — Tuna (blue), Rockfish (orange-red), Bass (green), Yellowtail (gold), Flatfish (teal), Dorado/Wahoo/Marlin/etc. (purple)
+- A small health bar on each pill shows catch as a percentage of the legal daily bag limit per angler; a 🏆 appears when the limit is reached
 - Click the source link to open the original report page on sandiegofishreports.com
+
+A **Trends** section below the daily table shows time-series charts (fish count or per-angler rate) with optional smoothing and moon-phase overlays. Hovering a data point shows a breakdown: by-boat mode lists species caught on that boat; by-fish mode lists which boats contributed to that species count.
 
 The dashboard is a plain `index.html` file. Serve it from any static host or locally:
 
@@ -44,7 +48,12 @@ fishing-report-app/
 │   └── fishing_reports.json               # Scraped data (read by dashboard)
 ├── static/
 │   ├── css/style.css
-│   └── js/dashboard.js
+│   └── js/
+│       ├── dashboard.js    # Daily Reports view
+│       ├── trends.js       # Trends chart (Chart.js)
+│       ├── tripDuration.js # Trip string parser + multi-day allocation
+│       ├── moon.js         # Moon phase utilities
+│       └── ui.js           # Shared widgets (multi-select, segmented control)
 └── .github/
     └── workflows/
         └── scrape.yml                     # GitHub Actions automation
