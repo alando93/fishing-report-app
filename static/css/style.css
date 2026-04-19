@@ -373,7 +373,19 @@
 
 .rt-col-boat    { width: 22%; }
 .rt-col-anglers { width: 8%;  font-size: var(--font-body); color: var(--fg-subtle); }
+.rt-col-days    { width: 6%;  font-size: var(--font-body); color: var(--fg-subtle);
+                  font-variant-numeric: tabular-nums; }
 .rt-col-catch   { }
+
+/* Multi-day trips: accent the Days cell so the eye can pick them out. */
+td.rt-col-days.rt-days-multi {
+    color: var(--accent);
+    font-weight: 600;
+}
+
+.rt-pill-perday {
+    color: var(--accent) !important;
+}
 
 .rt-boat-name {
     font-weight: 600;
@@ -456,6 +468,16 @@
     display: flex;
     gap: var(--space-3);
     flex-wrap: wrap;
+    align-items: center;
+}
+.trends-click-hint {
+    margin-left: auto;
+    font-style: italic;
+}
+.trends-attribution-hint {
+    font-size: var(--font-sm);
+    color: var(--fg-subtle);
+    font-style: italic;
 }
 .trends-legend-swatch {
     display: inline-block;
@@ -479,6 +501,7 @@
 
 @media screen and (max-width: 640px) {
     .trends-chart-wrap { height: 300px; }
-    .rt-col-boat    { width: 40%; }
-    .rt-col-anglers { width: 18%; }
+    .rt-col-boat    { width: 36%; }
+    .rt-col-anglers { width: 14%; }
+    .rt-col-days    { width: 10%; }
 }
