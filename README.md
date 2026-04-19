@@ -155,14 +155,17 @@ This is the core scraper. It fetches daily fish count pages from [San Diego Fish
 # Install dependencies
 pip install -r requirements.txt
 
-# Scrape today's data
+# Scrape yesterday's data (recommended - v2 scraper)
+python automated_scraping/scripts/sandiego_fish_reports_scraper_v2.py
+
+# Scrape a custom date range (v2 scraper)
+python automated_scraping/scripts/sandiego_fish_reports_scraper_v2.py --start_date 2025-04-01 --end_date 2025-05-24
+
+# Dry run (parse and print without saving - v2 scraper)
+python automated_scraping/scripts/sandiego_fish_reports_scraper_v2.py --dry_run
+
+# Legacy scraper (v1)
 python automated_scraping/scripts/sandiego_fish_reports_scraper.py
-
-# Scrape a custom date range
-python automated_scraping/scripts/sandiego_fish_reports_scraper.py --start_date 2025-04-01 --end_date 2025-05-24
-
-# Dry run (parse and print without saving)
-python automated_scraping/scripts/sandiego_fish_reports_scraper.py --dry_run
 ```
 
 ---

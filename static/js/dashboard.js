@@ -108,7 +108,7 @@ function filterByDateRange(reports, days) {
     if (days === 0) return reports;
     const cutoff = new Date();
     cutoff.setDate(cutoff.getDate() - days);
-    return reports.filter(r => new Date(r.date) >= cutoff);
+    return reports.filter(r => new Date(r.date + 'T12:00:00Z') >= cutoff);
 }
 
 function getTopSpecies(reports, n) {
@@ -298,7 +298,7 @@ function buildDateMap(reports) {
 }
 
 function formatDateLabel(dateStr) {
-    const d = new Date(dateStr + 'T12:00:00');
+    const d = new Date(dateStr + 'T12:00:00Z');
     return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
 }
 
@@ -513,9 +513,9 @@ function _rtGetTripsForDate(date) {
 
 /** Shift the selected date by n days (clamped to min/max). */
 function _rtShiftDay(n) {
-    const dt = new Date(_rt.currentDate + 'T12:00:00');
-    dt.setDate(dt.getDate() + n);
-    const next = dt.toISOString().slice(0, 10);
+    const dt = new Date(_rt.currentDate + 'T12:00:00Z');
+    const nextDt = new Date(dt.getTime() + n * 24 * 60 * 60 * 1000);
+    const next = nextDt.toISOString().slice(0, 10);
     if (next >= _rt.minDate && next <= _rt.maxDate) _rtChangeDate(next);
 }
 
@@ -547,7 +547,7 @@ function _rtChangeDate(date) {
     const trips = _rtGetTripsForDate(date);
     const totalFish  = trips.reduce((s, r) => s + r.catch.reduce((a, c) => a + c.cnt, 0), 0);
     const totalTrips = trips.length;
-    const dt = new Date(date + 'T12:00:00');
+    const dt = new Date(date + 'T12:00:00Z');
     const fmtDate = dt.toLocaleDateString('en-US',
         { weekday: 'long', month: 'long', day: 'numeric', year: 'numeric' });
 
@@ -763,7 +763,7 @@ function _rtUpdateFilter() {
 
 function getDateRange(reports) {
     if (!reports || reports.length === 0) return 'No data';
-    const dates = reports.map(r => new Date(r.date)).filter(d => !isNaN(d));
+    const dates = reports.map(r => new Date(r.date + 'T12:00:00Z')).filter(d => !isNaN(d));
     if (!dates.length) return 'No valid dates';
     const min = new Date(Math.min(...dates));
     const max = new Date(Math.max(...dates));
