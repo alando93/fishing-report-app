@@ -468,10 +468,10 @@ td.rt-col-days.rt-days-multi {
     background: #cccccc;
     min-width: 2px;
 }
-.rt-limit-bar--low  { background: #48c774; }
+.rt-limit-bar--low  { background: #f14668; }
 .rt-limit-bar--mid  { background: #f0c040; }
-.rt-limit-bar--high { background: #ff9f43; }
-.rt-limit-bar--full { background: #f14668; width: 40px !important; }
+.rt-limit-bar--high { background: #48c774; }
+.rt-limit-bar--full { background: #2da44e; width: 40px !important; }
 .rt-limit-pct {
     font-size: var(--font-xs);
     color: var(--fg-subtle);
