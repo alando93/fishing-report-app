@@ -404,10 +404,10 @@ def main() -> None:
             sys.exit(1)
 
         else:
-            # Default: scrape the last 7 days
+            # Default: scrape today and the previous 7 days
             today = datetime.now()
+            end = today.strftime("%Y-%m-%d")
             start = (today - timedelta(days=7)).strftime("%Y-%m-%d")
-            end = (today - timedelta(days=1)).strftime("%Y-%m-%d")
             scraper.scrape_date_range(start, end, dry_run=args.dry_run)
 
     except KeyboardInterrupt:
