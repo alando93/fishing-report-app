@@ -8,10 +8,9 @@ A web-based dashboard that automatically scrapes Southern California fishing rep
 
 - 🎣 **Automated Scraping**: Collects fishing reports from various SoCal sources including H2O Sportz, San Diego Fish Reports, and other local fishing report websites
 - 📊 **Interactive Visualizations**: Uses Chart.js to display fishing activity trends and patterns
-- 🏄 **Real-time Data**: Automatically updates data every 12 hours with the latest fishing reports
+- 🏄 **Scheduled Data Refresh**: Automatically updates data every 12 hours with the latest fishing reports
 - 📱 **Responsive Design**: Built with Bulma CSS for a clean, mobile-friendly interface
 - 📋 **Detailed Reports**: Displays comprehensive fishing data including species caught, locations, boat information, and angler counts
-- 🔄 **Data Export**: Stores data in both JSON and CSV formats for easy analysis
 
 ## Technologies Used
 
@@ -37,7 +36,7 @@ A web-based dashboard that automatically scrapes Southern California fishing rep
 3. **Run the scrapers** (optional - data is already included):
    ```bash
    python automated_scraping/scripts/scraper.py
-   python automated_scraping/scripts/scraper2.py
+   python automated_scraping/scripts/sandiego_fish_reports_scraper.py
    python automated_scraping/scripts/scraper3.py
    ```
 
@@ -60,7 +59,7 @@ To manually update the fishing reports:
 
 ```bash
 # Run all scrapers
-python automated_scraping/scripts/scraper.py && python automated_scraping/scripts/scraper2.py && python automated_scraping/scripts/scraper3.py
+python automated_scraping/scripts/scraper.py && python automated_scraping/scripts/sandiego_fish_reports_scraper.py && python automated_scraping/scripts/scraper3.py
 ```
 
 The scrapers will:
@@ -85,7 +84,7 @@ fishing-report-app/
 ├── automated_scraping/
 │   └── scripts/
 │       ├── scraper.py         # H2O Sportz scraper
-│       ├── scraper2.py        # Additional scraper
+│       ├── sandiego_fish_reports_scraper.py        # Additional scraper
 │       └── scraper3.py        # Additional scraper
 ├── data/
 │   ├── fishing_reports.json   # Scraped data in JSON format
@@ -127,32 +126,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 This application is for informational purposes only. Always check local fishing regulations and conditions before fishing. Data accuracy is not guaranteed and should be verified with official sources.
 
-```
-fishing-report-app/
-├── automated_scraping/
-│   └── scripts/
-│       └── scraper2.py          # Scraper that fetches and parses fish counts
-├── .github/
-│   └── workflows/
-│       └── scrape.yml           # GitHub Actions workflow that runs the scraper
-├── data/
-│   └── fishing_reports.json     # Scraped data consumed by the dashboard
-├── static/
-│   ├── css/
-│   │   └── style.css
-│   └── js/
-│       ├── dashboard.js         # Charts and reports table
-│       └── boatCalendar.js      # Boat activity calendar heatmap
-├── index.html                   # Main dashboard page
-├── requirements.txt
-└── README.md
-```
-
 ---
 
 ## How It Works
 
-### 1. `automated_scraping/scripts/scraper2.py`
+### 1. `automated_scraping/scripts/sandiego_fish_reports_scraper.py`
 
 This is the core scraper. It fetches daily fish count pages from [San Diego Fish Reports](https://www.sandiegofishreports.com/dock_totals/boats.php) and parses them into structured records.
 
@@ -178,13 +156,13 @@ This is the core scraper. It fetches daily fish count pages from [San Diego Fish
 pip install -r requirements.txt
 
 # Scrape today's data
-python automated_scraping/scripts/scraper2.py
+python automated_scraping/scripts/sandiego_fish_reports_scraper.py
 
 # Scrape a custom date range
-python automated_scraping/scripts/scraper2.py --start_date 2025-04-01 --end_date 2025-05-24
+python automated_scraping/scripts/sandiego_fish_reports_scraper.py --start_date 2025-04-01 --end_date 2025-05-24
 
 # Dry run (parse and print without saving)
-python automated_scraping/scripts/scraper2.py --dry_run
+python automated_scraping/scripts/sandiego_fish_reports_scraper.py --dry_run
 ```
 
 ---
@@ -202,7 +180,7 @@ This is a GitHub Actions workflow that runs the scraper automatically in the clo
 1. Checks out the repository.
 2. Sets up Python 3.10.
 3. Installs dependencies from `requirements.txt`.
-4. Runs `scraper2.py` to fetch the latest fish counts.
+4. Runs `sandiego_fish_reports_scraper.py` to fetch the latest fish counts.
 5. Commits any changes to the `data/` directory and pushes them back to the repository.
 
 If there's nothing new to commit (e.g., the site hasn't updated yet), the step exits cleanly with `"No changes to commit"` rather than failing.
@@ -274,7 +252,7 @@ The file stores up to **10,000 records**, keeping the most recent ones. Records 
 2. Enable GitHub Actions on the repo (it should run automatically on schedule).
 3. To backfill historical data, run the scraper locally with a date range:
    ```bash
-   python automated_scraping/scripts/scraper2.py --start_date 2025-01-01 --end_date 2025-05-24
+   python automated_scraping/scripts/sandiego_fish_reports_scraper.py --start_date 2025-01-01 --end_date 2025-05-24
    ```
 4. Commit and push `data/fishing_reports.json`.
 5. Deploy `index.html` via GitHub Pages, Netlify, or any static host — it reads `data/fishing_reports.json` via a relative fetch, so no backend is needed.
