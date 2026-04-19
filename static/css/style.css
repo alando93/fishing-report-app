@@ -472,6 +472,41 @@ td.rt-col-days.rt-days-multi {
 .rt-limit-bar--mid  { background: #f0c040; }
 .rt-limit-bar--high { background: #ff9f43; }
 .rt-limit-bar--full { background: #f14668; width: 40px !important; }
+.rt-limit-pct {
+    font-size: var(--font-xs);
+    color: var(--fg-subtle);
+    line-height: 1;
+    min-width: 24px;
+}
+
+/* Species category legend */
+.rt-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-2);
+    margin-bottom: var(--space-2);
+    min-height: 0;
+}
+.rt-legend-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: var(--font-sm);
+    color: var(--fg-muted);
+}
+.rt-legend-swatch {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    border: 1px solid;
+    flex-shrink: 0;
+}
+.rt-legend--tuna       .rt-legend-swatch { background: var(--pill-tuna-border);       border-color: var(--pill-tuna-border); }
+.rt-legend--rockfish   .rt-legend-swatch { background: var(--pill-rockfish-border);   border-color: var(--pill-rockfish-border); }
+.rt-legend--bass       .rt-legend-swatch { background: var(--pill-bass-border);       border-color: var(--pill-bass-border); }
+.rt-legend--yellowtail .rt-legend-swatch { background: var(--pill-yellowtail-border); border-color: var(--pill-yellowtail-border); }
+.rt-legend--flatfish   .rt-legend-swatch { background: var(--pill-flatfish-border);   border-color: var(--pill-flatfish-border); }
+.rt-legend--pelagic    .rt-legend-swatch { background: var(--pill-pelagic-border);    border-color: var(--pill-pelagic-border); }
 
 /* --- Trends section ------------------------------------------------------- */
 

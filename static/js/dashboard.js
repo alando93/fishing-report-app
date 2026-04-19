@@ -144,7 +144,8 @@ function initReportsTable(reports) {
                 </div>
             </div>
 
-            <div id="rt-card" class="rt-card"></div>
+            <div id="rt-legend" class="rt-legend"></div>
+            <div id="rt-card"   class="rt-card"></div>
         </div>
     `;
 
@@ -259,7 +260,28 @@ function _rtChangeDate(date) {
     _rt.speciesFilter.setItems(speciesItems);
 
     _rtBuildTable(trips);
+    _rtUpdateLegend(trips);
     _rtApplyFilter();
+}
+
+const _RT_CATEGORY_LABELS = {
+    tuna: 'Tuna', rockfish: 'Rockfish', bass: 'Bass',
+    yellowtail: 'Yellowtail', flatfish: 'Flatfish', pelagic: 'Pelagic',
+};
+
+function _rtUpdateLegend(trips) {
+    const el = document.getElementById('rt-legend');
+    if (!el) return;
+    const present = new Set(
+        trips.flatMap(r => r.catch.map(c => _rtSpeciesCategory(c.sp))).filter(Boolean)
+    );
+    if (!present.size) { el.innerHTML = ''; return; }
+    el.innerHTML = Object.keys(_RT_CATEGORY_LABELS)
+        .filter(cat => present.has(cat))
+        .map(cat =>
+            `<span class="rt-legend-item rt-legend--${cat}">` +
+            `<span class="rt-legend-swatch"></span>${_RT_CATEGORY_LABELS[cat]}</span>`
+        ).join('');
 }
 
 function _rtBuildTable(trips) {
@@ -322,6 +344,7 @@ function _rtBuildTable(trips) {
                     const trophy = pct >= 1 ? '\u{1F3C6}' : '';
                     limitBar = `<span class="rt-limit-wrap" title="${pctRound}% of limit">` +
                                `<span class="rt-limit-bar ${barClass}" style="width:${Math.round(pct * 40)}px"></span>` +
+                               `<span class="rt-limit-pct">${pctRound}%</span>` +
                                `${trophy}</span>`;
                 } else if (limit === 0 && c.cnt > 0) {
                     limitBar = `<span class="rt-limit-wrap" title="Protected species">\u26A0\uFE0F</span>`;
