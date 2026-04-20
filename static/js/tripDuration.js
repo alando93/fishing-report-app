@@ -65,7 +65,9 @@
     // catch is spread evenly across `windowDays` days ending on `returnDate`.
     function allocate(returnDate, tripString) {
         const { windowDays } = parse(tripString);
-        if (windowDays <= 1) return [{ date: returnDate, weight: 1 }];
+        if (windowDays <= 1) {
+            return [{ date: returnDate, weight: 1, dayIndex: 1, totalDays: 1 }];
+        }
 
         const out = [];
         const baseTs = Date.parse(returnDate + 'T12:00:00Z');
@@ -73,7 +75,7 @@
         for (let i = 0; i < windowDays; i++) {
             const offset = windowDays - 1 - i;
             const d = new Date(baseTs - offset * 86400000).toISOString().slice(0, 10);
-            out.push({ date: d, weight });
+            out.push({ date: d, weight, dayIndex: i + 1, totalDays: windowDays });
         }
         return out;
     }

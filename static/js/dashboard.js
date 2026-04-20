@@ -318,36 +318,53 @@ function _rtBuildTable(trips) {
             const daysDisplay = td.matched
                 ? TripDuration.formatDays(td.tripDays)
                 : '\u2014';
+            // Limit-days = the number of calendar days the CA daily bag limit
+            // applies across for this trip. A 1.5-day trip covers 2 limit-days,
+            // a 2-day trip covers 2, a 3-day trip covers 3, etc.
+            const limitDays = Math.max(1, Math.ceil(td.tripDays));
 
             const pills = r.catch.map(c => {
-                const avgStr = r.anglers > 0
-                    ? (c.cnt / r.anglers).toFixed(1) + '/ang'
+                const avgVal = r.anglers > 0 ? c.cnt / r.anglers : null;
+                const avgStr = avgVal != null
+                    ? avgVal.toFixed(1) + ' per angler (full trip)'
                     : '';
-                const perDayStr = td.isMultiDay && r.anglers > 0
-                    ? (c.cnt / (r.anglers * td.tripDays)).toFixed(2) + '/ang/day'
+                const avgTitle = avgVal != null
+                    ? `${avgVal.toFixed(2)} ${c.sp} per angler \u2014 average across the entire `
+                      + `${TripDuration.formatDays(td.tripDays)}-day trip`
+                    : '';
+                const perDayVal = td.isMultiDay && r.anglers > 0
+                    ? c.cnt / (r.anglers * limitDays)
+                    : null;
+                const perDayStr = perDayVal != null
+                    ? perDayVal.toFixed(2) + ' per angler per limit-day'
+                    : '';
+                const perDayTitle = perDayVal != null
+                    ? `${perDayVal.toFixed(2)} ${c.sp} per angler per limit-day `
+                      + `(${TripDuration.formatDays(td.tripDays)}-day trip counts as `
+                      + `${limitDays} limit-day${limitDays === 1 ? '' : 's'} under CA regs)`
                     : '';
                 const parts = [];
-                if (avgStr)    parts.push(`<span class="rt-pill-avg">${avgStr}</span>`);
-                if (perDayStr) parts.push(`<span class="rt-pill-avg rt-pill-perday">${perDayStr}</span>`);
+                if (avgStr)    parts.push(`<span class="rt-pill-avg" title="${avgTitle}">${avgStr}</span>`);
+                if (perDayStr) parts.push(`<span class="rt-pill-avg rt-pill-perday" title="${perDayTitle}">${perDayStr}</span>`);
                 if (!parts.length && r.anglers <= 0) parts.push('<span class="rt-pill-avg">\u2014</span>');
 
                 const limit = SPECIES_DAILY_LIMIT[c.sp];
                 let limitBar = '';
                 if (limit != null && r.anglers > 0 && limit > 0) {
-                    const days = Math.max(1, Math.ceil(td.tripDays));
-                    const pct = Math.min(1, c.cnt / (r.anglers * days * limit));
+                    const pct = Math.min(1, c.cnt / (r.anglers * limitDays * limit));
                     const pctRound = Math.round(pct * 100);
                     const barClass = pct >= 1    ? 'rt-limit-bar--full'
                                    : pct >= 0.8 ? 'rt-limit-bar--high'
                                    : pct >= 0.5 ? 'rt-limit-bar--mid'
                                    :              'rt-limit-bar--low';
                     const trophy = pct >= 1 ? '\u{1F3C6}' : '';
-                    limitBar = `<span class="rt-limit-wrap" title="${pctRound}% of limit">` +
+                    const regText = `California daily bag limit: ${limit} ${c.sp} per angler`;
+                    limitBar = `<span class="rt-limit-wrap" title="${pctRound}% of limit \u2014 ${regText}">` +
                                `<span class="rt-limit-bar ${barClass}" style="width:${Math.round(pct * 40)}px"></span>` +
                                `<span class="rt-limit-pct">${pctRound}%</span>` +
                                `${trophy}</span>`;
                 } else if (limit === 0 && c.cnt > 0) {
-                    limitBar = `<span class="rt-limit-wrap" title="Protected species">\u26A0\uFE0F</span>`;
+                    limitBar = `<span class="rt-limit-wrap" title="Protected species \u2014 retention prohibited (California)">\u26A0\uFE0F</span>`;
                 }
 
                 const cat = _rtSpeciesCategory(c.sp);
@@ -398,7 +415,7 @@ function _rtBuildTable(trips) {
                             <th>Boat / Trip</th>
                             <th>Anglers</th>
                             <th>Days</th>
-                            <th>Catch <span class="rt-th-hint">count &middot; per angler &middot; per angler/day</span></th>
+                            <th>Catch <span class="rt-th-hint">count &middot; per angler (full trip) &middot; per angler per limit-day</span></th>
                         </tr>
                     </thead>
                     <tbody>${tableRows}</tbody>

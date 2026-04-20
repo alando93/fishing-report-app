@@ -15,7 +15,7 @@
         smoothing: 0,       // 0 | 7 | 14
         rangeDays: 90,      // 30 | 90 | 365 | 0 (all)
         attribution: 'asReported', // 'asReported' | 'spread'
-        breakdown: {},      // breakdown[date][groupLabel][subLabel] = count
+        breakdown: {},      // breakdown[date][groupLabel][subLabel] = { count, trips: [{ tripDays, dayIndex, totalDays }] }
     };
 
     window.initTrendsSection = function (reports) {
@@ -197,14 +197,49 @@
         return _tr.dates.filter(d => Date.parse(d + 'T12:00:00Z') >= startTs);
     }
 
-    // For each record, yield one or more { date, weight } entries depending
-    // on the current attribution mode.
+    // For each record, yield one or more (date, weight, tripInfo) entries depending
+    // on the current attribution mode. tripInfo carries trip-duration context
+    // used by the tooltip: { tripDays, dayIndex, totalDays }.
     function eachAllocation(r, cb) {
+        const parsed = (typeof TripDuration !== 'undefined')
+            ? TripDuration.parse(r.trip)
+            : { tripDays: 1, windowDays: 1 };
         if (_tr.attribution === 'spread' && typeof TripDuration !== 'undefined') {
-            TripDuration.allocate(r.date, r.trip).forEach(a => cb(a.date, a.weight));
+            TripDuration.allocate(r.date, r.trip).forEach(a => cb(a.date, a.weight, {
+                tripDays: parsed.tripDays,
+                dayIndex: a.dayIndex,
+                totalDays: a.totalDays
+            }));
         } else {
-            cb(r.date, 1);
+            cb(r.date, 1, { tripDays: parsed.tripDays, dayIndex: 1, totalDays: 1 });
         }
+    }
+
+    // Build the "(3-day trip)" or "(Day 1 of 3)" suffix shown in the tooltip
+    // for a given bucket's trip list.
+    function tripSuffix(trips) {
+        if (!trips || !trips.length) return '';
+        if (_tr.attribution === 'asReported') {
+            const uniq = [...new Set(trips.map(t =>
+                (typeof TripDuration !== 'undefined')
+                    ? TripDuration.formatDays(t.tripDays)
+                    : String(t.tripDays)
+            ))];
+            return `  (${uniq.map(d => `${d}-day trip`).join(' + ')})`;
+        }
+        // spread — always show, including Day 1 of 1
+        const byTotal = {};
+        trips.forEach(t => {
+            (byTotal[t.totalDays] = byTotal[t.totalDays] || []).push(t.dayIndex);
+        });
+        const parts = Object.entries(byTotal).map(([total, days]) => {
+            const dayList = [...new Set(days)].sort((a, b) => a - b);
+            const label = dayList.length === 1
+                ? `Day ${dayList[0]}`
+                : `Days ${dayList.join(', ')}`;
+            return `${label} of ${total}`;
+        });
+        return `  (${parts.join('; ')})`;
     }
 
     // Build one series per selected species: daily total (or per-angler) for
@@ -226,19 +261,21 @@
             const countAnglersOnThisRow = !anglerSeen[tripKey];
             if (countAnglersOnThisRow) anglerSeen[tripKey] = true;
 
-            eachAllocation(r, (d, w) => {
+            eachAllocation(r, (d, w, tripInfo) => {
                 counts[d] = counts[d] || {};
                 counts[d][r.species] = (counts[d][r.species] || 0) + (r.count || 0) * w;
                 if (countAnglersOnThisRow) {
                     anglerSum[d] = (anglerSum[d] || 0) + anglers * w;
                 }
 
-                // Breakdown: for each species, track catch per boat
+                // Breakdown: for each species, track catch per boat (with trip info for tooltip)
                 const boat = r.boat || 'Unknown';
                 _tr.breakdown[d] = _tr.breakdown[d] || {};
                 _tr.breakdown[d][r.species] = _tr.breakdown[d][r.species] || {};
-                _tr.breakdown[d][r.species][boat] =
-                    (_tr.breakdown[d][r.species][boat] || 0) + (r.count || 0) * w;
+                const bucket = _tr.breakdown[d][r.species][boat] =
+                    _tr.breakdown[d][r.species][boat] || { count: 0, trips: [] };
+                bucket.count += (r.count || 0) * w;
+                bucket.trips.push(tripInfo);
             });
         });
 
@@ -271,7 +308,7 @@
             const countAnglersOnThisRow = !anglerSeen[tripKey];
             if (countAnglersOnThisRow) anglerSeen[tripKey] = true;
 
-            eachAllocation(r, (d, w) => {
+            eachAllocation(r, (d, w, tripInfo) => {
                 counts[d] = counts[d] || {};
                 counts[d][r.boat] = (counts[d][r.boat] || 0) + (r.count || 0) * w;
                 if (countAnglersOnThisRow) {
@@ -279,12 +316,14 @@
                     anglerSum[d][r.boat] = (anglerSum[d][r.boat] || 0) + anglers * w;
                 }
 
-                // Breakdown: for each boat, track catch per species
+                // Breakdown: for each boat, track catch per species (with trip info for tooltip)
                 const sp = r.species || 'Unknown';
                 _tr.breakdown[d] = _tr.breakdown[d] || {};
                 _tr.breakdown[d][r.boat] = _tr.breakdown[d][r.boat] || {};
-                _tr.breakdown[d][r.boat][sp] =
-                    (_tr.breakdown[d][r.boat][sp] || 0) + (r.count || 0) * w;
+                const bucket = _tr.breakdown[d][r.boat][sp] =
+                    _tr.breakdown[d][r.boat][sp] || { count: 0, trips: [] };
+                bucket.count += (r.count || 0) * w;
+                bucket.trips.push(tripInfo);
             });
         });
 
@@ -423,10 +462,11 @@
                                             _tr.breakdown[date][ctx.dataset.label];
                                 if (sub) {
                                     Object.entries(sub)
-                                        .sort((a, b) => b[1] - a[1])
+                                        .sort((a, b) => b[1].count - a[1].count)
                                         .slice(0, 8)
-                                        .forEach(([name, cnt]) => {
-                                            lines.push(`  ${name}: ${Math.round(cnt).toLocaleString()}`);
+                                        .forEach(([name, info]) => {
+                                            const suffix = tripSuffix(info.trips);
+                                            lines.push(`  ${name}: ${Math.round(info.count).toLocaleString()}${suffix}`);
                                         });
                                 }
                                 return lines;
