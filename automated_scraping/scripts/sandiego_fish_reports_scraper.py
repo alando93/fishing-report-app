@@ -29,6 +29,7 @@ import os
 import re
 import sys
 from datetime import datetime, timedelta
+from zoneinfo import ZoneInfo
 from typing import Any, Dict, List, Optional
 
 import requests
@@ -152,7 +153,7 @@ class FishReportsScraper:
         sources = sorted({r["source"] for r in combined})
         payload = {
             "reports": combined,
-            "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "last_updated": datetime.now(tz=ZoneInfo("America/Los_Angeles")).strftime("%Y-%m-%d %H:%M:%S %Z"),
             "sources": sources,
         }
 
@@ -404,8 +405,8 @@ def main() -> None:
             sys.exit(1)
 
         else:
-            # Default: scrape today and the previous 7 days
-            today = datetime.now()
+            # Default: scrape today and the previous 7 days (Pacific Time — boats are SoCal-based)
+            today = datetime.now(tz=ZoneInfo("America/Los_Angeles"))
             end = today.strftime("%Y-%m-%d")
             start = (today - timedelta(days=7)).strftime("%Y-%m-%d")
             scraper.scrape_date_range(start, end, dry_run=args.dry_run)
