@@ -342,12 +342,13 @@ function _rtBuildTable(trips) {
                                    : pct >= 0.5 ? 'rt-limit-bar--mid'
                                    :              'rt-limit-bar--low';
                     const trophy = pct >= 1 ? '\u{1F3C6}' : '';
-                    limitBar = `<span class="rt-limit-wrap" title="${pctRound}% of limit">` +
+                    const regText = `California daily bag limit: ${limit} ${c.sp} per angler`;
+                    limitBar = `<span class="rt-limit-wrap" title="${pctRound}% of limit \u2014 ${regText}">` +
                                `<span class="rt-limit-bar ${barClass}" style="width:${Math.round(pct * 40)}px"></span>` +
                                `<span class="rt-limit-pct">${pctRound}%</span>` +
                                `${trophy}</span>`;
                 } else if (limit === 0 && c.cnt > 0) {
-                    limitBar = `<span class="rt-limit-wrap" title="Protected species">\u26A0\uFE0F</span>`;
+                    limitBar = `<span class="rt-limit-wrap" title="Protected species \u2014 retention prohibited (California)">\u26A0\uFE0F</span>`;
                 }
 
                 const cat = _rtSpeciesCategory(c.sp);
