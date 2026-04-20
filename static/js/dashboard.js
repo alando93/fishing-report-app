@@ -313,9 +313,6 @@ function _rtBuildTable(trips) {
             const td = (typeof TripDuration !== 'undefined')
                 ? TripDuration.parse(r.trip)
                 : { tripDays: 1, windowDays: 1, isMultiDay: false, matched: true };
-            const daysDisplay = td.matched
-                ? TripDuration.formatDays(td.tripDays)
-                : '\u2014';
             // Limit-days = the number of calendar days the CA daily bag limit
             // applies across for this trip. A 1.5-day trip covers 2 limit-days,
             // a 2-day trip covers 2, a 3-day trip covers 3, etc.
@@ -379,10 +376,11 @@ function _rtBuildTable(trips) {
                 <tr class="rt-trip-row${isMultiTrip ? ' rt-multi-trip' : ''}">
                     <td class="rt-col-boat">
                         <div class="rt-boat-name">${r.boat}</div>
-                        <div class="rt-boat-trip">${r.trip}</div>
                     </td>
-                    <td class="rt-col-anglers">${r.anglers || '\u2014'}<span class="rt-days-mobile${td.isMultiDay ? ' rt-days-multi' : ''}"> · ${daysDisplay}</span></td>
-                    <td class="rt-col-days${td.isMultiDay ? ' rt-days-multi' : ''}">${daysDisplay}</td>
+                    <td class="rt-col-trip">
+                        <div class="rt-trip-anglers">${r.anglers ? `${r.anglers} Anglers` : '\u2014'}</div>
+                        <div class="rt-trip-name">${r.trip}</div>
+                    </td>
                     <td class="rt-col-catch">
                         <div class="rt-catch-list">${pills}</div>
                     </td>
@@ -405,15 +403,13 @@ function _rtBuildTable(trips) {
                 <table class="rt-table">
                     <colgroup>
                         <col class="rt-col-boat">
-                        <col class="rt-col-anglers">
-                        <col class="rt-col-days">
+                        <col class="rt-col-trip">
                         <col class="rt-col-catch">
                     </colgroup>
                     <thead>
                         <tr>
-                            <th>Boat / Trip</th>
-                            <th><span class="rt-th-anglers-desktop">Anglers</span><span class="rt-th-anglers-mobile">Ang · Days</span></th>
-                            <th class="rt-col-days">Days</th>
+                            <th>Boat</th>
+                            <th>Trip Details</th>
                             <th>Catch <span class="rt-th-hint">count &middot; per angler (full trip) &middot; per angler per limit-day</span></th>
                         </tr>
                     </thead>
