@@ -380,9 +380,11 @@ function _rtBuildTable(trips) {
                     <td class="rt-col-boat">
                         <div class="rt-boat-name">${r.boat}</div>
                         <div class="rt-boat-trip">${r.trip}</div>
+                        <div class="rt-boat-meta">
+                            ${r.anglers ? `<span class="rt-meta-anglers">${r.anglers} angler${r.anglers !== 1 ? 's' : ''}</span>` : ''}
+                            <span class="rt-meta-days${td.isMultiDay ? ' rt-days-multi' : ''}">${daysDisplay}</span>
+                        </div>
                     </td>
-                    <td class="rt-col-anglers">${r.anglers || '\u2014'}</td>
-                    <td class="rt-col-days${td.isMultiDay ? ' rt-days-multi' : ''}">${daysDisplay}</td>
                     <td class="rt-col-catch">
                         <div class="rt-catch-list">${pills}</div>
                     </td>
@@ -405,16 +407,12 @@ function _rtBuildTable(trips) {
                 <table class="rt-table">
                     <colgroup>
                         <col class="rt-col-boat">
-                        <col class="rt-col-anglers">
-                        <col class="rt-col-days">
                         <col class="rt-col-catch">
                     </colgroup>
                     <thead>
                         <tr>
                             <th>Boat / Trip</th>
-                            <th>Anglers</th>
-                            <th>Days</th>
-                            <th>Catch <span class="rt-th-hint">count &middot; per angler (full trip) &middot; per angler per limit-day</span></th>
+                            <th>Catch <span class="rt-th-hint">count &middot; per angler &middot; per angler per limit-day</span></th>
                         </tr>
                     </thead>
                     <tbody>${tableRows}</tbody>
