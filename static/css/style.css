@@ -590,7 +590,9 @@
 
 @media screen and (max-width: 640px) {
     .trends-chart-wrap { height: 300px; }
-    .rt-col-boat { width: 32%; }
+    .rt-col-boat    { width: 36%; }
+    .rt-col-anglers { width: 14%; }
+    .rt-col-days    { width: 10%; }
 
     /* Touch-friendly button sizing */
     .btn { min-height: 40px; padding: 8px 12px; }
