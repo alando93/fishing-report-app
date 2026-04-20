@@ -324,8 +324,13 @@ function _rtBuildTable(trips) {
             const limitDays = Math.max(1, Math.ceil(td.tripDays));
 
             const pills = r.catch.map(c => {
-                const avgStr = r.anglers > 0
-                    ? (c.cnt / r.anglers).toFixed(1) + '/ang'
+                const avgVal = r.anglers > 0 ? c.cnt / r.anglers : null;
+                const avgStr = avgVal != null
+                    ? avgVal.toFixed(1) + '/ang'
+                    : '';
+                const avgTitle = avgVal != null
+                    ? `${avgVal.toFixed(2)} ${c.sp} per angler \u2014 average across the entire `
+                      + `${TripDuration.formatDays(td.tripDays)}-day trip`
                     : '';
                 const perDayVal = td.isMultiDay && r.anglers > 0
                     ? c.cnt / (r.anglers * limitDays)
@@ -339,7 +344,7 @@ function _rtBuildTable(trips) {
                       + `${limitDays} limit-day${limitDays === 1 ? '' : 's'} under CA regs)`
                     : '';
                 const parts = [];
-                if (avgStr)    parts.push(`<span class="rt-pill-avg">${avgStr}</span>`);
+                if (avgStr)    parts.push(`<span class="rt-pill-avg" title="${avgTitle}">${avgStr}</span>`);
                 if (perDayStr) parts.push(`<span class="rt-pill-avg rt-pill-perday" title="${perDayTitle}">${perDayStr}</span>`);
                 if (!parts.length && r.anglers <= 0) parts.push('<span class="rt-pill-avg">\u2014</span>');
 
