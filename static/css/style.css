@@ -437,12 +437,14 @@ td.rt-col-days.rt-days-multi {
     font-weight: 600;
     color: var(--fg);
     font-size: var(--font-md);
+    white-space: nowrap;
 }
-.rt-pill-species { color: var(--fg-muted); }
+.rt-pill-species { color: var(--fg-muted); white-space: nowrap; }
 .rt-pill-avg {
     color: var(--fg-subtle);
     font-size: var(--font-xs);
     margin-left: 2px;
+    white-space: nowrap;
 }
 
 /* Species category pill tints */
@@ -574,6 +576,13 @@ td.rt-col-days.rt-days-multi {
     font-size: var(--font-body);
 }
 
+/* --- Table horizontal scroll ---------------------------------------------- */
+
+.rt-table-scroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
 /* --- Responsive tweaks ---------------------------------------------------- */
 
 @media screen and (max-width: 640px) {
@@ -581,4 +590,21 @@ td.rt-col-days.rt-days-multi {
     .rt-col-boat    { width: 36%; }
     .rt-col-anglers { width: 14%; }
     .rt-col-days    { width: 10%; }
+
+    /* Touch-friendly button sizing */
+    .btn { min-height: 40px; padding: 8px 12px; }
+
+    /* Prevent iOS Safari from zooming into date input */
+    input[type="date"] { font-size: 16px; }
+}
+
+@media screen and (max-width: 480px) {
+    /* Stack toolbar title above controls on narrow phones */
+    .section-toolbar { flex-direction: column; }
+    .toolbar-controls { width: 100%; justify-content: flex-start; }
+
+    /* Scale down limit bars so they don't overflow narrow pills */
+    .rt-limit-bar { max-width: 24px; }
+    .rt-limit-bar--full { width: 24px !important; }
+    .rt-limit-pct { min-width: 18px; }
 }

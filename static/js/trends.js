@@ -72,7 +72,7 @@
                     <div class="trends-legend-note">
                         <span><span class="trends-legend-swatch new"></span>new moon (\u00B11 day)</span>
                         <span><span class="trends-legend-swatch full"></span>full moon (\u00B11 day)</span>
-                        <span class="trends-click-hint">Tip: click any day to view its Daily Report.</span>
+                        <span class="trends-click-hint">Tip: click/tap any day to update its Daily Report.</span>
                     </div>
                 </div>
             </div>
@@ -400,6 +400,7 @@
             options: {
                 maintainAspectRatio: false,
                 responsive: true,
+                events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
                 interaction: { mode: 'nearest', axis: 'x', intersect: false },
                 onClick(evt, _els, chart) {
                     const points = chart.getElementsAtEventForMode(

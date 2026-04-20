@@ -105,8 +105,6 @@ window._rtJumpToDate = function (date) {
     if (_rt.minDate && date < _rt.minDate) return;
     if (_rt.maxDate && date > _rt.maxDate) return;
     _rtChangeDate(date);
-    const section = document.getElementById('reportsSection');
-    if (section) section.scrollIntoView({ behavior: 'smooth', block: 'start' });
 };
 
 function initReportsTable(reports) {
@@ -403,6 +401,7 @@ function _rtBuildTable(trips) {
                         ${uniqueBoatCount} boat${uniqueBoatCount !== 1 ? 's' : ''}
                     </span>
                 </div>
+                <div class="rt-table-scroll">
                 <table class="rt-table">
                     <colgroup>
                         <col class="rt-col-boat">
@@ -420,6 +419,7 @@ function _rtBuildTable(trips) {
                     </thead>
                     <tbody>${tableRows}</tbody>
                 </table>
+                </div>
             </div>`;
     }).join('');
 }
