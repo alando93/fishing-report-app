@@ -326,7 +326,7 @@ function _rtBuildTable(trips) {
             const pills = r.catch.map(c => {
                 const avgVal = r.anglers > 0 ? c.cnt / r.anglers : null;
                 const avgStr = avgVal != null
-                    ? avgVal.toFixed(1) + '/ang'
+                    ? avgVal.toFixed(1) + ' per angler (full trip)'
                     : '';
                 const avgTitle = avgVal != null
                     ? `${avgVal.toFixed(2)} ${c.sp} per angler \u2014 average across the entire `
@@ -336,7 +336,7 @@ function _rtBuildTable(trips) {
                     ? c.cnt / (r.anglers * limitDays)
                     : null;
                 const perDayStr = perDayVal != null
-                    ? perDayVal.toFixed(2) + '/ang/limit-day'
+                    ? perDayVal.toFixed(2) + ' per angler per limit-day'
                     : '';
                 const perDayTitle = perDayVal != null
                     ? `${perDayVal.toFixed(2)} ${c.sp} per angler per limit-day `
@@ -415,7 +415,7 @@ function _rtBuildTable(trips) {
                             <th>Boat / Trip</th>
                             <th>Anglers</th>
                             <th>Days</th>
-                            <th>Catch <span class="rt-th-hint">count &middot; per angler &middot; per angler/day</span></th>
+                            <th>Catch <span class="rt-th-hint">count &middot; per angler (full trip) &middot; per angler per limit-day</span></th>
                         </tr>
                     </thead>
                     <tbody>${tableRows}</tbody>
