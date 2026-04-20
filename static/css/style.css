@@ -385,20 +385,9 @@
     vertical-align: top;
 }
 
-.rt-col-boat    { width: 22%; }
-.rt-col-anglers { width: 8%;  font-size: var(--font-body); color: var(--fg-subtle); }
-.rt-col-days    { width: 6%;  font-size: var(--font-body); color: var(--fg-subtle);
-                  font-variant-numeric: tabular-nums; }
-.rt-col-catch   { }
-
-.rt-th-anglers-mobile { display: none; }
-.rt-days-mobile       { display: none; }
-
-/* Multi-day trips: accent the Days cell so the eye can pick them out. */
-td.rt-col-days.rt-days-multi {
-    color: var(--accent);
-    font-weight: 600;
-}
+.rt-col-boat  { width: 22%; }
+.rt-col-trip  { width: 14%; font-size: var(--font-body); color: var(--fg-subtle); }
+.rt-col-catch { }
 
 .rt-pill-perday {
     color: var(--accent) !important;
@@ -409,7 +398,11 @@ td.rt-col-days.rt-days-multi {
     font-size: var(--font-body);
     color: var(--fg);
 }
-.rt-boat-trip {
+.rt-trip-anglers {
+    font-weight: 600;
+    color: var(--fg);
+}
+.rt-trip-name {
     font-size: var(--font-sm);
     color: var(--fg-muted);
     margin-top: 2px;
@@ -590,16 +583,8 @@ td.rt-col-days.rt-days-multi {
 
 @media screen and (max-width: 640px) {
     .trends-chart-wrap { height: 300px; }
-    .rt-col-boat    { width: 36%; }
-    .rt-col-anglers { width: 22%; }
-
-    /* Collapse Days column into the Anglers cell on mobile */
-    col.rt-col-days         { width: 0; }
-    th.rt-col-days,
-    td.rt-col-days          { display: none; }
-    .rt-th-anglers-desktop  { display: none; }
-    .rt-th-anglers-mobile   { display: inline; }
-    .rt-days-mobile         { display: inline; }
+    .rt-col-boat { width: 36%; }
+    .rt-col-trip { width: 28%; }
 
     /* Touch-friendly button sizing */
     .btn { min-height: 40px; padding: 8px 12px; }
