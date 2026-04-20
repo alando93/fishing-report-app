@@ -381,7 +381,7 @@ function _rtBuildTable(trips) {
                         <div class="rt-boat-name">${r.boat}</div>
                         <div class="rt-boat-trip">${r.trip}</div>
                     </td>
-                    <td class="rt-col-anglers">${r.anglers || '\u2014'}</td>
+                    <td class="rt-col-anglers">${r.anglers || '\u2014'}<span class="rt-days-mobile${td.isMultiDay ? ' rt-days-multi' : ''}"> · ${daysDisplay}</span></td>
                     <td class="rt-col-days${td.isMultiDay ? ' rt-days-multi' : ''}">${daysDisplay}</td>
                     <td class="rt-col-catch">
                         <div class="rt-catch-list">${pills}</div>
@@ -412,8 +412,8 @@ function _rtBuildTable(trips) {
                     <thead>
                         <tr>
                             <th>Boat / Trip</th>
-                            <th>Anglers</th>
-                            <th>Days</th>
+                            <th><span class="rt-th-anglers-desktop">Anglers</span><span class="rt-th-anglers-mobile">Ang · Days</span></th>
+                            <th class="rt-col-days">Days</th>
                             <th>Catch <span class="rt-th-hint">count &middot; per angler (full trip) &middot; per angler per limit-day</span></th>
                         </tr>
                     </thead>
