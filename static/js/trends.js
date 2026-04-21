@@ -89,14 +89,27 @@
             onChange: v => { _tr.mode = v; onModeChange(); }
         });
 
-        UI.makeSegmented({
+        _tr.metricSeg = UI.makeSegmented({
             container: document.getElementById('tr-metric'),
             options: [
-                { value: 'total',     label: 'Total fish' },
-                { value: 'perAngler', label: 'Per angler' }
+                { value: 'total',      label: 'Total fish' },
+                { value: 'perAngler',  label: 'Per angler' },
+                { value: 'totalTrips', label: 'Total trips' }
             ],
             selected: _tr.metric,
-            onChange: v => { _tr.metric = v; redraw(); }
+            onChange: v => {
+                const wasTrips = _tr.metric === 'totalTrips';
+                _tr.metric = v;
+                const isTrips = v === 'totalTrips';
+                if (wasTrips !== isTrips) {
+                    // Chart.js v4 requires a recreate to swap base type.
+                    _tr.chart.destroy();
+                    _tr.chart = null;
+                    createChart();
+                }
+                applyMetricUI();
+                redraw();
+            }
         });
 
         UI.makeSegmented({
@@ -150,7 +163,15 @@
         });
 
         createChart();
+        applyMetricUI();
         redraw();
+    };
+
+    // Called by the tab switcher when Trends becomes visible — forces a
+    // resize so the chart doesn't render with stale canvas dimensions from
+    // when its parent was hidden.
+    window._trOnShow = function () {
+        if (_tr.chart) _tr.chart.resize();
     };
 
     // --- Default selections ------------------------------------------------
@@ -292,6 +313,47 @@
         }));
     }
 
+    // Build a single series of unique trip counts per date. Optionally
+    // filtered by the Boats multi-select (empty = all boats). Always uses
+    // as-reported attribution (a trip "returns" on one specific date).
+    function seriesTotalTrips(dates) {
+        const boatFilter = _tr.boatsMS ? _tr.boatsMS.getSelected() : new Set();
+        const usingFilter = boatFilter.size > 0;
+
+        // For each date, collect unique (boat|trip) keys and the underlying
+        // trip metadata for the tooltip.
+        const counts = {};      // counts[date] = Set<tripKey>
+        const meta = {};        // meta[date] = { tripKey: { boat, trip, anglers } }
+
+        _tr.reports.forEach(r => {
+            if (!r.date || !r.boat) return;
+            if (usingFilter && !boatFilter.has(r.boat)) return;
+            const tripKey = `${r.boat}|${r.trip || ''}`;
+            counts[r.date] = counts[r.date] || new Set();
+            if (!counts[r.date].has(tripKey)) {
+                counts[r.date].add(tripKey);
+                meta[r.date] = meta[r.date] || {};
+                meta[r.date][tripKey] = {
+                    boat: r.boat,
+                    trip: r.trip || '',
+                    anglers: parseInt(r.anglers) || 0
+                };
+            }
+        });
+
+        // Populate breakdown with the tooltip-ready trip list per date.
+        dates.forEach(d => {
+            _tr.breakdown[d] = _tr.breakdown[d] || {};
+            _tr.breakdown[d].__trips = meta[d] ? Object.values(meta[d]) : [];
+        });
+
+        const label = usingFilter ? 'Total trips (filtered)' : 'Total trips';
+        return [{
+            label,
+            data: dates.map(d => (counts[d] ? counts[d].size : 0))
+        }];
+    }
+
     // Build one series per selected boat: daily total across all species.
     function seriesByBoat(dates) {
         const selected = _tr.boatsMS.getSelected();
@@ -394,14 +456,17 @@
         };
 
         const canvas = document.getElementById('trends-chart');
+        const isTrips = _tr.metric === 'totalTrips';
         _tr.chart = new Chart(canvas.getContext('2d'), {
-            type: 'line',
+            type: isTrips ? 'bar' : 'line',
             data: { labels: [], datasets: [] },
             options: {
                 maintainAspectRatio: false,
                 responsive: true,
                 events: ['mousemove', 'mouseout', 'click', 'touchstart', 'touchmove'],
-                interaction: { mode: 'nearest', axis: 'x', intersect: false },
+                interaction: isTrips
+                    ? { mode: 'index', axis: 'x', intersect: false }
+                    : { mode: 'nearest', axis: 'x', intersect: false },
                 onClick(evt, _els, chart) {
                     const points = chart.getElementsAtEventForMode(
                         evt, 'nearest', { intersect: false, axis: 'x' }, false);
@@ -453,6 +518,22 @@
                             },
                             label(ctx) {
                                 const v = ctx.parsed.y;
+                                const __date = ctx.chart.data.labels[ctx.dataIndex];
+                                if (_tr.metric === 'totalTrips') {
+                                    const lines = [`Trips: ${v == null ? 0 : Math.round(v)}`];
+                                    const trips = (_tr.breakdown[__date] || {}).__trips || [];
+                                    trips.slice()
+                                        .sort((a, b) => (a.boat || '').localeCompare(b.boat || ''))
+                                        .slice(0, 8)
+                                        .forEach(t => {
+                                            const anglers = t.anglers ? ` (${t.anglers} anglers)` : '';
+                                            lines.push(`  ${t.boat} — ${t.trip || '—'}${anglers}`);
+                                        });
+                                    if (trips.length > 8) {
+                                        lines.push(`  + ${trips.length - 8} more`);
+                                    }
+                                    return lines;
+                                }
                                 const fmt = v == null ? '\u2014'
                                     : _tr.metric === 'perAngler'
                                         ? v.toFixed(2) + ' / angler'
@@ -486,10 +567,28 @@
         if (!_tr.chart) return;
         _tr.breakdown = {};
         const dates = visibleDates();
-        const raw = _tr.mode === 'species' ? seriesBySpecies(dates) : seriesByBoat(dates);
+
+        let raw;
+        if (_tr.metric === 'totalTrips') {
+            raw = seriesTotalTrips(dates);
+        } else {
+            raw = _tr.mode === 'species' ? seriesBySpecies(dates) : seriesByBoat(dates);
+        }
 
         const datasets = raw.map((s, i) => {
             const color = _tr.palette[i % _tr.palette.length];
+            if (_tr.metric === 'totalTrips') {
+                return {
+                    label: s.label,
+                    data: s.data,
+                    backgroundColor: color,
+                    borderColor: color,
+                    borderWidth: 1,
+                    borderRadius: 2,
+                    barPercentage: 0.9,
+                    categoryPercentage: 0.95
+                };
+            }
             const data = _tr.smoothing ? rollingAverage(s.data, _tr.smoothing) : s.data;
             return {
                 label: s.label,
@@ -508,11 +607,54 @@
         _tr.chart.data.datasets = datasets;
         _tr.chart.options.scales.y.title = {
             display: true,
-            text: _tr.metric === 'perAngler' ? 'Fish per angler' : 'Fish count',
+            text: _tr.metric === 'totalTrips' ? 'Trips'
+                : _tr.metric === 'perAngler' ? 'Fish per angler'
+                : 'Fish count',
             color: 'rgba(0,0,0,0.55)',
             font: { size: 11 }
         };
+        _tr.chart.options.plugins.legend.display = _tr.metric !== 'totalTrips';
         _tr.chart.update('none');
+    }
+
+    // Toggle visibility / disabled-ness of controls that don't apply to the
+    // Total Trips metric (mode, species, smoothing, attribution).
+    function applyMetricUI() {
+        const isTrips = _tr.metric === 'totalTrips';
+        const modeEl       = document.getElementById('tr-mode');
+        const speciesEl    = document.getElementById('tr-species-ms');
+        const boatsEl      = document.getElementById('tr-boats-ms');
+        const smoothingEl  = document.getElementById('tr-smoothing');
+        const attrEl       = document.getElementById('tr-attribution');
+        const attrHintEl   = document.querySelector('.trends-attribution-hint');
+
+        // Helper: hide/show a control along with its preceding <label>.
+        function setHidden(el, hidden) {
+            if (!el) return;
+            el.hidden = hidden;
+            const prev = el.previousElementSibling;
+            if (prev && prev.tagName === 'LABEL') prev.hidden = hidden;
+        }
+
+        if (isTrips) {
+            setHidden(modeEl,      true);
+            setHidden(speciesEl,   true);
+            setHidden(boatsEl,     false);  // keep Boats as an optional filter
+            setHidden(smoothingEl, true);
+            setHidden(attrEl,      true);
+            if (attrHintEl) attrHintEl.hidden = true;
+            // NOTE: we don't mutate _tr.attribution here — seriesTotalTrips
+            // ignores it anyway, and this preserves the user's choice when
+            // they switch back to Total fish / Per angler.
+        } else {
+            setHidden(modeEl,      false);
+            setHidden(smoothingEl, false);
+            setHidden(attrEl,      false);
+            if (attrHintEl) attrHintEl.hidden = false;
+            // Species vs Boats visibility follows mode.
+            setHidden(speciesEl, _tr.mode !== 'species');
+            setHidden(boatsEl,   _tr.mode !== 'boat');
+        }
     }
 
     function onModeChange() {
