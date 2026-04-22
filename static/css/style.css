@@ -80,6 +80,43 @@
     margin-top: var(--space-5);
 }
 
+/* --- Tab bar -------------------------------------------------------------- */
+
+.tab-bar {
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+.tab-bar > .container {
+    display: flex;
+    gap: var(--space-1);
+    align-items: stretch;
+}
+.tab-btn {
+    appearance: none;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    padding: 12px var(--space-4);
+    margin: 0;
+    font: inherit;
+    font-size: var(--font-body);
+    color: var(--fg-muted);
+    cursor: pointer;
+    transition: color 120ms ease, border-color 120ms ease, background 120ms ease;
+}
+.tab-btn:hover {
+    color: var(--fg);
+    background: var(--bg-subtle);
+}
+.tab-btn.is-active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+    font-weight: 600;
+}
+
 /* --- Section toolbar (shared between Daily and Trends) -------------------- */
 
 .section-toolbar {
@@ -572,6 +609,138 @@
     font-size: var(--font-body);
 }
 
+/* --- Moon Calendar -------------------------------------------------------- */
+
+.cal-body {
+    border: 1px solid var(--border);
+    border-radius: var(--radius-md);
+    background: var(--bg);
+    padding: var(--space-4);
+}
+
+.cal-control-row {
+    display: flex;
+    align-items: center;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+    margin-bottom: var(--space-4);
+}
+.cal-control-row > label {
+    font-size: var(--font-sm);
+    color: var(--fg-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+.cal-control-row input[type="month"],
+.cal-control-row select {
+    padding: 5px 8px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    background: var(--bg);
+    font: inherit;
+    font-size: var(--font-body);
+    color: var(--fg);
+    min-height: 32px;
+}
+
+.cal-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+    background: var(--border-soft);
+    border: 1px solid var(--border-soft);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+}
+.cal-dow {
+    background: var(--bg-subtle);
+    padding: 6px 8px;
+    font-size: var(--font-sm);
+    color: var(--fg-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-align: center;
+    font-weight: 600;
+}
+.cal-cell {
+    background: var(--bg);
+    min-height: 96px;
+    padding: 6px 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    position: relative;
+    font-size: var(--font-sm);
+}
+.cal-cell.has-data { cursor: pointer; }
+.cal-cell.has-data:hover { background: var(--accent-bg); }
+.cal-cell.is-outside { background: var(--bg-subtle); }
+.cal-cell.is-outside .cal-day { color: var(--fg-subtle); }
+.cal-cell.moon-new  { background: var(--moon-new); }
+.cal-cell.moon-full { background: var(--moon-full); }
+.cal-cell.moon-new.is-outside,
+.cal-cell.moon-full.is-outside { opacity: 0.55; }
+
+.cal-cell-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: var(--space-1);
+}
+.cal-day {
+    font-weight: 600;
+    color: var(--fg);
+    font-size: var(--font-md);
+}
+.cal-moon {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    font-size: var(--font-md);
+    color: var(--fg-muted);
+    white-space: nowrap;
+}
+.cal-moon-name {
+    font-size: var(--font-xs);
+    color: var(--fg-subtle);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+.cal-total {
+    margin-top: 2px;
+    font-weight: 600;
+    color: var(--fg);
+    font-size: var(--font-body);
+}
+.cal-species-line {
+    font-size: var(--font-xs);
+    color: var(--fg-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.cal-more {
+    font-size: var(--font-xs);
+    color: var(--fg-subtle);
+    font-style: italic;
+}
+
+.cal-empty {
+    padding: 48px 20px;
+    text-align: center;
+    color: var(--fg-subtle);
+    font-size: var(--font-body);
+}
+
+.cal-legend-note {
+    font-size: var(--font-sm);
+    color: var(--fg-subtle);
+    margin-top: var(--space-2);
+    display: flex;
+    gap: var(--space-3);
+    flex-wrap: wrap;
+}
+
 /* --- Table horizontal scroll ---------------------------------------------- */
 
 .rt-table-scroll {
@@ -590,7 +759,15 @@
     .btn { min-height: 40px; padding: 8px 12px; }
 
     /* Prevent iOS Safari from zooming into date input */
-    input[type="date"] { font-size: 16px; }
+    input[type="date"],
+    input[type="month"],
+    select { font-size: 16px; }
+
+    .tab-btn { padding: 10px var(--space-3); }
+    .cal-cell { min-height: 70px; padding: 4px 5px; }
+    .cal-moon-name { display: none; }
+    .cal-species-line { font-size: 9px; }
+    .cal-dow { padding: 4px 2px; font-size: var(--font-xs); }
 }
 
 @media screen and (max-width: 480px) {

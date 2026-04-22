@@ -21,11 +21,60 @@ async function initializeDashboard() {
         if (typeof initTrendsSection === 'function') {
             initTrendsSection(allReports);
         }
+        if (typeof initMoonCalendar === 'function') {
+            initMoonCalendar(allReports);
+        }
+        initTabs();
     } catch (err) {
         console.error('Dashboard error:', err);
         showErrorMessage('Failed to load dashboard data. Please try again later.');
     }
 }
+
+// ---------------------------------------------------------------------------
+// Tab navigation — hash-routed (#daily | #trends | #moon).
+// ---------------------------------------------------------------------------
+
+const TABS = ['daily', 'trends', 'moon'];
+
+function initTabs() {
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => _switchTab(btn.dataset.tab, true));
+    });
+    window.addEventListener('hashchange', () => {
+        _switchTab(_tabFromHash(), false);
+    });
+    _switchTab(_tabFromHash(), false);
+}
+
+function _tabFromHash() {
+    const h = (window.location.hash || '').replace(/^#/, '');
+    return TABS.includes(h) ? h : 'daily';
+}
+
+function _switchTab(tab, updateHash) {
+    if (!TABS.includes(tab)) tab = 'daily';
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.classList.toggle('is-active', btn.dataset.tab === tab);
+    });
+    document.querySelectorAll('.tab-panel').forEach(panel => {
+        panel.hidden = panel.dataset.tab !== tab;
+    });
+    if (updateHash) {
+        history.replaceState(null, '', '#' + tab);
+    }
+    // Let views know they became visible (e.g. Chart.js may need a resize).
+    if (tab === 'trends' && window._trOnShow) window._trOnShow();
+}
+
+// Exposed so Trends chart / Moon Calendar can jump the Daily view to a date.
+window._rtJumpToDate = function (date) {
+    if (!date) return;
+    if (_rt.minDate && date < _rt.minDate) return;
+    if (_rt.maxDate && date > _rt.maxDate) return;
+    _switchTab('daily', true);
+    _rtChangeDate(date);
+};
 
 async function fetchFishingData() {
     const response = await fetch('data/fishing_reports.json');
@@ -97,14 +146,6 @@ let _rt = {
     minDate: '',
     maxDate: '',
     speciesFilter: null // UI.makeMultiSelect handle
-};
-
-// Exposed so the Trends chart can jump the Daily view to a clicked date.
-window._rtJumpToDate = function (date) {
-    if (!date) return;
-    if (_rt.minDate && date < _rt.minDate) return;
-    if (_rt.maxDate && date > _rt.maxDate) return;
-    _rtChangeDate(date);
 };
 
 function initReportsTable(reports) {
