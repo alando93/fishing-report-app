@@ -45,15 +45,37 @@
         const badge    = container.querySelector('.ms-badge');
         const clearEl  = container.querySelector('.ms-clear');
 
+        function positionDropdown() {
+            if (window.innerWidth > 640) {
+                dropdown.style.cssText = '';
+                return;
+            }
+            const rect = btn.getBoundingClientRect();
+            const dropW = Math.min(260, window.innerWidth - 16);
+            let left = rect.right - dropW;
+            if (left < 8) left = 8;
+            dropdown.style.position = 'fixed';
+            dropdown.style.top = (rect.bottom + 4) + 'px';
+            dropdown.style.left = left + 'px';
+            dropdown.style.right = 'auto';
+            dropdown.style.maxWidth = dropW + 'px';
+        }
+
+        function closeDropdown() {
+            dropdown.hidden = true;
+            dropdown.style.cssText = '';
+        }
+
         btn.addEventListener('click', e => {
             e.stopPropagation();
             // Close any other open dropdowns on the page
             document.querySelectorAll('.ms-dropdown').forEach(d => {
-                if (d !== dropdown) d.hidden = true;
+                if (d !== dropdown) { d.hidden = true; d.style.cssText = ''; }
             });
             dropdown.hidden = !dropdown.hidden;
+            if (!dropdown.hidden) positionDropdown();
         });
-        document.addEventListener('click', () => { dropdown.hidden = true; });
+        document.addEventListener('click', closeDropdown);
         dropdown.addEventListener('click', e => e.stopPropagation());
 
         clearEl.addEventListener('click', () => {
