@@ -752,8 +752,6 @@
 
 @media screen and (max-width: 640px) {
     .trends-chart-wrap { height: 300px; }
-    .rt-col-boat { width: 36%; }
-    .rt-col-trip { width: 28%; }
 
     /* Touch-friendly button sizing */
     .btn { min-height: 40px; padding: 8px 12px; }
@@ -768,15 +766,39 @@
     .cal-moon-name { display: none; }
     .cal-species-line { font-size: 9px; }
     .cal-dow { padding: 4px 2px; font-size: var(--font-xs); }
+
+    /* --- Daily Reports: card layout (replaces 3-column table) --- */
+
+    /* Disable horizontal scroll — grid layout fills the viewport */
+    .rt-table-scroll { overflow-x: unset; }
+
+    /* Convert table to block so CSS Grid can reflow rows */
+    .rt-table          { display: block; width: 100%; }
+    .rt-table colgroup { display: none; }
+    .rt-table thead    { display: none; }
+    .rt-table tbody    { display: block; }
+
+    /* Each row: boat+trip on top, catch spanning full width below */
+    .rt-trip-row {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+            "boat trip"
+            "catch catch";
+        border-bottom: 1px solid var(--divider);
+    }
+
+    .rt-col-boat  { grid-area: boat;  width: auto; padding-bottom: var(--space-1); }
+    .rt-col-trip  { grid-area: trip;  width: auto; text-align: right; padding-bottom: var(--space-1); }
+    .rt-col-catch { grid-area: catch; width: auto; padding-top: 0; }
+
+    /* Hide verbose per-angler stats — count + species is enough on mobile */
+    .rt-pill-avg  { display: none; }
+    .rt-limit-wrap { display: none; }
 }
 
 @media screen and (max-width: 480px) {
     /* Stack toolbar title above controls on narrow phones */
     .section-toolbar { flex-direction: column; }
     .toolbar-controls { width: 100%; justify-content: flex-start; }
-
-    /* Scale down limit bars so they don't overflow narrow pills */
-    .rt-limit-bar { max-width: 24px; }
-    .rt-limit-bar--full { width: 24px !important; }
-    .rt-limit-pct { min-width: 18px; }
 }
