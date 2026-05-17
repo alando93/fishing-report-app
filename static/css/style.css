@@ -791,10 +791,6 @@
     .rt-col-boat  { grid-area: boat;  width: auto; padding-bottom: var(--space-1); }
     .rt-col-trip  { grid-area: trip;  width: auto; text-align: right; padding-bottom: var(--space-1); }
     .rt-col-catch { grid-area: catch; width: auto; padding-top: 0; }
-
-    /* Hide verbose per-angler stats — count + species is enough on mobile */
-    .rt-pill-avg  { display: none; }
-    .rt-limit-wrap { display: none; }
 }
 
 @media screen and (max-width: 480px) {
